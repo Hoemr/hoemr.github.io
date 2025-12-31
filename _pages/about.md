@@ -34,7 +34,7 @@ I have published more than 5 papers at the top international AI conferences or a
 
 ## Deep Generative Modeling
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/to-flow.png' alt="TO-FLOW" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/toflow.png' alt="TO-FLOW" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [To-flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, Wei Chen#, Jian Xu, **Delu Zeng***  
@@ -124,16 +124,15 @@ I have published more than 5 papers at the top international AI conferences or a
 - [Neural ordinary differential equation networks for fintech applications using Internet of Things](https://ieeexplore.ieee.org/document/10456789), Jiacheng Li, Wei Chen, Yican Liu, Junmei Yang, **Delu Zeng***, Zhiheng Zhou, **IEEE Internet of Things Journal 2024**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  - *2021.10* None. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  # 📖 Educations
+  - *2022.06 - 2026.06 (now)*, Ph.D. Candidate in Computational Mathematics, School of Mathematics, South China University of Technology (SCUT). 
+  - *2021.09 - 2022.06*, M.S., Successive Master–Doctor Program in Computational Mathematics, School of Mathematics, South China University of Technology (SCUT).
+  - *2017.09 - 2021.06*, B.S. in Statistics, School of Mathematics and Statistics, Wuhan University of Technology (WHUT). 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+  # 💬 Invited Talks
+  - *2021.06*, None. 
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+  # 💻 Internships
+  - *2026.02 - 2026.05*, [Tensor Learning Team of RIKEN AIP](https://qibinzhao.github.io/), Japan.

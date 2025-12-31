@@ -80,7 +80,7 @@ I have published more than 10 papers at the top international AI conferences or 
 <div class='paper-box'><div class='paper-box-image'><img src='images/toflow.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**, Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*
+[**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*
 
 **CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
 

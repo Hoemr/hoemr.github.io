@@ -25,8 +25,11 @@ I have published more than 10 papers at the top international AI conferences or 
 
 # 🔥 News
 - *2025.10*: Our paper about *diffusion informer for time series modeling* is accepted to Expert Systems With Applications (ESWA).
+- *2025.10*: Our paper about *wavelet diffusion for time series modeling* is accepted to IEEE Transactions on Instrumentation & Measurement (TIM).
 - *2025.09*: Our paper about *diffusion modeling acceleration* is accepted to NeurIPS 2025.
 - *2025.09*: Our paper about *normalizing flow* is accepted to Pattern Recognition (PR).
+- *2025.08*: Our paper about *diffusion models for low-level CV* is accepted to Neurocomputing.
+- *2025.10*: Our paper about *time series modeling* is accepted to IEEE Transactions on Instrumentation & Measurement (TIM).
 - *2025.05*: Our paper about *stable & efficient density ratio estimation* is accepted to ICML 2025. 
 - *2022.02*: Our paper about *efficient continuous normalizing flow* is accepted to CVPR 2022. 
 

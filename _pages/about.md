@@ -42,7 +42,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">NeurIPS 2025</div>
-<img src="images/evodiff.png" alt="sym" width="100%">
+<img src="images/evodiff.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -59,7 +59,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">PR 2025</div>
-<img src="images/eiw_flow.png" alt="sym" width="100%">
+<img src="images/eiw_flow.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -76,7 +76,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">Neurocomputing 2025</div>
-<img src="images/reciprocalla.png" alt="sym" width="100%">
+<img src="images/reciprocalla.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -93,7 +93,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">CVPR 2022</div>
-<img src="images/toflow.png" alt="sym" width="100%">
+<img src="images/toflow.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -112,7 +112,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">ICLR 2026</div>
-<img src="images/minpv.png" alt="MinPV" width="100%">
+<img src="images/minpv.png" alt="MinPV" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -130,7 +130,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">ICML 2025</div>
-<img src="images/d3re.png" alt="sym" width="100%">
+<img src="images/d3re.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -149,7 +149,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">Neural Computing 2024</div>
-<img src="images/deepara.png" alt="sym" width="100%">
+<img src="images/deepara.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -165,7 +165,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">IEEE IoTJ 2024</div>
-<img src="images/ODE_LSTM.png" alt="sym" width="100%">
+<img src="images/ODE_LSTM.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -181,7 +181,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">IEEE T-IM 2025</div>
-<img src="images/evolvinformer.png" alt="sym" width="100%">
+<img src="images/evolvinformer.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -198,7 +198,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 <div class="paper-box">
 <div class="paper-box-image">
 <div class="paper-badge">ESWA 2025</div>
-<img src="images/diffinformer.jpg" alt="sym" width="100%">
+<img src="images/diffinformer.jpg" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -226,7 +226,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 # 💻 Internships
 <div class="paper-box">
 <div class="paper-box-image" style="max-width: 100px;">
-<img src="images/AIP.png" alt="RIKEN AIP" width="100%">
+<img src="images/AIP.png" alt="RIKEN AIP" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
@@ -266,6 +266,7 @@ function copyBib(key) {
 </script>
 
 <style>
+.paper-box-image { position: relative !important; }
 .paper-badge {
   position: absolute !important;
   top: 0 !important;

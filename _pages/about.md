@@ -116,9 +116,9 @@ Feel free to reach me at weichen_work@126.com! 😃
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Don't Forget Its Variance! The Minimum Path Variance Principle for Accurate and Stable Score-Based DRE**](), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2026dont')" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**Don't Forget Its Variance! The Minimum Path Variance Principle for Accurate and Stable Score-Based DRE**](https://openreview.net/forum?id=vf16PZJWD1), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2026dont')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICLR 2026**
+**ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) | [**Code**]()
 
 - Resolves the path schedule paradox in score-based DRE by identifying the overlooked path variance term.
 - Proposes MinPV Principle with closed-form variance expression for tractable optimization.

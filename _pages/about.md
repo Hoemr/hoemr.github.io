@@ -48,7 +48,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://openreview.net/forum?id=rKASv92Myl), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="copyBib('li2025evodiff')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**NeurIPS 2025** | [**Paper**](https://openreview.net/pdf?id=rKASv92Myl) | [**Code**](https://github.com/ShiguiLi/EVODiff) | [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
+**NeurIPS 2025** \| [**Paper**](https://openreview.net/pdf?id=rKASv92Myl) \| [**Code**](https://github.com/ShiguiLi/EVODiff) | [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
 
 - Introduces an information-theoretic view: successful denoising reduces conditional entropy in reverse transitions.
 - Proposes EVODiff, a reference-free diffusion inference framework that optimizes conditional variance to reduce transition and reconstruction errors, improving sample quality and reducing inference cost.
@@ -65,7 +65,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442), **`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley <a href="#" onclick="copyBib('chen2025entropy')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Pattern Recognition (PR) 2025** | [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) | [**Code**](https://github.com/ShianDu/EIW-Flow)
+**Pattern Recognition (PR) 2025** \| [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) \| [**Code**](https://github.com/ShianDu/EIW-Flow)
 
 - Proposes EIW-Flow, enhancing normalizing flows with channel-wise weights and latent variable shuffling.
 - Achieves state-of-the-art density estimation with minimal computational overhead.
@@ -82,7 +82,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="copyBib('lin2025reciprocalla')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Neurocomputing 2025** | [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
+**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
 
 - Proposes a reciprocal diffusion process within DDPM for low-light image enhancement.
 - Introduces Luminance Adjustment Block for robust global luminance control.
@@ -99,7 +99,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng* <a href="#" onclick="copyBib('du2022flow')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**CVPR 2022** | [**Paper**](https://arxiv.org/abs/2203.10335) | [**Code**](https://github.com/ShianDu/TO-FLOW)
+**CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
 
 - CNFs via neural ODEs are costly; To-Flow proposes temporal optimization via coordinate descent.
 - Accelerates flow training by about 20% while maintaining performance.
@@ -118,7 +118,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Don't Forget Its Variance! The Minimum Path Variance Principle for Accurate and Stable Score-Based DRE**](https://openreview.net/forum?id=vf16PZJWD1), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2026dont')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) | [**Code**]()
+**ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) \| [**Code**]()
 
 - Resolves the path schedule paradox in score-based DRE by identifying the overlooked path variance term.
 - Proposes MinPV Principle with closed-form variance expression for tractable optimization.
@@ -136,7 +136,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Dequantified Diffusion-Schrödinger Bridge for Density Ratio Estimation**](https://openreview.net/forum?id=zvyHCOcwsw), **`Wei Chen`**, Shigui Li, Jiacheng Li, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2025dequantified')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICML 2025** | [**Paper**](https://openreview.net/forum?id=zvyHCOcwsw) | [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
+**ICML 2025** \| [**Paper**](https://openreview.net/forum?id=zvyHCOcwsw) \| [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
 
 - Proposes D3RE, a unified framework for robust DRE under distribution mismatch.
 - Introduces dequantified diffusion/SCHRödinger bridge interpolants for support expansion and stabilized scores.
@@ -155,7 +155,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**DeepAR-Attention probabilistic prediction for stock price series**](https://doi.org/10.1007/s00521-024-09916-3), Jiacheng Li, **`Wei Chen`**, Zhiheng Zhou, Junmei Yang, Delu Zeng* <a href="#" onclick="copyBib('li2024deepar')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Neural Computing and Applications 2024** | [**Paper**](https://doi.org/10.1007/s00521-024-09916-3)
+**Neural Computing and Applications 2024** \| [**Paper**](https://doi.org/10.1007/s00521-024-09916-3)
 
 - Proposes DeepAR-Attention for probabilistic stock price forecasting.
 </div>
@@ -171,7 +171,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Neural ordinary differential equation networks for fintech applications using IoT**](https://doi.org/10.1109/JIOT.2024.3376748), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Delu Zeng*, Zhiheng Zhou <a href="#" onclick="copyBib('li2024neural')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Internet of Things Journal (IoTJ) 2024** | [**Paper**](https://doi.org/10.1109/JIOT.2024.3376748) 
+**IEEE Internet of Things Journal (IoTJ) 2024** \| [**Paper**](https://doi.org/10.1109/JIOT.2024.3376748) 
 
 - Develops neural ODE network approaches for fintech applications in IoT settings.
 </div>
@@ -187,7 +187,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Integrating Ordinary Differential Equations with Sparse Attention for Power Load Forecasting**](https://doi.org/10.1109/TIM.2025.3581667), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="copyBib('li2025evolvinformer')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Transactions on Instrumentation and Measurement (T-IM) 2025** | [**Paper**](https://doi.org/10.1109/TIM.2025.3581667)
+**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://doi.org/10.1109/TIM.2025.3581667)
 
 - Proposes EvolvInformer: integrates ODE solver with ProbSparse attention for long-sequence load forecasting.
 - Achieves 29.7% MSE reduction while preserving logarithmic memory complexity.
@@ -204,7 +204,7 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 [**Diffinformer: Diffusion Informer model for long sequence time-series forecasting**](https://doi.org/10.1016/j.eswa.2025.129944), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="copyBib('li2025diffinformer')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Expert Systems with Applications (ESWA) 2025** | [**Paper**](https://doi.org/10.1016/j.eswa.2025.129944)
+**Expert Systems with Applications (ESWA) 2025** \| [**Paper**](https://doi.org/10.1016/j.eswa.2025.129944)
 
 - Proposes Diffinformer: combines conditional diffusion models with Informer's ProbSparse attention.
 - Demonstrates consistent improvements across five large-scale datasets.

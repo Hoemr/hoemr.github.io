@@ -40,8 +40,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 ## Deep Generative Modeling
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">NeurIPS 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">NeurIPS 2025</div>
 <img src="images/evodiff.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -57,8 +57,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">PR 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">PR 2025</div>
 <img src="images/eiw_flow.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -74,8 +74,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">Neurocomputing 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
 <img src="images/reciprocalla.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -91,8 +91,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">CVPR 2022</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">CVPR 2022</div>
 <img src="images/toflow.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -110,8 +110,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 ## Density Ratio Estimation
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">ICLR 2026</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICLR 2026</div>
 <img src="images/minpv.png" alt="MinPV" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -128,8 +128,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">ICML 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICML 2025</div>
 <img src="images/d3re.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -147,8 +147,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 ## Time Series Forecast
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">Neural Computing 2024</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neural Computing 2024</div>
 <img src="images/deepara.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -163,8 +163,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">IEEE IoTJ 2024</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">IEEE IoTJ 2024</div>
 <img src="images/ODE_LSTM.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -179,8 +179,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">IEEE T-IM 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">IEEE T-IM 2025</div>
 <img src="images/evolvinformer.png" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
@@ -196,8 +196,8 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 <div class="paper-box">
-<div class="paper-box-image">
-<div class="paper-badge" style="position:absolute;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;">ESWA 2025</div>
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ESWA 2025</div>
 <img src="images/diffinformer.jpg" alt="sym" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">

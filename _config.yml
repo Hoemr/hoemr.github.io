@@ -9,7 +9,7 @@
 locale                   : "zh-CN"
 title                    : "Wei Chen (陈炜)"
 title_separator          : "-"
-description              : "Ph.D. candidate at SCUT. Focusing on probabilist modeling & inference."
+description              : "Focusing on probabilist modeling & inference."
 repository               : "hoemr/hoemr.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -30,7 +30,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=r5fgeWQAAAAJ"
-  email            : "weichen_work@126.com"
+  email            : "weichen.work@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

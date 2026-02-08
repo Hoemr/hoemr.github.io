@@ -15,15 +15,15 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+{% include fetch_google_scholar_stats.html %}
+
 <span class='anchor' id='about-me'></span>
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with [John Paisley (Columbia University)](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ), [Junmei Yang (SCUT)](https://dblp.uni-trier.de/pid/157/9330.html), [Qibin Zhao (RIKEN-AIP)](https://qibinzhao.github.io/), [Jiacheng Li (SCUT)](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li (SCUT)](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN), [Jian Xu (SCUT / RIKEN-AIP)](https://xujianscut.github.io/JianXu.github.io/about/), [Shian Du (Tsinghua University)](https://shiandu.github.io/).
 
-My research focuses on probabilistic inference \& generation, including **deep generative modeling** and **density ratio estimation**, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying density ratio estimation to large language model alignment and safety.
+My research focuses on probabilistic inference and generation, including **deep generative modeling** and **density ratio estimation** (DRE), with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). (<a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><span id='total_cit'>80+</span> citations</a>)
 
-I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). (<a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><span id='total_cit'>80+</span> citations</a>)
-
-📧 weichen_work@126.com &nbsp;|&nbsp; <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ">Google Scholar</a>
+Feel free to reach me at 📧 weichen.work@qq.com (☻) or weichen_work@126.com &nbsp;|&nbsp; <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ">Google Scholar</a>
 
 
 # 🔥 News

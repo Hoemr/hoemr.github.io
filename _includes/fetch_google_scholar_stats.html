@@ -8,6 +8,10 @@
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
             document.getElementById('total_cit').innerHTML = totalCitation;
+            var badge = document.getElementById('gs-badge');
+            if (badge) {
+                badge.src = 'https://img.shields.io/badge/citations-' + totalCitation + '-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat';
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')

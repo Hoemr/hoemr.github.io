@@ -15,70 +15,28 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div style="display: flex; gap: 30px; margin-bottom: 30px;">
-<div style="flex: 1;">
 <span class='anchor' id='about-me'></span>
-<h2 style="margin-top: 0; margin-bottom: 15px; font-size: 1.8em;">About Me</h2>
-<p style="margin-bottom: 12px; line-height: 1.7;">
-I received my B.S. degree in Statistics from <strong>Wuhan University of Technology</strong> (WHUT). Currently, I am a Ph.D. candidate in Computational Mathematics at the <strong>School of Mathematics, South China University of Technology</strong> (SCUT), advised by Prof. <a href="https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN">Delu Zeng</a>.
-</p>
-<p style="margin-bottom: 12px; line-height: 1.7;">
-My research focuses on <strong>deep generative modeling</strong> and <strong>density ratio estimation</strong>, with interests in diffusion models, normalizing flows, and stochastic interpolation.
-</p>
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); border-radius: 8px; padding: 15px 20px; margin: 15px 0;">
-<p style="margin: 0 0 8px 0; font-size: 0.95em;"><strong>📍 Current Position</strong></p>
-<p style="margin: 0; font-size: 0.9em; color: #555;">Ph.D. Candidate @ SCUT | Advised by Prof. Delu Zeng</p>
-</div>
-<div style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); border-radius: 8px; padding: 15px 20px; margin: 15px 0;">
-<p style="margin: 0 0 8px 0; font-size: 0.95em;"><strong>📊 Google Scholar</strong></p>
-<p style="margin: 0; font-size: 0.9em; color: #555;">
-<a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><strong><span id='total_cit'>80+</span> citations</strong></a> &nbsp;|&nbsp;
-<a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img src="https://img.shields.io/badge/citations-80-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
-</p>
-</div>
-<div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-radius: 8px; padding: 15px 20px; margin: 15px 0;">
-<p style="margin: 0 0 8px 0; font-size: 0.95em;"><strong>📫 Contact</strong></p>
-<p style="margin: 0; font-size: 0.9em; color: #555;">weichen_work@126.com</p>
-</div>
-</div>
-</div>
+
+I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with [John Paisley (Columbia University)](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ), [Junmei Yang (SCUT)](https://dblp.uni-trier.de/pid/157/9330.html), [Qibin Zhao (RIKEN-AIP)](https://qibinzhao.github.io/), [Jiacheng Li (SCUT)](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li (SCUT)](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN), [Jian Xu (SCUT / RIKEN-AIP)](https://xujianscut.github.io/JianXu.github.io/about/), [Shian Du (Tsinghua University)](https://shiandu.github.io/).
+
+My research focuses on probabilistic inference \& generation, including **deep generative modeling** and **density ratio estimation**, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying density ratio estimation to large language model alignment and safety.
+
+I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). (<a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><span id='total_cit'>80+</span> citations</a>)
+
+📧 weichen_work@126.com &nbsp;|&nbsp; <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ">Google Scholar</a>
 
 
-<h2 style="font-size: 1.5em; margin-bottom: 20px;">🔥 Latest News</h2>
-<div style="max-height: 320px; overflow-y: auto; padding-right: 10px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0;">
-<div style="border-left: 3px solid #4CAF50; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2026.01</div>
-<div style="line-height: 1.5;">Paper on <em>minimum path variance principle for DRE</em> accepted to <strong style="color: #1a73e8;">ICLR 2026</strong></div>
-</div>
-<div style="border-left: 3px solid #2196F3; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.10</div>
-<div style="line-height: 1.5;">Paper on <em>diffusion informer for time series modeling</em> accepted to <strong style="color: #1a73e8;">ESWA</strong></div>
-</div>
-<div style="border-left: 3px solid #FF9800; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.10</div>
-<div style="line-height: 1.5;">Paper on <em>wavelet diffusion for time series modeling</em> accepted to <strong style="color: #1a73e8;">IEEE TIM</strong></div>
-</div>
-<div style="border-left: 3px solid #9C27B0; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.09</div>
-<div style="line-height: 1.5;">Paper on <em>diffusion modeling acceleration</em> accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong></div>
-</div>
-<div style="border-left: 3px solid #00BCD4; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.09</div>
-<div style="line-height: 1.5;">Paper on <em>normalizing flow</em> accepted to <strong style="color: #1a73e8;">Pattern Recognition</strong></div>
-</div>
-<div style="border-left: 3px solid #795548; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.08</div>
-<div style="line-height: 1.5;">Paper on <em>diffusion models for low-level CV</em> accepted to <strong style="color: #1a73e8;">Neurocomputing</strong></div>
-</div>
-<div style="border-left: 3px solid #E91E63; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2025.05</div>
-<div style="line-height: 1.5;">Paper on <em>stable & efficient density ratio estimation</em> accepted to <strong style="color: #d32f2f;">ICML 2025</strong></div>
-</div>
-<div style="border-left: 3px solid #607D8B; padding-left: 15px; margin-bottom: 15px;">
-<div style="color: #666; font-size: 0.85em; font-weight: 600; margin-bottom: 4px;">2022.02</div>
-<div style="line-height: 1.5;">Paper on <em>efficient continuous normalizing flow</em> accepted to <strong style="color: #d32f2f;">CVPR 2022</strong></div>
-</div>
-</div>
+# 🔥 News
+<ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
+<li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>.</li>
+<li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA).</li>
+<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM.</li>
+<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>.</li>
+<li style="margin-bottom: 8px;">2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR).</li>
+<li style="margin-bottom: 8px;">2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing.</li>
+<li style="margin-bottom: 8px;">2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong style="color: #d32f2f;">ICML 2025</strong>.</li>
+<li style="margin-bottom: 8px;">2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong style="color: #d32f2f;">CVPR 2022</strong>.</li>
+</ul>
 
 # 📝 Publications 
 

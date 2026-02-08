@@ -26,14 +26,16 @@ Feel free to reach me at weichen_work@126.com! 😃
 
 
 # 🔥 News
-- *2026.01*: Our paper about *minimum path variance principle for DRE* is accepted to ICLR 2026.
-- *2025.10*: Our paper about *diffusion informer for time series modeling* is accepted to Expert Systems With Applications (ESWA).
-- *2025.10*: Our paper about *wavelet diffusion for time series modeling* is accepted to IEEE TIM.
-- *2025.09*: Our paper about *diffusion modeling acceleration* is accepted to NeurIPS 2025.
-- *2025.09*: Our paper about *normalizing flow* is accepted to Pattern Recognition (PR).
-- *2025.08*: Our paper about *diffusion models for low-level CV* is accepted to Neurocomputing.
-- *2025.05*: Our paper about *stable & efficient density ratio estimation* is accepted to ICML 2025. 
-- *2022.02*: Our paper about *efficient continuous normalizing flow* is accepted to CVPR 2022. 
+<ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
+<li style="margin-bottom: 8px;">*2026.01*: Our paper about <em>minimum path variance principle for DRE</em> is accepted to ICLR 2026.</li>
+<li style="margin-bottom: 8px;">*2025.10*: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA).</li>
+<li style="margin-bottom: 8px;">*2025.10*: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE TIM.</li>
+<li style="margin-bottom: 8px;">*2025.09*: Our paper about <em>diffusion modeling acceleration</em> is accepted to NeurIPS 2025.</li>
+<li style="margin-bottom: 8px;">*2025.09*: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR).</li>
+<li style="margin-bottom: 8px;">*2025.08*: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing.</li>
+<li style="margin-bottom: 8px;">*2025.05*: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to ICML 2025.</li>
+<li style="margin-bottom: 8px;">*2022.02*: Our paper about <em>efficient continuous normalizing flow</em> is accepted to CVPR 2022.</li>
+</ul>
 
 # 📝 Publications 
 

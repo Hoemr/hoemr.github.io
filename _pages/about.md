@@ -206,7 +206,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 [**Generative Self-Supervised Time-Series Forecasting Leveraging Wavelet Diffusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="copyBib('li2025generative')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480)
+**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480) \| [**News&#127881;**](https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4)
 
 - TimeWaveDiff: a lightweight self-supervised framework that integrates wavelet decomposition and diffusion modeling to capture multiscale periodicities and robustly learn complex noise patterns in measurement signals.
 - Achieves superior long-term forecasting accuracy with significantly reduced computational cost.

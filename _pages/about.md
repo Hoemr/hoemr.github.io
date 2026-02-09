@@ -204,6 +204,23 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
+[**Generative Self-Supervised Time-Series Forecasting Leveraging Wavelet Diffusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="copyBib('li2025generative')" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480)
+
+- TimeWaveDiff: a lightweight self-supervised framework that integrates wavelet decomposition and diffusion modeling to capture multiscale periodicities and robustly learn complex noise patterns in measurement signals.
+- Achieves superior long-term forecasting accuracy with significantly reduced computational cost.
+</div>
+</div>
+
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ESWA 2025</div>
+<img src="images/diffinformer.jpg" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
 [**Diffinformer: Diffusion Informer model for long sequence time-series forecasting**](https://doi.org/10.1016/j.eswa.2025.129944), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="copyBib('li2025diffinformer')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 **Expert Systems with Applications (ESWA) 2025** \| [**Paper**](https://doi.org/10.1016/j.eswa.2025.129944)
@@ -252,6 +269,7 @@ var bibData = {
   "li2024deepar": "@article{li2024deepar,\n  title={DeepAR-Attention probabilistic prediction for stock price series},\n  author={Li, Jiacheng and Chen, Wei and Zhou, Zhiheng and Yang, Junmei and Zeng, Delu},\n  journal={Neural Computing and Applications},\n  volume={36},\n  number={25},\n  pages={15389--15406},\n  year={2024},\n  publisher={Springer}\n}",
   "li2024neural": "@article{li2024neural,\n  title={Neural ordinary differential equation networks for fintech applications using Internet of Things},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zeng, Delu and Zhou, Zhiheng},\n  journal={IEEE Internet of Things Journal},\n  year={2024},\n  publisher={IEEE}\n}",
   "li2025evolvinformer": "@article{li2025evolvinformer,\n  title={Integrating Ordinary Differential Equations with Sparse Attention for Power Load Forecasting},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n  journal={IEEE Transactions on Instrumentation and Measurement},\n  year={2025},\n  publisher={IEEE},\n  doi={10.1109/TIM.2025.3581667}\n}",
+  "li2025generative": "@article{li2025generative,\n title={Generative Self-Supervised Time Series Forecasting Leveraging Wavelet Diffusion},\n author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n journal={IEEE Transactions on Instrumentation and Measurement},\n year={2025},\n publisher={IEEE},\n doi={10.1109/TIM.2025.3619658}\n}",
   "li2025diffinformer": "@article{li2025diffinformer,\n  title={Diffinformer: Diffusion Informer model for long sequence time-series forecasting},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n  journal={Expert Systems with Applications},\n  year={2025},\n  publisher={Elsevier},\n  doi={10.1016/j.eswa.2025.129944}\n}"
 };
 

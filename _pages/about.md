@@ -29,8 +29,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
 <li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>.</li>
 <li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA).</li>
-<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. [**News&#127881;**](https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4)</li>
-<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>. [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)</li>
+<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
+<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>. <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">News&#127881;</a></li>
 <li style="margin-bottom: 8px;">2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR).</li>
 <li style="margin-bottom: 8px;">2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing.</li>
 <li style="margin-bottom: 8px;">2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong style="color: #d32f2f;">ICML 2025</strong>.</li>

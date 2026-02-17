@@ -240,7 +240,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   - *2017.09 - 2021.06*, B.S. in Statistics, School of Mathematics and Statistics, Wuhan University of Technology (WHUT). 
 
 # 💬 Invited Talks
-  - University of Waterloo, Invited Presentation: "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'" (Feb 2026)
+  - Keynote speaker, University of Waterloo, Topic: "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'" (Feb 2026)
 
 # 💻 Internships
 <div class="paper-box">

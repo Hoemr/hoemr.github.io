@@ -41,6 +41,35 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 # 📝 Publications 
 
+<div style="margin: 8px 0 18px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
+  <div style="font-weight: 700; margin-bottom: 10px;">📌 Research Overview at a Glance</div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px;">
+    <a href="#deep-generative-modeling" style="text-decoration: none; color: inherit;">
+      <div style="padding: 10px 12px; border-radius: 8px; background: #eef4ff; border: 1px solid #d8e5ff;">
+        <div style="font-weight: 700;">Deep Generative Modeling</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion / Normalizing Flow</div>
+      </div>
+    </a>
+    <a href="#density-ratio-estimation" style="text-decoration: none; color: inherit;">
+      <div style="padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #d1fae5;">
+        <div style="font-weight: 700;">Density Ratio Estimation</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">2 papers · Score-based / Bridge methods</div>
+      </div>
+    </a>
+    <a href="#time-series-forecast" style="text-decoration: none; color: inherit;">
+      <div style="padding: 10px 12px; border-radius: 8px; background: #fff7ed; border: 1px solid #ffedd5;">
+        <div style="font-weight: 700;">Time Series Forecast</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">5 papers · ODE / Diffusion forecasting</div>
+      </div>
+    </a>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em; color: #6b7280;">
+    Quick Jump: <a href="#deep-generative-modeling">Generative</a> · <a href="#density-ratio-estimation">DRE</a> · <a href="#time-series-forecast">Time Series</a>
+  </div>
+</div>
+
+<span class='anchor' id='deep-generative-modeling'></span>
+
 ## Deep Generative Modeling
 
 <div class="paper-box">
@@ -111,6 +140,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='density-ratio-estimation'></span>
+
 ## Density Ratio Estimation
 
 <div class="paper-box">
@@ -147,6 +178,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+
+<span class='anchor' id='time-series-forecast'></span>
 
 ## Time Series Forecast
 

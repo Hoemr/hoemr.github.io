@@ -267,19 +267,43 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 
 # 🎖 Honors and Awards
-  - *2021.10* None. 
+<div style="margin: 8px 0 16px 0; padding: 12px 14px; border-left: 4px solid #f59e0b; background: #fffbeb; border-radius: 8px;">
+  <div style="font-weight: 700; margin-bottom: 4px;">Highlights</div>
+  <div style="color: #6b7280; font-size: 0.95em;">More awards are being updated.</div>
+  <ul style="margin: 8px 0 0 18px;">
+    <li><b>2021.10</b> — None</li>
+  </ul>
+</div>
 
 # 📖 Educations
-  - *2022.06 - 2026.06 (now)*, Ph.D. Candidate in Computational Mathematics, School of Mathematics, South China University of Technology (SCUT). 
-  - *2021.09 - 2022.06*, M.S., Successive Master–Doctor Program in Computational Mathematics, School of Mathematics, South China University of Technology (SCUT).
-  - *2017.09 - 2021.06*, B.S. in Statistics, School of Mathematics and Statistics, Wuhan University of Technology (WHUT). 
+<div style="display: grid; gap: 10px; margin: 8px 0 18px 0;">
+  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+    <div style="font-weight: 700;">Ph.D. Candidate in Computational Mathematics</div>
+    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
+    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2022.06 – 2026.06 (now)</div>
+  </div>
+  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+    <div style="font-weight: 700;">M.S., Successive Master–Doctor Program in Computational Mathematics</div>
+    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
+    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2021.09 – 2022.06</div>
+  </div>
+  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+    <div style="font-weight: 700;">B.S. in Statistics</div>
+    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics and Statistics, Wuhan University of Technology (WHUT)</div>
+    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2017.09 – 2021.06</div>
+  </div>
+</div>
 
 # 💬 Invited Talks
-  - Keynote speaker, University of Waterloo, Topic: "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'" (Feb 2026)
+<div style="margin: 8px 0 16px 0; padding: 12px 14px; border: 1px solid #dbeafe; border-radius: 10px; background: #eff6ff;">
+  <div style="font-weight: 700; color: #1d4ed8;">Keynote Speaker · University of Waterloo</div>
+  <div style="margin-top: 6px;"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'"</div>
+  <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">Feb 2026</div>
+</div>
 
 # 💻 Internships
 <div class="paper-box">
-<div class="paper-box-image" style="max-width: 100px; position: relative;">
+<div class="paper-box-image" style="max-width: 50px; position: relative;">
 <img src="images/AIP.png" alt="RIKEN AIP" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">

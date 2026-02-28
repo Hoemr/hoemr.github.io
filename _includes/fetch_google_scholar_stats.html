@@ -1,13 +1,16 @@
 <script>
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@main/google_scholar_crawler/results/'
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/google_scholar_crawler/results/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+        $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
             var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitEle = document.getElementById('total_cit');
+            if (totalCitEle) {
+                totalCitEle.innerHTML = totalCitation;
+            }
             var badge = document.getElementById('gs-badge');
             if (badge) {
                 badge.src = 'https://img.shields.io/badge/citations-' + totalCitation + '-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat';

@@ -120,12 +120,12 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Don't Forget Its Variance! The Minimum Path Variance Principle for Accurate and Stable Score-Based DRE**](https://openreview.net/forum?id=vf16PZJWD1), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2026dont')" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://openreview.net/forum?id=vf16PZJWD1), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="copyBib('chen2026dont')" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 **ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) \| [**Code**]()
 
 - Resolves the path schedule paradox in score-based DRE by identifying the overlooked path variance term.
-- Proposes MinPV Principle with closed-form variance expression for tractable optimization.
+- Proposes MVP Principle with closed-form variance expression for tractable optimization.
 - Achieves state-of-the-art results on challenging DRE benchmarks.
 </div>
 </div>
@@ -266,7 +266,7 @@ var bibData = {
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",
   "lin2025reciprocalla": "@article{lin2025reciprocalla,\n  title={ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process},\n  author={Lin, Zhiqi and Chen, Wei and Xu, Jian and Zeng, Delu and Chen, Min},\n  journal={Neurocomputing},\n  pages={131438},\n  year={2025},\n  publisher={Elsevier}\n}",
   "du2022flow": "@inproceedings{du2022flow,\n  title={To-flow: Efficient continuous normalizing flows with temporal optimization adjoint with moving speed},\n  author={Du, Shian and Luo, Yihong and Chen, Wei and Xu, Jian and Zeng, Delu},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={12570--12580},\n  year={2022}\n}",
-  "chen2026dont": "@inproceedings{chen2026dont,\n  title={Don't Forget Its Variance! The Minimum Path Variance Principle for Accurate and Stable Score-Based Density Ratio Estimation},\n  author={wei chen and jiacheng li and shigui li and zhiqi lin and junmei yang and john paisley and delu zeng},\n  booktitle={International Conference on Learning Representations},\n  year={2026},\n  url={https://openreview.net/forum?id=vf16PZJWD1}\n}",
+  "chen2026dont": "@inproceedings{chen2026dont,\n  title={A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation},\n  author={wei chen and jiacheng li and shigui li and zhiqi lin and junmei yang and john paisley and delu zeng},\n  booktitle={International Conference on Learning Representations},\n  year={2026},\n  url={https://openreview.net/forum?id=vf16PZJWD1}\n}",
   "chen2025dequantified": "@inproceedings{chen2025dequantified,\n  title={Dequantified Diffusion-Schr\\\"odinger Bridge for Density Ratio Estimation},\n  author={Wei Chen and Shigui Li and Jiacheng Li and Junmei Yang and John Paisley and Delu Zeng},\n  booktitle={International Conference on Machine Learning},\n  year={2025},\n  url={https://openreview.net/forum?id=zvyHCOcwsw}\n}",
   "li2024deepar": "@article{li2024deepar,\n  title={DeepAR-Attention probabilistic prediction for stock price series},\n  author={Li, Jiacheng and Chen, Wei and Zhou, Zhiheng and Yang, Junmei and Zeng, Delu},\n  journal={Neural Computing and Applications},\n  volume={36},\n  number={25},\n  pages={15389--15406},\n  year={2024},\n  publisher={Springer}\n}",
   "li2024neural": "@article{li2024neural,\n  title={Neural ordinary differential equation networks for fintech applications using Internet of Things},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zeng, Delu and Zhou, Zhiheng},\n  journal={IEEE Internet of Things Journal},\n  year={2024},\n  publisher={IEEE}\n}",

@@ -22,6 +22,8 @@ I received my B.S. degree in Statistics from Wuhan University of Technology (WHU
 My research focuses on probabilistic inference and generation, including **deep generative modeling** and **density ratio estimation** (DRE), with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety. 
 I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img id='gs-badge' src="https://img.shields.io/badge/citations-90-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
 
+I also serve as a reviewer for ICML, NeurIPS, ICLR, CVPR, ECCV, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
+
 Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen_work&#64;126.com">weichen_work&#64;126.com</a>.
 
 

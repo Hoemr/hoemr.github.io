@@ -140,7 +140,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
 <div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICLR 2026</div>
-<img src="images/minpv.png" alt="MinPV" style="width:100%;">
+<img src="images/mvp.jpg" alt="MVP" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 

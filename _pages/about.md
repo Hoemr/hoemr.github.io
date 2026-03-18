@@ -17,7 +17,7 @@ I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and jo
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
 
-Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen_work&#64;126.com">weichen_work&#64;126.com</a>.
+Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
 
 
 # 🔥 News

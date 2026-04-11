@@ -12,10 +12,10 @@ redirect_from:
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with [John Paisley (Columbia University)](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ), [Junmei Yang (SCUT)](https://dblp.uni-trier.de/pid/157/9330.html), [Qibin Zhao (RIKEN-AIP)](https://qibinzhao.github.io/), [Jiacheng Li (SCUT)](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li (SCUT)](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN), [Jian Xu (SCUT / RIKEN-AIP)](https://xujianscut.github.io/JianXu.github.io/about/), [Shian Du (Tsinghua University)](https://shiandu.github.io/).
 
-My research focuses on probabilistic inference and generation, including **deep generative modeling** and **density ratio estimation** (DRE), with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety. 
+My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety. 
 I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img id='gs-badge' src="https://img.shields.io/badge/citations-updating-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
 
-I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
+I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
 
 Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
 

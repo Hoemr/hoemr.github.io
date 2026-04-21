@@ -13,7 +13,7 @@ redirect_from:
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with [John Paisley (Columbia University)](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ), [Junmei Yang (SCUT)](https://dblp.uni-trier.de/pid/157/9330.html), [Qibin Zhao (RIKEN-AIP)](https://qibinzhao.github.io/), [Jiacheng Li (SCUT)](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li (SCUT)](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN), [Jian Xu (SCUT / RIKEN-AIP)](https://xujianscut.github.io/JianXu.github.io/about/), [Shian Du (Tsinghua University)](https://shiandu.github.io/).
 
 My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety for trustworthy LLM. 
-I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, Neurocomputing, ESWA). <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img id='gs-badge' src="https://img.shields.io/badge/citations-updating-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
+I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing). <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img id='gs-badge' src="https://img.shields.io/badge/citations-updating-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
 
@@ -33,6 +33,31 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </ul>
 
 # 📝 Publications 
+
+<div style="margin: 8px 0 14px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: linear-gradient(135deg, #eef4ff 0%, #f5f3ff 100%);">
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px; margin-bottom: 10px;">
+    <div style="font-weight: 700; font-size: 1.02em;">📊 Google Scholar Stats</div>
+    <div style="color: #6b7280; font-size: 0.85em;">Last updated: <span id="gs-updated">—</span></div>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #dbeafe; text-align: center;">
+      <div style="font-size: 1.5em; font-weight: 800; color: #1d4ed8; line-height: 1.2;" id="gs-citations">—</div>
+      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">Total Citations</div>
+    </div>
+    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #d1fae5; text-align: center;">
+      <div style="font-size: 1.5em; font-weight: 800; color: #059669; line-height: 1.2;" id="gs-hindex">—</div>
+      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">h-index</div>
+    </div>
+    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #fde68a; text-align: center;">
+      <div style="font-size: 1.5em; font-weight: 800; color: #b45309; line-height: 1.2;" id="gs-i10index">—</div>
+      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">i10-index</div>
+    </div>
+    <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ" target="_blank" rel="noopener" style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #e5e7eb; text-align: center; text-decoration: none; color: inherit; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <div style="font-size: 1.2em; font-weight: 700; color: #4b5563; line-height: 1.2;">View&nbsp;→</div>
+      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">Google Scholar</div>
+    </a>
+  </div>
+</div>
 
 <div style="margin: 8px 0 18px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
   <div style="font-weight: 700; margin-bottom: 10px;">📌 Research Overview at a Glance</div>
@@ -359,19 +384,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 # 💻 Internships
-<div class="paper-box">
-<div class="paper-box-image" style="max-width: 50px; position: relative;">
-<img src="images/AIP.png" alt="RIKEN AIP" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-**RIKEN AIP** - Tensor Learning Team
-
-*2026.02 - 2026.05*
-
-Mentor: [Qibin Zhao](https://qibinzhao.github.io/) | [[Team Page](https://qibinzhao.github.io/)]
-
-</div>
+<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 8px 0 16px 0;">
+  <img src="images/AIP.png" alt="RIKEN AIP" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+  <div>
+    <div style="font-weight: 700;">RIKEN AIP — Tensor Learning Team</div>
+    <div style="color: #6b7280; font-size: 0.9em; margin-top: 2px;"><em>2026.02 – 2026.05</em></div>
+    <div style="margin-top: 4px;">Mentor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
+  </div>
 </div>
 
 # 🌍 Visitors

@@ -6,20 +6,43 @@
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/google_scholar_crawler/results/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
-            var totalCitation = data['citedby']
+            var totalCitation = data['citedby'];
+
+            // Legacy inline total-citations placeholder (optional).
             var totalCitEle = document.getElementById('total_cit');
             if (totalCitEle) {
                 totalCitEle.innerHTML = totalCitation;
             }
+
+            // Top-of-page citation badge (shields.io).
             var badge = document.getElementById('gs-badge');
             if (badge) {
                 badge.src = 'https://img.shields.io/badge/citations-' + totalCitation + '-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat';
             }
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+
+            // Scholar Stats card: citations / h-index / i10-index / updated.
+            var citEle = document.getElementById('gs-citations');
+            if (citEle) citEle.innerHTML = totalCitation;
+
+            var hEle = document.getElementById('gs-hindex');
+            if (hEle && data['hindex'] != null) hEle.innerHTML = data['hindex'];
+
+            var i10Ele = document.getElementById('gs-i10index');
+            if (i10Ele && data['i10index'] != null) i10Ele.innerHTML = data['i10index'];
+
+            var upEle = document.getElementById('gs-updated');
+            if (upEle && data['updated']) {
+                // `updated` looks like "2026-04-21 08:00:00.123456"; keep the date part.
+                upEle.innerHTML = String(data['updated']).substring(0, 10);
+            }
+
+            // Per-paper citation counts (requires `data` attr == Scholar pub id).
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function (element) {
+                var paperId = element.getAttribute('data');
+                if (paperId && data['publications'] && data['publications'][paperId]) {
+                    element.innerHTML = '| Citations: ' + data['publications'][paperId]['num_citations'];
+                }
             });
         });
     })

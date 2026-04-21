@@ -380,10 +380,11 @@ Mentor: [Qibin Zhao](https://qibinzhao.github.io/) | [[Team Page](https://qibinz
   <div style="color: #6b7280; font-size: 0.92em; margin-bottom: 12px;">
     Thanks for stopping by! Click the map to see detailed analytics on <a href="https://clustrmaps.com/site/1c9t3" target="_blank" rel="noopener">ClustrMaps</a>.
   </div>
-  <div style="display: flex; justify-content: center; align-items: center; min-height: 220px;">
-    <a href="https://clustrmaps.com/site/1c9t3" title="ClustrMaps" target="_blank" rel="noopener">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a"></script>
-    </a>
+  <div style="text-align: center;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a"></script>
+    <noscript>
+      <a href="https://clustrmaps.com/site/1c9t3" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff" alt="Visitor map" /></a>
+    </noscript>
   </div>
 </div>
 

@@ -9,7 +9,7 @@
 locale                   : "zh-CN"
 title                    : "Wei Chen (陈炜)"
 title_separator          : "-"
-description              : "Focusing on probabilist modeling & inference."
+description              : "Focusing on probabilistic modeling & generation."
 repository               : "hoemr/hoemr.github.io"
 google_scholar_stats_use_cdn : true
 

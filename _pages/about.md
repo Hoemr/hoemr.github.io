@@ -43,10 +43,16 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
         <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion / Normalizing Flow</div>
       </div>
     </a>
+    <a href="#llm-post-training" style="text-decoration: none; color: inherit;">
+      <div style="padding: 10px 12px; border-radius: 8px; background: #faf5ff; border: 1px solid #e9d5ff;">
+        <div style="font-weight: 700;">LLM/MLLM Post-Training</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">1 paper · Preference Optimization / Alignment</div>
+      </div>
+    </a>
     <a href="#density-ratio-estimation" style="text-decoration: none; color: inherit;">
       <div style="padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #d1fae5;">
         <div style="font-weight: 700;">Density Ratio Estimation</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">2 papers · Score-based / Bridge methods</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Score-based / Bridge methods</div>
       </div>
     </a>
     <a href="#time-series-forecast" style="text-decoration: none; color: inherit;">
@@ -57,7 +63,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     </a>
   </div>
   <div style="margin-top: 10px; font-size: 0.9em; color: #6b7280;">
-    Quick Jump: <a href="#deep-generative-modeling">Generative</a> · <a href="#density-ratio-estimation">DRE</a> · <a href="#time-series-forecast">Time Series</a>
+    Quick Jump: <a href="#deep-generative-modeling">Generative</a> · <a href="#llm-post-training">LLM Post-Training</a> · <a href="#density-ratio-estimation">DRE</a> · <a href="#time-series-forecast">Time Series</a>
   </div>
 </div>
 
@@ -133,9 +139,49 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='llm-post-training'></span>
+
+## LLM/MLLM Post-Training
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2026</div>
+<img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**Towards Disentangled Preference Optimization Dynamics Beyond Likelihood Displacement**](https://arxiv.org/abs/2604.18239), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026disentangled', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.18239) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
+
+- Presents a unified *incentive-score decomposition* showing that diverse preference optimization objectives share identical local update directions and differ only in scalar weighting coefficients.
+- Identifies the *disentanglement band (DB)*, a simple, testable condition characterizing when training avoids likelihood displacement by suppressing the rejected response while maintaining the chosen one.
+- Proposes a plug-and-play *reward calibration (RC)* that adaptively rebalances chosen/rejected updates to satisfy the DB, mitigating likelihood displacement without redesigning the base objective and often improving downstream performance.
+</div>
+</div>
+
+
 <span class='anchor' id='density-ratio-estimation'></span>
 
 ## Density Ratio Estimation
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2026</div>
+<img src="images/osdre.png" alt="OS-DRE" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672), **`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng* <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.10672) \| [**Code**]()
+
+- Proposes OS-DRE, a partly analytic and *solver-free* score-based DRE framework that decomposes the time score into spatial and temporal components.
+- Represents the temporal part with an analytic RBF frame, turning the otherwise intractable temporal integral into a closed-form weighted sum and enabling DRE with *only one* function evaluation.
+- Establishes approximation error bounds for both finitely and infinitely smooth temporal kernels, grounding the framework in approximation theory.
+</div>
+</div>
+
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -151,6 +197,24 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 - Resolves the path schedule paradox in score-based DRE by identifying the overlooked path variance term.
 - Proposes MVP Principle with closed-form variance expression for tractable optimization.
 - Achieves state-of-the-art results on challenging DRE benchmarks.
+</div>
+</div>
+
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2025</div>
+<img src="images/isadre.png" alt="ISA-DRE" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852), **`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**arXiv 2025** \| [**Paper**](https://arxiv.org/abs/2509.04852) \| [**Code**]()
+
+- Proposes ISA-DRE, replacing the high-variance instantaneous tangent with its interval integral (the *secant*) as a provably lower-variance and smoother learning target along diffusion interpolants.
+- Introduces the *Secant Alignment Identity (SAI)* to enforce self-consistency between secant and tangent, and *Contraction Interval Annealing (CIA)* for stable convergence.
+- Achieves comparable or superior accuracy with fewer function evaluations and effectively mitigates the density-chasm problem under large distribution discrepancies.
 </div>
 </div>
 
@@ -289,7 +353,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 # 💬 Invited Talks
 <div style="margin: 8px 0 16px 0; padding: 12px 14px; border: 1px solid #dbeafe; border-radius: 10px; background: #eff6ff;">
-  <div style="font-weight: 700; color: #1d4ed8;">Keynote Speaker · University of Waterloo</div>
+  <div style="font-weight: 700; color: #1d4ed8;">Online Keynote Speaker · University of Waterloo</div>
   <div style="margin-top: 6px;"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'"</div>
   <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">Feb 2026</div>
 </div>
@@ -310,13 +374,29 @@ Mentor: [Qibin Zhao](https://qibinzhao.github.io/) | [[Team Page](https://qibinz
 </div>
 </div>
 
+# 🌍 Visitors
+<div style="margin: 8px 0 16px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
+  <div style="font-weight: 700; margin-bottom: 6px;">Where are visitors coming from?</div>
+  <div style="color: #6b7280; font-size: 0.92em; margin-bottom: 12px;">
+    Thanks for stopping by! Click the map to see detailed analytics on <a href="https://clustrmaps.com/site/1c9t3" target="_blank" rel="noopener">ClustrMaps</a>.
+  </div>
+  <div style="display: flex; justify-content: center; align-items: center; min-height: 220px;">
+    <a href="https://clustrmaps.com/site/1c9t3" title="ClustrMaps" target="_blank" rel="noopener">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a"></script>
+    </a>
+  </div>
+</div>
+
 <script>
 var bibData = {
   "li2025evodiff": "@inproceedings{li2025evodiff,\n  title={EVODiff: Entropy-aware Variance Optimized Diffusion Inference},\n  author={Shigui Li and Wei Chen and Delu Zeng},\n  booktitle={The Annual Conference on Neural Information Processing Systems},\n  year={2025},\n  url={https://openreview.net/forum?id=rKASv92Myl}\n}",
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",
   "lin2025reciprocalla": "@article{lin2025reciprocalla,\n  title={ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process},\n  author={Lin, Zhiqi and Chen, Wei and Xu, Jian and Zeng, Delu and Chen, Min},\n  journal={Neurocomputing},\n  pages={131438},\n  year={2025},\n  publisher={Elsevier}\n}",
   "du2022flow": "@inproceedings{du2022flow,\n  title={To-flow: Efficient continuous normalizing flows with temporal optimization adjoint with moving speed},\n  author={Du, Shian and Luo, Yihong and Chen, Wei and Xu, Jian and Zeng, Delu},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={12570--12580},\n  year={2022}\n}",
+  "chen2026disentangled": "@misc{chen2026disentangledpreferenceoptimizationdynamics,\n  title={Towards Disentangled Preference Optimization Dynamics Beyond Likelihood Displacement},\n  author={Wei Chen and Yubing Wu and Junmei Yang and Delu Zeng and Qibin Zhao and John Paisley and Min Chen and Zhou Wang},\n  year={2026},\n  eprint={2604.18239},\n  archivePrefix={arXiv},\n  primaryClass={cs.LG},\n  url={https://arxiv.org/abs/2604.18239}\n}",
   "chen2026dont": "@inproceedings{chen2026dont,\n  title={A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation},\n  author={wei chen and jiacheng li and shigui li and zhiqi lin and junmei yang and john paisley and delu zeng},\n  booktitle={International Conference on Learning Representations},\n  year={2026},\n  url={https://openreview.net/forum?id=vf16PZJWD1}\n}",
+  "chen2026one": "@article{chen2026one,\n  title={One-Step Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Zhao, Qibin and Paisley, John and Yang, Junmei and Zeng, Delu},\n  journal={arXiv preprint arXiv:2604.10672},\n  year={2026}\n}",
+  "chen2025diffusion": "@article{chen2025diffusion,\n  title={Diffusion Secant Alignment for Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Li, Shigui and Li, Jiacheng and Xu, Jian and Lin, Zhiqi and Yang, Junmei and Zeng, Delu and Paisley, John and Zhao, Qibin},\n  journal={arXiv preprint arXiv:2509.04852},\n  year={2025}\n}",
   "chen2025dequantified": "@inproceedings{chen2025dequantified,\n  title={Dequantified Diffusion-Schr\\\"odinger Bridge for Density Ratio Estimation},\n  author={Wei Chen and Shigui Li and Jiacheng Li and Junmei Yang and John Paisley and Delu Zeng},\n  booktitle={International Conference on Machine Learning},\n  year={2025},\n  url={https://openreview.net/forum?id=zvyHCOcwsw}\n}",
   "li2024deepar": "@article{li2024deepar,\n  title={DeepAR-Attention probabilistic prediction for stock price series},\n  author={Li, Jiacheng and Chen, Wei and Zhou, Zhiheng and Yang, Junmei and Zeng, Delu},\n  journal={Neural Computing and Applications},\n  volume={36},\n  number={25},\n  pages={15389--15406},\n  year={2024},\n  publisher={Springer}\n}",
   "li2024neural": "@article{li2024neural,\n  title={Neural ordinary differential equation networks for fintech applications using Internet of Things},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zeng, Delu and Zhou, Zhiheng},\n  journal={IEEE Internet of Things Journal},\n  year={2024},\n  publisher={IEEE}\n}",

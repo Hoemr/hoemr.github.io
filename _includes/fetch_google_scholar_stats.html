@@ -5,7 +5,8 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/google_scholar_crawler/results/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
+        var gsDataUrl = gsDataBaseUrl + "gs_data.json?v=" + Date.now();
+        $.getJSON(gsDataUrl, function (data) {
             var totalCitation = data['citedby'];
 
             // Legacy inline total-citations placeholder (optional).

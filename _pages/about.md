@@ -13,7 +13,7 @@ redirect_from:
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with [John Paisley (Columbia University)](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ), [Junmei Yang (SCUT)](https://dblp.uni-trier.de/pid/157/9330.html), [Qibin Zhao (RIKEN-AIP)](https://qibinzhao.github.io/), [Jiacheng Li (SCUT)](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li (SCUT)](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN), [Jian Xu (SCUT / RIKEN-AIP)](https://xujianscut.github.io/JianXu.github.io/about/), [Shian Du (Tsinghua University)](https://shiandu.github.io/).
 
 My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety for trustworthy LLM. 
-I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing). <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ"><img id='gs-badge' src="https://img.shields.io/badge/citations-updating-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat" alt="Google Scholar"></a>
+I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing). 
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal...
 
@@ -71,24 +71,24 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     <a href="#llm-post-training" style="text-decoration: none; color: inherit;">
       <div style="padding: 10px 12px; border-radius: 8px; background: #faf5ff; border: 1px solid #e9d5ff;">
         <div style="font-weight: 700;">LLM/MLLM Post-Training</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">1 paper · Preference Optimization / Alignment</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">1 paper · Preference Optimization / LLM Alignment</div>
       </div>
     </a>
     <a href="#density-ratio-estimation" style="text-decoration: none; color: inherit;">
       <div style="padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #d1fae5;">
-        <div style="font-weight: 700;">Density Ratio Estimation</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Score-based / Bridge methods</div>
+        <div style="font-weight: 700;">Density/Likelihood Ratio Estimation</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion- /Score-based methods</div>
       </div>
     </a>
     <a href="#time-series-forecast" style="text-decoration: none; color: inherit;">
       <div style="padding: 10px 12px; border-radius: 8px; background: #fff7ed; border: 1px solid #ffedd5;">
         <div style="font-weight: 700;">Time Series Forecast</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">5 papers · ODE / Diffusion forecasting</div>
+        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">5 papers · ODE / Diffusion-based forecasting</div>
       </div>
     </a>
   </div>
   <div style="margin-top: 10px; font-size: 0.9em; color: #6b7280;">
-    Quick Jump: <a href="#deep-generative-modeling">Generative</a> · <a href="#llm-post-training">LLM Post-Training</a> · <a href="#density-ratio-estimation">DRE</a> · <a href="#time-series-forecast">Time Series</a>
+    Quick Jump: <a href="#deep-generative-modeling">Deep Generative Modeling</a> · <a href="#llm-post-training">LLM Post-Training</a> · <a href="#density-ratio-estimation">Density/Likelihood Ratio Estimation</a> · <a href="#time-series-forecast">Time Series Forecast</a>
   </div>
 </div>
 
@@ -389,7 +389,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   <div>
     <div style="font-weight: 700;">RIKEN AIP — Tensor Learning Team</div>
     <div style="color: #6b7280; font-size: 0.9em; margin-top: 2px;"><em>2026.02 – 2026.05</em></div>
-    <div style="margin-top: 4px;">Mentor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
+    <div style="margin-top: 4px;">Supervisor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
   </div>
 </div>
 

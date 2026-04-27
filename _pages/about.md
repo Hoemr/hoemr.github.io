@@ -76,7 +76,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     </a>
     <a href="#density-ratio-estimation" style="text-decoration: none; color: inherit;">
       <div style="padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #d1fae5;">
-        <div style="font-weight: 700;">Density/Likelihood Ratio Estimation</div>
+        <div style="font-weight: 700;">Density Ratio Estimation</div>
         <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion- /Score-based methods</div>
       </div>
     </a>

@@ -22,6 +22,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 # 🔥 News
 <ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
+<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>.</li>
 <li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>.</li>
 <li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA).</li>
 <li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
@@ -170,14 +171,14 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2026</div>
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICML 2026</div>
 <img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Towards Disentangled Preference Optimization Dynamics Beyond Likelihood Displacement**](https://arxiv.org/abs/2604.18239), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026disentangled', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://openreview.net/forum?id=TaNH4XiQ6P), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026disentangled', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.18239) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
+**ICML 2026** \| [**Paper**](https://openreview.net/forum?id=TaNH4XiQ6P) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 
 - Presents a unified *incentive-score decomposition* showing that diverse preference optimization objectives share identical local update directions and differ only in scalar weighting coefficients.
 - Identifies the *disentanglement band (DB)*, a simple, testable condition characterizing when training avoids likelihood displacement by suppressing the rejected response while maintaining the chosen one.
@@ -413,7 +414,7 @@ var bibData = {
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",
   "lin2025reciprocalla": "@article{lin2025reciprocalla,\n  title={ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process},\n  author={Lin, Zhiqi and Chen, Wei and Xu, Jian and Zeng, Delu and Chen, Min},\n  journal={Neurocomputing},\n  pages={131438},\n  year={2025},\n  publisher={Elsevier}\n}",
   "du2022flow": "@inproceedings{du2022flow,\n  title={To-flow: Efficient continuous normalizing flows with temporal optimization adjoint with moving speed},\n  author={Du, Shian and Luo, Yihong and Chen, Wei and Xu, Jian and Zeng, Delu},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={12570--12580},\n  year={2022}\n}",
-  "chen2026disentangled": "@misc{chen2026disentangledpreferenceoptimizationdynamics,\n  title={Towards Disentangled Preference Optimization Dynamics Beyond Likelihood Displacement},\n  author={Wei Chen and Yubing Wu and Junmei Yang and Delu Zeng and Qibin Zhao and John Paisley and Min Chen and Zhou Wang},\n  year={2026},\n  eprint={2604.18239},\n  archivePrefix={arXiv},\n  primaryClass={cs.LG},\n  url={https://arxiv.org/abs/2604.18239}\n}",
+  "chen2026disentangled": "@inproceedings{chen2026disentangledpreferenceoptimizationdynamics,\n title={Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner},\n author={Wei Chen and Yubing Wu and Junmei Yang and Delu Zeng and Qibin Zhao and John Paisley and Min Chen and Zhou Wang},\n booktitle={International Conference on Machine Learning},\n year={2026},\n url={https://openreview.net/forum?id=TaNH4XiQ6P}\n}",
   "chen2026dont": "@inproceedings{chen2026dont,\n  title={A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation},\n  author={wei chen and jiacheng li and shigui li and zhiqi lin and junmei yang and john paisley and delu zeng},\n  booktitle={International Conference on Learning Representations},\n  year={2026},\n  url={https://openreview.net/forum?id=vf16PZJWD1}\n}",
   "chen2026one": "@article{chen2026one,\n  title={One-Step Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Zhao, Qibin and Paisley, John and Yang, Junmei and Zeng, Delu},\n  journal={arXiv preprint arXiv:2604.10672},\n  year={2026}\n}",
   "chen2025diffusion": "@article{chen2025diffusion,\n  title={Diffusion Secant Alignment for Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Li, Shigui and Li, Jiacheng and Xu, Jian and Lin, Zhiqi and Yang, Junmei and Zeng, Delu and Paisley, John and Zhao, Qibin},\n  journal={arXiv preprint arXiv:2509.04852},\n  year={2025}\n}",

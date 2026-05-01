@@ -180,9 +180,9 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **ICML 2026** \| [**Paper**](https://openreview.net/forum?id=TaNH4XiQ6P) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 
-- Presents a unified *incentive-score decomposition* showing that diverse preference optimization objectives share identical local update directions and differ only in scalar weighting coefficients.
-- Identifies the *disentanglement band (DB)*, a simple, testable condition characterizing when training avoids likelihood displacement by suppressing the rejected response while maintaining the chosen one.
-- Proposes a plug-and-play *reward calibration (RC)* that adaptively rebalances chosen/rejected updates to satisfy the DB, mitigating likelihood displacement without redesigning the base objective and often improving downstream performance.
+- Presents a unified *incentive-score decomposition* showing that diverse preference optimization objectives share identical local update directions and differ only in two scalar weights.
+- Identifies the *disentanglement band (DB)*, a simple, testable condition for the desired pathway: suppress the loser while preserving the winner.
+- Proposes plug‑and‑play *reward calibration (RC)*, which rebalances chosen vs. rejected updates to stay inside the DB, promoting Pathway (iii) without modifying the base objective and with downstream improvements across several settings.
 </div>
 </div>
 

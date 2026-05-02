@@ -22,15 +22,15 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 # 🔥 News
 <ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
-<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>.</li>
-<li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>.</li>
-<li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA).</li>
-<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
-<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>. <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">News&#127881;</a></li>
-<li style="margin-bottom: 8px;">2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR).</li>
-<li style="margin-bottom: 8px;">2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing.</li>
-<li style="margin-bottom: 8px;">2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong style="color: #d32f2f;">ICML 2025</strong>.</li>
-<li style="margin-bottom: 8px;">2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong style="color: #d32f2f;">CVPR 2022</strong>.</li>
+<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>. <a href="#chen2026disentangled" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>. <a href="#chen2026a" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="#li2025generative" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
+<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>. <a href="#li2025evodiff" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">News&#127881;</a></li>
+<li style="margin-bottom: 8px;">2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR). <a href="#chen2025entropy" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing. <a href="#lin2025reciprocalla" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong style="color: #d32f2f;">ICML 2025</strong>. <a href="#chen2025dequantified" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong style="color: #d32f2f;">CVPR 2022</strong>. <a href="#du2022flow" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
 </ul>
 
 # 📝 Publications 
@@ -97,6 +97,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 ## Deep Generative Modeling
 
+<span class='anchor' id='li2025evodiff'></span>
+
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
 <div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">NeurIPS 2025</div>
@@ -113,6 +115,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+
+<span class='anchor' id='chen2025entropy'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -131,6 +135,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='lin2025reciprocalla'></span>
+
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
 <div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
@@ -147,6 +153,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+
+<span class='anchor' id='du2022flow'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -168,6 +176,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='llm-post-training'></span>
 
 ## LLM/MLLM Post-Training
+
+<span class='anchor' id='chen2026disentangled'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -209,6 +219,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='chen2026a'></span>
+
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
 <div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICLR 2026</div>
@@ -244,6 +256,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+
+<span class='anchor' id='chen2025dequantified'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -315,6 +329,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='li2025generative'></span>
+
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
 <div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">TIM 2025</div>
@@ -331,6 +347,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+
+<span class='anchor' id='li2025diffinformer'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">

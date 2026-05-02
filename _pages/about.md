@@ -403,25 +403,12 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   </div>
 
   <div style="text-align: center;">
-    <div style="display: inline-block; position: relative;">
-      <script type="text/javascript" id="clustrmaps"
-        src="https://clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a">
-      </script>
-
-      <noscript>
-        <img
-          src="https://www.clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff"
-          alt="Visitor map"
-        />
-      </noscript>
-
-      <!-- Transparent overlay: keep the map visible, but disable clicking -->
-      <div
-        aria-hidden="true"
-        title="Visitor map"
-        style="position: absolute; inset: 0; z-index: 10; background: transparent; cursor: default;">
-      </div>
-    </div>
+    <img
+      src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew"
+      alt="Visitor map"
+      title="Visitor map"
+      style="max-width: 100%; height: auto; border: 0;"
+    />
   </div>
 </div>
 

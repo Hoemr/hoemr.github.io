@@ -403,12 +403,18 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   </div>
 
   <div style="text-align: center;">
-    <img
-      src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew"
-      alt="Visitor map"
-      title="Visitor map"
-      style="max-width: 100%; height: auto; border: 0;"
-    />
+    <a
+      href="https://clustrmaps.com/site/1c9t3"
+      title="Visit tracker"
+      onclick="event.preventDefault(); return false;"
+      style="cursor: default; text-decoration: none;"
+    >
+      <img
+        src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew"
+        alt="Visitor map"
+        style="max-width: 100%; height: auto; border: 0;"
+      />
+    </a>
   </div>
 </div>
 

@@ -402,19 +402,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     Thanks for stopping by! This map shows an approximate geographic distribution of visitors.
   </div>
 
-  <div style="text-align: center;">
-    <a
-      href="https://clustrmaps.com/site/1c9t3"
-      title="Visit tracker"
-      onclick="event.preventDefault(); return false;"
-      style="cursor: default; text-decoration: none;"
-    >
-      <img
-        src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew"
-        alt="Visitor map"
-        style="width: 100%; height: auto; border: 0;"
-      />
-    </a>
+  <div style="text-align: center; position: relative;">
+    <div style="pointer-events: none;">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a"></script>
+    </div>
+    <noscript>
+      <img src="//clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff" alt="Visitor map" style="width: 100%; height: auto; border: 0;" />
+    </noscript>
   </div>
 </div>
 

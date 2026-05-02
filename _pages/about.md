@@ -397,21 +397,30 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 # 🌍 Visitors
 <div style="margin: 8px 0 16px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
   <div style="font-weight: 700; margin-bottom: 6px;">Where are visitors coming from?</div>
+
   <div style="color: #6b7280; font-size: 0.92em; margin-bottom: 12px;">
     Thanks for stopping by! This map shows an approximate geographic distribution of visitors.
   </div>
+
   <div style="text-align: center;">
-    <div style="display: inline-block; pointer-events: none; cursor: default;">
+    <div style="display: inline-block; position: relative;">
       <script type="text/javascript" id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a">
+        src="https://clustrmaps.com/map_v2.js?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff&w=a">
       </script>
 
       <noscript>
         <img
-          src="//www.clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff"
+          src="https://www.clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff"
           alt="Visitor map"
         />
       </noscript>
+
+      <!-- Transparent overlay: keep the map visible, but disable clicking -->
+      <div
+        aria-hidden="true"
+        title="Visitor map"
+        style="position: absolute; inset: 0; z-index: 10; background: transparent; cursor: default;">
+      </div>
     </div>
   </div>
 </div>

@@ -12,7 +12,7 @@ redirect_from:
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with researchers at **SCUT** ([Junmei Yang](https://dblp.uni-trier.de/pid/157/9330.html), [Min Chen](https://people.ece.ubc.ca/minchen/), [Jiacheng Li](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN)), **RIKEN-AIP** ([Qibin Zhao](https://qibinzhao.github.io/), [Jian Xu](https://xujianscut.github.io/JianXu.github.io/about/), [Zerui Tao](https://scholar.google.com/citations?hl=zh-CN&user=vcEOMXkAAAAJ), [Yuning Qiu](https://www.researchgate.net/profile/Yuning-Qiu-3), [Chao Li](https://chaoliatriken.github.io/)), **Columbia University** ([John Paisley](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ)), **University of Waterloo** ([Zhou Wang](https://ece.uwaterloo.ca/~z70wang/)), **Tsinghua University** ([Shian Du](https://shiandu.github.io/)), and **Shanghai Jiaotong University** ([Wenjing Lu](https://scholar.google.com.hk/citations?hl=zh-CN&user=yVw0XEMAAAAJ)).
 
-My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to large language model (LLM) alignment and safety for trustworthy LLM. 
+My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to post-training (LLM alignment, preference optimization) and safety for trustworthy LLM. 
 I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing). 
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal (IoTJ), Expert Systems with Applications (ESWA)...
@@ -380,7 +380,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 # 💬 Invited Talks
 <div style="margin: 8px 0 16px 0; padding: 12px 14px; border: 1px solid #dbeafe; border-radius: 10px; background: #eff6ff;">
   <div style="font-weight: 700; color: #1d4ed8;">Online Keynote Speaker · University of Waterloo</div>
-  <div style="margin-top: 6px;"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate but Slow' to 'Accurate and Fast'"</div>
+  <div style="margin-top: 6px;"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate or Fast' to 'Accurate and Fast'"</div>
   <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">Feb 2026</div>
 </div>
 

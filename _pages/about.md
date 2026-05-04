@@ -377,18 +377,25 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 # 📖 Educations
-<div style="display: grid; gap: 10px; margin: 8px 0 18px 0;">
-  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 8px 0 10px 0;">
+  <img src="images/scut.png" alt="SCUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+  <div>
     <div style="font-weight: 700;">Ph.D. Candidate in Computational Mathematics</div>
     <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
     <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2022.06 – 2026.06 (now)</div>
   </div>
-  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+</div>
+<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 0 0 10px 0;">
+  <img src="images/scut.png" alt="SCUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+  <div>
     <div style="font-weight: 700;">M.S., Successive Master–Doctor Program in Computational Mathematics</div>
     <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
     <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2021.09 – 2022.06</div>
   </div>
-  <div style="padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff;">
+</div>
+<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 0 0 18px 0;">
+  <img src="images/whut.png" alt="WHUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+  <div>
     <div style="font-weight: 700;">B.S. in Statistics</div>
     <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics and Statistics, Wuhan University of Technology (WHUT)</div>
     <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2017.09 – 2021.06</div>

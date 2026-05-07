@@ -61,50 +61,28 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 <div style="margin: 8px 0 18px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
-  <div style="font-weight: 700; margin-bottom: 10px;">📌 Research Overview at a Glance</div>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px;">
-    <a href="#deep-generative-modeling" style="text-decoration: none; color: inherit;">
-      <div style="padding: 10px 12px; border-radius: 8px; background: #eef4ff; border: 1px solid #d8e5ff;">
-        <div style="font-weight: 700;">Deep Generative Modeling</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion / Normalizing Flow</div>
-      </div>
+  <div style="font-weight: 700; margin-bottom: 12px;">📌 Research Overview</div>
+  <div class="topic-grid">
+    <a href="#" class="filter-link topic-card active" id="filter-all" onclick="showTopic('all'); return false;">
+      <div class="topic-card-title">All Papers</div>
+      <div class="topic-card-meta">14 papers</div>
     </a>
-    <a href="#llm-post-training" style="text-decoration: none; color: inherit;">
-      <div style="padding: 10px 12px; border-radius: 8px; background: #faf5ff; border: 1px solid #e9d5ff;">
-        <div style="font-weight: 700;">LLM/MLLM Post-Training</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">1 paper · Preference Optimization / LLM Alignment</div>
-      </div>
+    <a href="#" class="filter-link topic-card topic-generative" id="filter-generative" onclick="showTopic('generative'); return false;">
+      <div class="topic-card-title">Deep Generative Modeling</div>
+      <div class="topic-card-meta">4 papers · Diffusion / Normalizing Flow</div>
     </a>
-    <a href="#density-ratio-estimation" style="text-decoration: none; color: inherit;">
-      <div style="padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #d1fae5;">
-        <div style="font-weight: 700;">Density Ratio Estimation</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">4 papers · Diffusion- /Score-based methods</div>
-      </div>
+    <a href="#" class="filter-link topic-card topic-llm" id="filter-llm" onclick="showTopic('llm'); return false;">
+      <div class="topic-card-title">LLM Post-Training</div>
+      <div class="topic-card-meta">1 paper · Preference Optimization</div>
     </a>
-    <a href="#time-series-forecast" style="text-decoration: none; color: inherit;">
-      <div style="padding: 10px 12px; border-radius: 8px; background: #fff7ed; border: 1px solid #ffedd5;">
-        <div style="font-weight: 700;">Time Series Forecast</div>
-        <div style="font-size: 0.92em; color: #4b5563; margin-top: 4px;">5 papers · ODE / Diffusion-based forecasting</div>
-      </div>
+    <a href="#" class="filter-link topic-card topic-dre" id="filter-dre" onclick="showTopic('dre'); return false;">
+      <div class="topic-card-title">Density Ratio Estimation</div>
+      <div class="topic-card-meta">4 papers · Score-based methods</div>
     </a>
-  </div>
-  <div style="margin-top: 10px; font-size: 0.9em; color: #6b7280;">
-    Quick Jump: <a href="#deep-generative-modeling">Deep Generative Modeling</a> · <a href="#llm-post-training">LLM Post-Training</a> · <a href="#density-ratio-estimation">Density/Likelihood Ratio Estimation</a> · <a href="#time-series-forecast">Time Series Forecast</a>
-  </div>
-</div>
-
-<div style="margin: 8px 0 18px 0; padding: 12px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
-  <div style="font-weight: 700; margin-bottom: 10px;">🏷 Filter by Topic</div>
-  <div class="filter-container">
-    <a href="#" class="filter-link active" id="filter-all" onclick="showTopic('all'); return false;">All Papers</a>
-    <span class="filter-separator">·</span>
-    <a href="#" class="filter-link" id="filter-generative" onclick="showTopic('generative'); return false;">Deep Generative Modeling</a>
-    <span class="filter-separator">·</span>
-    <a href="#" class="filter-link" id="filter-llm" onclick="showTopic('llm'); return false;">LLM Post-Training</a>
-    <span class="filter-separator">·</span>
-    <a href="#" class="filter-link" id="filter-dre" onclick="showTopic('dre'); return false;">Density Ratio Estimation</a>
-    <span class="filter-separator">·</span>
-    <a href="#" class="filter-link" id="filter-ts" onclick="showTopic('ts'); return false;">Time Series Forecast</a>
+    <a href="#" class="filter-link topic-card topic-ts" id="filter-ts" onclick="showTopic('ts'); return false;">
+      <div class="topic-card-title">Time Series Forecast</div>
+      <div class="topic-card-meta">5 papers · ODE / Diffusion</div>
+    </a>
   </div>
 </div>
 
@@ -542,6 +520,19 @@ function showTopic(topicId) {
     });
     var targetSection = topicSections[topicId];
     if (targetSection) targetSection.classList.remove('topic-hidden');
+
+    // Scroll to the section anchor
+    var sectionAnchors = {
+      'generative': 'deep-generative-modeling',
+      'llm': 'llm-post-training',
+      'dre': 'density-ratio-estimation',
+      'ts': 'time-series-forecast'
+    };
+    var anchorId = sectionAnchors[topicId];
+    if (anchorId) {
+      var el = document.getElementById(anchorId);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }
 

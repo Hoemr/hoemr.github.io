@@ -93,9 +93,26 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   </div>
 </div>
 
+<div style="margin: 8px 0 18px 0; padding: 12px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
+  <div style="font-weight: 700; margin-bottom: 10px;">🏷 Filter by Topic</div>
+  <div class="filter-container">
+    <a href="#" class="filter-link active" id="filter-all" onclick="showTopic('all'); return false;">All Papers</a>
+    <span class="filter-separator">·</span>
+    <a href="#" class="filter-link" id="filter-generative" onclick="showTopic('generative'); return false;">Deep Generative Modeling</a>
+    <span class="filter-separator">·</span>
+    <a href="#" class="filter-link" id="filter-llm" onclick="showTopic('llm'); return false;">LLM Post-Training</a>
+    <span class="filter-separator">·</span>
+    <a href="#" class="filter-link" id="filter-dre" onclick="showTopic('dre'); return false;">Density Ratio Estimation</a>
+    <span class="filter-separator">·</span>
+    <a href="#" class="filter-link" id="filter-ts" onclick="showTopic('ts'); return false;">Time Series Forecast</a>
+  </div>
+</div>
+
 <span class='anchor' id='deep-generative-modeling'></span>
 
 ## Deep Generative Modeling
+
+<div id="section-generative">
 
 <span class='anchor' id='li2025evodiff'></span>
 
@@ -173,9 +190,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+</div>
+
 <span class='anchor' id='llm-post-training'></span>
 
 ## LLM/MLLM Post-Training
+
+<div id="section-llm">
 
 <span class='anchor' id='chen2026disentangled'></span>
 
@@ -197,9 +218,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+</div>
+
 <span class='anchor' id='density-ratio-estimation'></span>
 
 ## Density Ratio Estimation
+
+<div id="section-dre">
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -276,9 +301,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+</div>
+
 <span class='anchor' id='time-series-forecast'></span>
 
 ## Time Series Forecast
+
+<div id="section-ts">
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -366,6 +395,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+</div>
 
 # 🎖 Honors and Awards
 <div style="margin: 8px 0 16px 0; padding: 12px 14px; border-left: 4px solid #f59e0b; background: #fffbeb; border-radius: 8px;">
@@ -471,4 +501,81 @@ function copyBib(key, event) {
 
   return false;
 }
+
+// Topic filter: anchor-to-topic mapping (for News section links)
+var anchorToTopic = {
+  'li2025evodiff': 'generative',
+  'chen2025entropy': 'generative',
+  'lin2025reciprocalla': 'generative',
+  'du2022flow': 'generative',
+  'chen2026disentangled': 'llm',
+  'chen2026a': 'dre',
+  'li2025diffinformer': 'ts',
+  'li2025generative': 'ts',
+  'li2025evolvinformer': 'ts',
+  'chen2025dequantified': 'dre'
+};
+
+var topicSections = {
+  'generative': document.getElementById('section-generative'),
+  'llm': document.getElementById('section-llm'),
+  'dre': document.getElementById('section-dre'),
+  'ts': document.getElementById('section-ts')
+};
+
+function showTopic(topicId) {
+  // Update filter link active state
+  var filterLinks = document.querySelectorAll('.filter-link');
+  filterLinks.forEach(function(link) { link.classList.remove('active'); });
+  var activeLink = document.getElementById('filter-' + topicId);
+  if (activeLink) activeLink.classList.add('active');
+
+  if (topicId === 'all') {
+    // Show all sections
+    Object.values(topicSections).forEach(function(section) {
+      if (section) section.classList.remove('topic-hidden');
+    });
+  } else {
+    // Hide all, then show only the selected topic
+    Object.values(topicSections).forEach(function(section) {
+      if (section) section.classList.add('topic-hidden');
+    });
+    var targetSection = topicSections[topicId];
+    if (targetSection) targetSection.classList.remove('topic-hidden');
+  }
+}
+
+// Handle hash navigation from News section links
+window.addEventListener('hashchange', function() {
+  var hash = window.location.hash.substring(1);
+  if (hash && anchorToTopic[hash]) {
+    showTopic(anchorToTopic[hash]);
+    // Scroll to the anchor after the section becomes visible
+    setTimeout(function() {
+      var target = document.getElementById(hash);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  } else if (hash) {
+    // Anchor not in topic mapping (e.g., Research Overview subsection links)
+    showTopic('all');
+    setTimeout(function() {
+      var target = document.getElementById(hash);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  }
+});
+
+// On page load: if URL has a hash, activate the correct topic
+document.addEventListener('DOMContentLoaded', function() {
+  var hash = window.location.hash.substring(1);
+  if (hash && anchorToTopic[hash]) {
+    showTopic(anchorToTopic[hash]);
+    setTimeout(function() {
+      var target = document.getElementById(hash);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  } else {
+    showTopic('all');
+  }
+});
 </script>

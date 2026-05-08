@@ -12,7 +12,7 @@ redirect_from:
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with researchers at **SCUT** ([Junmei Yang](https://dblp.uni-trier.de/pid/157/9330.html), [Min Chen](https://people.ece.ubc.ca/minchen/), [Jiacheng Li](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN)), **RIKEN-AIP** ([Qibin Zhao](https://qibinzhao.github.io/), [Jian Xu](https://xujianscut.github.io/JianXu.github.io/about/), [Zerui Tao](https://scholar.google.com/citations?hl=zh-CN&user=vcEOMXkAAAAJ), [Yuning Qiu](https://www.researchgate.net/profile/Yuning-Qiu-3), [Chao Li](https://chaoliatriken.github.io/)), **Columbia University** ([John Paisley](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ)), **University of Waterloo** ([Zhou Wang](https://ece.uwaterloo.ca/~z70wang/)), **Tsinghua University** ([Shian Du](https://shiandu.github.io/)), and **Shanghai Jiaotong University** ([Wenjing Lu](https://scholar.google.com.hk/citations?hl=zh-CN&user=yVw0XEMAAAAJ)).
 
-My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and trustworthy LLM, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to post-training (LLM alignment, preference optimization) and safety for trustworthy LLM. 
+My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and **LLM post-training**, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to post-training (LLM alignment, preference optimization) for trustworthy and safe LLM. 
 I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing). 
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal (IoTJ), Expert Systems with Applications (ESWA)...
@@ -22,7 +22,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 # 🔥 News
 <ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
-<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>. <a href="#chen2026disentangled" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>. <a href="#chen2026towards" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
 <li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>. <a href="#chen2026a" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
 <li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
 <li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="#li2025generative" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
@@ -176,7 +176,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <div id="section-llm">
 
-<span class='anchor' id='chen2026disentangled'></span>
+<span class='anchor' id='chen2026towards'></span>
 
 <div class="paper-box">
 <div class="paper-box-image" style="position: relative;">
@@ -185,7 +185,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://openreview.net/forum?id=TaNH4XiQ6P), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026disentangled', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://openreview.net/forum?id=TaNH4XiQ6P), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 **ICML 2026** \| [**Paper**](https://openreview.net/forum?id=TaNH4XiQ6P) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 
@@ -451,7 +451,7 @@ var bibData = {
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",
   "lin2025reciprocalla": "@article{lin2025reciprocalla,\n  title={ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process},\n  author={Lin, Zhiqi and Chen, Wei and Xu, Jian and Zeng, Delu and Chen, Min},\n  journal={Neurocomputing},\n  pages={131438},\n  year={2025},\n  publisher={Elsevier}\n}",
   "du2022flow": "@inproceedings{du2022flow,\n  title={To-flow: Efficient continuous normalizing flows with temporal optimization adjoint with moving speed},\n  author={Du, Shian and Luo, Yihong and Chen, Wei and Xu, Jian and Zeng, Delu},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={12570--12580},\n  year={2022}\n}",
-  "chen2026disentangled": "@inproceedings{chen2026disentangledpreferenceoptimizationdynamics,\n title={Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner},\n author={Wei Chen and Yubing Wu and Junmei Yang and Delu Zeng and Qibin Zhao and John Paisley and Min Chen and Zhou Wang},\n booktitle={International Conference on Machine Learning},\n year={2026},\n url={https://openreview.net/forum?id=TaNH4XiQ6P}\n}",
+  "chen2026towards": "@inproceedings{chen2026towards,\n title={Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner},\n author={Wei Chen and Yubing Wu and Junmei Yang and Delu Zeng and Qibin Zhao and John Paisley and Min Chen and Zhou Wang},\n booktitle={International Conference on Machine Learning},\n year={2026},\n url={https://openreview.net/forum?id=TaNH4XiQ6P}\n}",
   "chen2026a": "@inproceedings{chen2026a,\n  title={A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation},\n  author={Wei Chen and Jiacheng Li and Shigui Li and Zhiqi Lin and Junmei Yang and John Paisley and Delu Zeng},\n  year={2026},\n  url={https://openreview.net/forum?id=vf16PZJWD1}\n}",
   "chen2026one": "@article{chen2026one,\n  title={One-Step Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Zhao, Qibin and Paisley, John and Yang, Junmei and Zeng, Delu},\n  journal={arXiv preprint arXiv:2604.10672},\n  year={2026}\n}",
   "chen2025diffusion": "@article{chen2025diffusion,\n  title={Diffusion Secant Alignment for Score-Based Density Ratio Estimation},\n  author={Chen, Wei and Li, Shigui and Li, Jiacheng and Xu, Jian and Lin, Zhiqi and Yang, Junmei and Zeng, Delu and Paisley, John and Zhao, Qibin},\n  journal={arXiv preprint arXiv:2509.04852},\n  year={2025}\n}",
@@ -486,7 +486,7 @@ var anchorToTopic = {
   'chen2025entropy': 'generative',
   'lin2025reciprocalla': 'generative',
   'du2022flow': 'generative',
-  'chen2026disentangled': 'llm',
+  'chen2026towards': 'llm',
   'chen2026a': 'dre',
   'li2025diffinformer': 'ts',
   'li2025generative': 'ts',

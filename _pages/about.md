@@ -105,8 +105,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **NeurIPS 2025** \| [**Paper**](https://openreview.net/pdf?id=rKASv92Myl) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
 
-- Introduces an information-theoretic view: successful denoising reduces conditional entropy in reverse transitions.
-- Proposes EVODiff, a reference-free diffusion inference framework that optimizes conditional variance to reduce transition and reconstruction errors, improving sample quality and reducing inference cost.
+- Proposes EVODiff, a fast inference method for diffusion models that optimizes conditional entropy during denoising.
+- Generates higher-quality images with fewer steps (e.g., 25% fewer steps on ImageNet-256) while significantly reducing artifacts.
 </div>
 </div>
 
@@ -124,8 +124,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **Pattern Recognition (PR) 2025** \| [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) \| [**Code**](https://github.com/ShianDu/EIW-Flow)
 
-- Proposes EIW-Flow, enhancing normalizing flows with channel-wise weights and latent variable shuffling.
-- Achieves state-of-the-art density estimation with minimal computational overhead.
+- Proposes EIW-Flow, which adaptively assigns channel-wise weights and shuffles latent variables in normalizing flows.
+- Achieves state-of-the-art density estimation on CIFAR-10, CelebA, and ImageNet with negligible extra cost.
 </div>
 </div>
 
@@ -143,8 +143,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
 
-- Proposes a reciprocal diffusion process within DDPM for low-light image enhancement.
-- Introduces Luminance Adjustment Block for robust global luminance control.
+- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
+- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
 </div>
 </div>
 
@@ -162,8 +162,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
 
-- CNFs via neural ODEs are costly; To-Flow proposes temporal optimization via coordinate descent.
-- Accelerates flow training by about 20% while maintaining performance.
+- Proposes To-Flow, which optimizes the evolutionary time of neural ODEs via coordinate descent to speed up continuous normalizing flow training.
+- Accelerates training by ~20% without sacrificing generation quality, and is compatible with existing regularization methods.
 </div>
 </div>
 
@@ -189,9 +189,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **ICML 2026** \| [**Paper**](https://openreview.net/forum?id=TaNH4XiQ6P) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 
-- Presents a unified *incentive-score decomposition* showing that diverse preference optimization objectives share identical local update directions and differ only in two scalar weights.
-- Identifies the *disentanglement band (DB)*, a simple, testable condition for the desired pathway: suppress the loser while preserving the winner.
-- Proposes plug‑and‑play *reward calibration (RC)*, which rebalances chosen vs. rejected updates to stay inside the DB, promoting Pathway (iii) without modifying the base objective and with downstream improvements across several settings.
+- Reveals that diverse preference optimization objectives share the same update direction and differ only in two scalar weights, and identifies a simple condition (*disentanglement band*) for the desired learning pathway.
+- Proposes a plug-and-play *reward calibration* method that rebalances updates to stay within this band, improving LLM alignment without modifying the base objective.
 </div>
 </div>
 
@@ -215,9 +214,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.10672) \| [**Code**]()
 
-- Proposes OS-DRE, a partly analytic and *solver-free* score-based DRE framework that decomposes the time score into spatial and temporal components.
-- Represents the temporal part with an analytic RBF frame, turning the otherwise intractable temporal integral into a closed-form weighted sum and enabling DRE with *only one* function evaluation.
-- Establishes approximation error bounds for both finitely and infinitely smooth temporal kernels, grounding the framework in approximation theory.
+- Proposes OS-DRE, a solver-free framework that decomposes the time score into spatial and temporal parts, with the temporal part solved analytically.
+- Enables accurate density ratio estimation with only *one* function evaluation, combining the speed of classical methods with the accuracy of score-based approaches.
 </div>
 </div>
 
@@ -235,9 +233,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) \| [**Code**]()
 
-- Resolves the path schedule paradox in score-based DRE by identifying the overlooked path variance term.
-- Proposes MVP Principle with closed-form variance expression for tractable optimization.
-- Achieves state-of-the-art results on challenging DRE benchmarks.
+- Resolves the path-dependence paradox in score-based methods by identifying the overlooked *path variance* term in training objectives.
+- Derives a closed-form variance expression and learns optimal, data-adaptive interpolation paths automatically, achieving state-of-the-art DRE accuracy.
 </div>
 </div>
 
@@ -253,9 +250,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **arXiv 2025** \| [**Paper**](https://arxiv.org/abs/2509.04852) \| [**Code**]()
 
-- Proposes ISA-DRE, replacing the high-variance instantaneous tangent with its interval integral (the *secant*) as a provably lower-variance and smoother learning target along diffusion interpolants.
-- Introduces the *Secant Alignment Identity (SAI)* to enforce self-consistency between secant and tangent, and *Contraction Interval Annealing (CIA)* for stable convergence.
-- Achieves comparable or superior accuracy with fewer function evaluations and effectively mitigates the density-chasm problem under large distribution discrepancies.
+- Replaces high-variance tangent-based learning targets with their interval integral (*secant*), which is provably lower-variance and smoother for neural networks to learn.
+- Achieves accurate density ratio estimation with fewer function evaluations, and handles large distribution discrepancies more robustly than prior methods.
 </div>
 </div>
 
@@ -273,8 +269,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **ICML 2025** \| [**Paper**](https://openreview.net/forum?id=zvyHCOcwsw) \| [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
 
-- Proposes D3RE, a unified framework for robust DRE under distribution mismatch.
-- Introduces dequantified diffusion/SCHRödinger bridge interpolants for support expansion and stabilized scores.
+- Proposes D3RE, a unified framework that handles the density-chasm and support-chasm problems where existing methods fail.
+- Combines diffusion bridges with optimal transport to expand support coverage and stabilize score learning, enabling robust estimation even for very different distributions.
 </div>
 </div>
 
@@ -298,7 +294,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **Neural Computing and Applications 2024** \| [**Paper**](https://doi.org/10.1007/s00521-024-09916-3)
 
-- Proposes DeepAR-Attention for probabilistic stock price forecasting.
+- Proposes DeepAR-Attention, combining DeepAR with attention mechanisms for probabilistic stock price forecasting.
+- Captures complex temporal dependencies and provides uncertainty-aware predictions for financial time series.
 </div>
 </div>
 
@@ -314,7 +311,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **IEEE Internet of Things Journal (IoTJ) 2024** \| [**Paper**](https://doi.org/10.1109/JIOT.2024.3376748) 
 
-- Develops neural ODE network approaches for fintech applications in IoT settings.
+- Develops neural ODE network approaches that model continuous-time dynamics for fintech applications in IoT.
+- Captures irregularly sampled financial data more naturally than discrete-time models.
 </div>
 </div>
 
@@ -330,8 +328,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://doi.org/10.1109/TIM.2025.3581667)
 
-- Proposes EvolvInformer: integrates ODE solver with ProbSparse attention for long-sequence load forecasting.
-- Achieves 29.7% MSE reduction while preserving logarithmic memory complexity.
+- Proposes EvolvInformer, which integrates neural ODE solvers with sparse attention for long-sequence power load forecasting.
+- Reduces forecasting error by 29.7% (MSE) while maintaining logarithmic memory complexity.
 </div>
 </div>
 
@@ -349,8 +347,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480) \| [**News&#127881;**](https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4)
 
-- TimeWaveDiff: a lightweight self-supervised framework that integrates wavelet decomposition and diffusion modeling to capture multiscale periodicities and robustly learn complex noise patterns in measurement signals.
-- Achieves superior long-term forecasting accuracy with significantly reduced computational cost.
+- Proposes TimeWaveDiff, a lightweight self-supervised framework that combines wavelet decomposition with diffusion modeling for time series.
+- Captures multi-scale periodic patterns and achieves superior long-term forecasting accuracy with significantly lower computational cost.
 </div>
 </div>
 
@@ -368,8 +366,8 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 **Expert Systems with Applications (ESWA) 2025** \| [**Paper**](https://doi.org/10.1016/j.eswa.2025.129944)
 
-- Proposes Diffinformer: combines conditional diffusion models with Informer's ProbSparse attention.
-- Demonstrates consistent improvements across five large-scale datasets.
+- Proposes Diffinformer, which combines conditional diffusion models with Informer's efficient sparse attention for long-sequence time series forecasting.
+- Achieves consistent improvements over existing methods across five large-scale real-world datasets.
 </div>
 </div>
 

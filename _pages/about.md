@@ -101,9 +101,9 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://openreview.net/forum?id=rKASv92Myl), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**NeurIPS 2025** \| [**Paper**](https://openreview.net/pdf?id=rKASv92Myl) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
+**NeurIPS 2025** \| [**Paper**](https://arxiv.org/abs/2509.26096) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
 
 - Proposes EVODiff, a fast inference method for diffusion models that optimizes conditional entropy during denoising.
 - Generates higher-quality images with fewer steps (e.g., 25% fewer steps on ImageNet-256) while significantly reducing artifacts.
@@ -187,7 +187,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 [**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://openreview.net/forum?id=TaNH4XiQ6P), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICML 2026** \| [**Paper**](https://openreview.net/forum?id=TaNH4XiQ6P) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
+**ICML 2026** \| [**Paper**](https://arxiv.org/pdf/2604.18239) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 
 - Reveals that diverse preference optimization objectives share the same update direction and differ only in two scalar weights, and identifies a simple condition (*disentanglement band*) for the desired learning pathway.
 - Proposes a plug-and-play *reward calibration* method that rebalances updates to stay within this band, improving LLM alignment without modifying the base objective.
@@ -229,9 +229,9 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://openreview.net/forum?id=vf16PZJWD1), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2602.00834), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICLR 2026** \| [**Paper**](https://openreview.net/forum?id=vf16PZJWD1) \| [**Code**]()
+**ICLR 2026** \| [**Paper**](https://arxiv.org/abs/2602.00834) \| [**Code**]()
 
 - Resolves the path-dependence paradox in score-based methods by identifying the overlooked *path variance* term in training objectives.
 - Derives a closed-form variance expression and learns optimal, data-adaptive interpolation paths automatically, achieving state-of-the-art DRE accuracy.
@@ -265,9 +265,9 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Dequantified Diffusion-Schrödinger Bridge for Density Ratio Estimation**](https://openreview.net/forum?id=zvyHCOcwsw), **`Wei Chen`**, Shigui Li, Jiacheng Li, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2025dequantified', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**Dequantified Diffusion-Schrödinger Bridge for Density Ratio Estimation**](https://arxiv.org/pdf/2505.05034?), **`Wei Chen`**, Shigui Li, Jiacheng Li, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2025dequantified', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICML 2025** \| [**Paper**](https://openreview.net/forum?id=zvyHCOcwsw) \| [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
+**ICML 2025** \| [**Paper**](https://arxiv.org/pdf/2505.05034?) \| [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
 
 - Proposes D3RE, a unified framework that handles the density-chasm and support-chasm problems where existing methods fail.
 - Combines diffusion bridges with optimal transport to expand support coverage and stabilize score learning, enabling robust estimation even for very different distributions.

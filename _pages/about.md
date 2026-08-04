@@ -10,6 +10,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div class="diffusion-equation" aria-label="Reverse-time diffusion equation">
+  <div class="diffusion-equation__label">reverse-time diffusion</div>
+  <div class="diffusion-equation__math">\(\displaystyle
+    \mathrm{d}\mathbf{x}_t =
+    \left[\mathbf{f}(\mathbf{x}_t,t)-g(t)^2\nabla_{\mathbf{x}}\log p_t(\mathbf{x}_t)\right]\mathrm{d}t
+    + g(t)\,\mathrm{d}\bar{\mathbf{w}}_t
+  \)</div>
+</div>
+
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with researchers at **SCUT** ([Junmei Yang](https://dblp.uni-trier.de/pid/157/9330.html), [Min Chen](https://people.ece.ubc.ca/minchen/), [Jiacheng Li](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN)), **RIKEN-AIP** ([Qibin Zhao](https://qibinzhao.github.io/), [Jian Xu](https://xujianscut.github.io/JianXu.github.io/about/), [Zerui Tao](https://scholar.google.com/citations?hl=zh-CN&user=vcEOMXkAAAAJ), [Yuning Qiu](https://www.researchgate.net/profile/Yuning-Qiu-3), [Chao Li](https://chaoliatriken.github.io/)), **Columbia University** ([John Paisley](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ)), **University of Waterloo** ([Zhou Wang](https://ece.uwaterloo.ca/~z70wang/)), **Tsinghua University** ([Shian Du](https://shiandu.github.io/)), and **Shanghai Jiaotong University** ([Wenjing Lu](https://scholar.google.com.hk/citations?hl=zh-CN&user=yVw0XEMAAAAJ)).
 
 My research focuses on probabilistic modeling and generation, including **deep generative modeling**, **density ratio estimation** (DRE) and **LLM post-training**, with particular interests in diffusion models, normalizing flows, and stochastic interpolation. I aim to develop mathematically grounded methods for probabilistic inference. Recently, I am also interested in applying DRE to post-training (LLM alignment, preference optimization) for trustworthy and safe LLM. 
@@ -20,48 +29,50 @@ I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI,
 Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
 
 
-# 🔥 News
-<ul style="max-height: 300px; overflow-y: auto; padding-right: 10px; padding-left: 20px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0; margin: 0;">
-<li style="margin-bottom: 8px;">2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong style="color: #d32f2f;">ICML 2026</strong>. <a href="#chen2026towards" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong style="color: #d32f2f;">ICLR 2026</strong>. <a href="#chen2026a" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="#li2025generative" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">News&#127881;</a></li>
-<li style="margin-bottom: 8px;">2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong style="color: #d32f2f;">NeurIPS 2025</strong>. <a href="#li2025evodiff" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">News&#127881;</a></li>
-<li style="margin-bottom: 8px;">2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR). <a href="#chen2025entropy" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing. <a href="#lin2025reciprocalla" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong style="color: #d32f2f;">ICML 2025</strong>. <a href="#chen2025dequantified" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
-<li style="margin-bottom: 8px;">2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong style="color: #d32f2f;">CVPR 2022</strong>. <a href="#du2022flow" style="color: #059669; font-size: 0.88em; font-weight: 600; text-decoration: none;">[Paper ↓]</a></li>
+<span class='anchor' id='news'></span>
+# <span class="section-number">01</span> News
+<ul class="news-list">
+<li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
+<li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>
+<li>2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer">[Paper ↓]</a></li>
+<li>2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="#li2025generative">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">[News]</a></li>
+<li>2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong>NeurIPS 2025</strong>. <a href="#li2025evodiff">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">[News]</a></li>
+<li>2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR). <a href="#chen2025entropy">[Paper ↓]</a></li>
+<li>2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing. <a href="#lin2025reciprocalla">[Paper ↓]</a></li>
+<li>2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong>ICML 2025</strong>. <a href="#chen2025dequantified">[Paper ↓]</a></li>
+<li>2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong>CVPR 2022</strong>. <a href="#du2022flow">[Paper ↓]</a></li>
 </ul>
 
-# 📝 Publications 
+<span class='anchor' id='publications'></span>
+# <span class="section-number">02</span> Publications
 
-<div style="margin: 8px 0 14px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: linear-gradient(135deg, #eef4ff 0%, #f5f3ff 100%);">
-  <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px; margin-bottom: 10px;">
-    <div style="font-weight: 700; font-size: 1.02em;">📊 Google Scholar Stats</div>
-    <div style="color: #6b7280; font-size: 0.85em;">Last updated: <span id="gs-updated">—</span></div>
+<div class="academic-panel scholar-panel">
+  <div class="panel-heading">
+    <div class="panel-title">Google Scholar</div>
+    <div class="panel-updated">Last updated: <span id="gs-updated">—</span></div>
   </div>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
-    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #dbeafe; text-align: center;">
-      <div style="font-size: 1.5em; font-weight: 800; color: #1d4ed8; line-height: 1.2;" id="gs-citations">—</div>
-      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">Total Citations</div>
+  <div class="metric-grid">
+    <div class="metric">
+      <div class="metric-value" id="gs-citations">—</div>
+      <div class="metric-label">Total Citations</div>
     </div>
-    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #d1fae5; text-align: center;">
-      <div style="font-size: 1.5em; font-weight: 800; color: #059669; line-height: 1.2;" id="gs-hindex">—</div>
-      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">h-index</div>
+    <div class="metric">
+      <div class="metric-value" id="gs-hindex">—</div>
+      <div class="metric-label">h-index</div>
     </div>
-    <div style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #fde68a; text-align: center;">
-      <div style="font-size: 1.5em; font-weight: 800; color: #b45309; line-height: 1.2;" id="gs-i10index">—</div>
-      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">i10-index</div>
+    <div class="metric">
+      <div class="metric-value" id="gs-i10index">—</div>
+      <div class="metric-label">i10-index</div>
     </div>
-    <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ" target="_blank" rel="noopener" style="padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #e5e7eb; text-align: center; text-decoration: none; color: inherit; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-      <div style="font-size: 1.2em; font-weight: 700; color: #4b5563; line-height: 1.2;">View&nbsp;→</div>
-      <div style="font-size: 0.86em; color: #4b5563; margin-top: 2px;">Google Scholar</div>
+    <a class="metric metric-link" href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ" target="_blank" rel="noopener">
+      <div class="metric-value">View&nbsp;→</div>
+      <div class="metric-label">Profile</div>
     </a>
   </div>
 </div>
 
-<div style="margin: 8px 0 18px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
-  <div style="font-weight: 700; margin-bottom: 12px;">📌 Research Overview</div>
+<div class="academic-panel research-overview">
+  <div class="panel-title">Research Overview</div>
   <div class="topic-grid">
     <a href="#" class="filter-link topic-card active" id="filter-all" onclick="showTopic('all'); return false;">
       <div class="topic-card-title">All Papers</div>
@@ -373,74 +384,64 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 </div>
 
-# 🎖 Honors and Awards
-<div style="margin: 8px 0 16px 0; padding: 12px 14px; border-left: 4px solid #f59e0b; background: #fffbeb; border-radius: 8px;">
-  <div style="font-weight: 700; margin-bottom: 4px;">Highlights</div>
-  <div style="color: #6b7280; font-size: 0.95em;">More awards are being updated.</div>
-  <ul style="margin: 8px 0 0 18px;">
+<span class='anchor' id='honors'></span>
+# <span class="section-number">03</span> Honors and Awards
+<div class="quiet-note">
+  <div class="entry-title">Highlights</div>
+  <div class="entry-meta">More awards are being updated.</div>
+  <ul>
     <li><b>2021.10</b> — None</li>
   </ul>
 </div>
 
-# 📖 Educations
-<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 8px 0 10px 0;">
-  <img src="images/scut.png" alt="SCUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+<span class='anchor' id='education'></span>
+# <span class="section-number">04</span> Education
+<div class="entry-list">
+<div class="profile-entry">
+  <img src="images/scut.png" alt="SCUT">
   <div>
-    <div style="font-weight: 700;">Ph.D. Candidate in Computational Mathematics</div>
-    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
-    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2022.06 – 2026.06 (now)</div>
+    <div class="entry-title">Ph.D. Candidate in Computational Mathematics</div>
+    <div class="entry-detail">School of Mathematics, South China University of Technology (SCUT)</div>
+    <div class="entry-meta">2022.06 – 2026.06 (now)</div>
   </div>
 </div>
-<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 0 0 10px 0;">
-  <img src="images/scut.png" alt="SCUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+<div class="profile-entry">
+  <img src="images/scut.png" alt="SCUT">
   <div>
-    <div style="font-weight: 700;">M.S., Successive Master–Doctor Program in Computational Mathematics</div>
-    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics, South China University of Technology (SCUT)</div>
-    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2021.09 – 2022.06</div>
+    <div class="entry-title">M.S., Successive Master–Doctor Program in Computational Mathematics</div>
+    <div class="entry-detail">School of Mathematics, South China University of Technology (SCUT)</div>
+    <div class="entry-meta">2021.09 – 2022.06</div>
   </div>
 </div>
-<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 0 0 18px 0;">
-  <img src="images/whut.png" alt="WHUT" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+<div class="profile-entry">
+  <img src="images/whut.png" alt="WHUT">
   <div>
-    <div style="font-weight: 700;">B.S. in Statistics</div>
-    <div style="color: #4b5563; font-size: 0.95em; margin-top: 3px;">School of Mathematics and Statistics, Wuhan University of Technology (WHUT)</div>
-    <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">2017.09 – 2021.06</div>
+    <div class="entry-title">B.S. in Statistics</div>
+    <div class="entry-detail">School of Mathematics and Statistics, Wuhan University of Technology (WHUT)</div>
+    <div class="entry-meta">2017.09 – 2021.06</div>
   </div>
 </div>
-
-# 💬 Invited Talks
-<div style="margin: 8px 0 16px 0; padding: 12px 14px; border: 1px solid #dbeafe; border-radius: 10px; background: #eff6ff;">
-  <div style="font-weight: 700; color: #1d4ed8;">Online Keynote Speaker · University of Waterloo</div>
-  <div style="margin-top: 6px;"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate or Fast' to 'Accurate and Fast'"</div>
-  <div style="color: #6b7280; font-size: 0.9em; margin-top: 5px;">Feb 2026</div>
 </div>
 
-# 💻 Internships
-<div style="display: flex; align-items: center; gap: 16px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 10px; background: #ffffff; margin: 8px 0 16px 0;">
-  <img src="images/AIP.png" alt="RIKEN AIP" style="width: 100px; height: auto; object-fit: contain; flex: 0 0 100px; box-shadow: 2px 2px 4px #ccc; border-radius: 4px;">
+<span class='anchor' id='talks'></span>
+# <span class="section-number">05</span> Invited Talks
+<div class="single-entry">
+  <div class="entry-title">Online Keynote Speaker · University of Waterloo</div>
+  <div class="entry-detail"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate or Fast' to 'Accurate and Fast'"</div>
+  <div class="entry-meta">Feb 2026</div>
+</div>
+
+<span class='anchor' id='internships'></span>
+# <span class="section-number">06</span> Internships
+<div class="entry-list">
+<div class="profile-entry">
+  <img src="images/AIP.png" alt="RIKEN AIP">
   <div>
-    <div style="font-weight: 700;">RIKEN AIP — Tensor Learning Team</div>
-    <div style="color: #6b7280; font-size: 0.9em; margin-top: 2px;"><em>2026.02 – 2026.05</em></div>
-    <div style="margin-top: 4px;">Supervisor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
+    <div class="entry-title">RIKEN AIP — Tensor Learning Team</div>
+    <div class="entry-meta">2026.02 – 2026.05</div>
+    <div class="entry-detail">Supervisor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
   </div>
 </div>
-
-# 🌍 Visitors
-<div style="margin: 8px 0 16px 0; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa;">
-  <div style="font-weight: 700; margin-bottom: 6px;">Where are visitors coming from?</div>
-
-  <div style="color: #6b7280; font-size: 0.92em; margin-bottom: 12px;">
-    Thanks for stopping by! This map shows an approximate geographic distribution of visitors.
-  </div>
-
-  <div style="text-align: center; position: relative;">
-    <div style="pointer-events: none;">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew"></script>
-    </div>
-    <noscript>
-      <img src="//clustrmaps.com/map_v2.png?d=-hlnrjihj1FU7KhXH9LKz5LdiBs9j6zdN3_wwFSH9ew&cl=ffffff" alt="Visitor map" style="width: 100%; height: auto; border: 0;" />
-    </noscript>
-  </div>
 </div>
 
 <script>

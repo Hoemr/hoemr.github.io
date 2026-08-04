@@ -1,3 +1,5 @@
 _site/
+node_modules/
+.wrangler/
 push.sh
 .DS_Store

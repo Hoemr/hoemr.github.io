@@ -444,6 +444,28 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+<span class='anchor' id='visitors'></span>
+# <span class="section-number">07</span> Visitors
+<div class="visitor-counter" data-visitor-counter data-endpoint="{{ site.visitor_counter_endpoint }}">
+  <div class="visitor-counter__metric">
+    <span class="visitor-counter__symbol">N<sub>unique</sub></span>
+    <strong class="visitor-counter__value" data-unique-visitors aria-live="polite">—</strong>
+    <span class="visitor-counter__label">all-time visitors</span>
+  </div>
+  <div class="visitor-counter__metric">
+    <span class="visitor-counter__symbol">N<sub>today</sub></span>
+    <strong class="visitor-counter__value" data-today-unique aria-live="polite">—</strong>
+    <span class="visitor-counter__label">visitors today</span>
+  </div>
+  <div class="visitor-counter__metric">
+    <span class="visitor-counter__symbol">Σ views</span>
+    <strong class="visitor-counter__value" data-total-views aria-live="polite">—</strong>
+    <span class="visitor-counter__label">page views</span>
+  </div>
+  <div class="visitor-counter__status" data-counter-status>Loading anonymous visitor statistics…</div>
+</div>
+<script src="{{ '/assets/js/visitor-counter.js' | relative_url }}" defer></script>
+
 <script>
 var bibData = {
   "li2025evodiff": "@inproceedings{li2025evodiff,\n  title={EVODiff: Entropy-aware Variance Optimized Diffusion Inference},\n  author={Shigui Li and Wei Chen and Delu Zeng},\n  booktitle={The Annual Conference on Neural Information Processing Systems},\n  year={2025},\n  url={https://openreview.net/forum?id=rKASv92Myl}\n}",

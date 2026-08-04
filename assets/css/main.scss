@@ -318,6 +318,61 @@ h1:before, .anchor:before {
     font-family: $monospace;
 }
 
+.visitor-counter {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: .5rem 0 2rem;
+    padding: 1rem 0 .7rem;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+}
+
+.visitor-counter__metric {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: .75rem;
+    align-items: baseline;
+    padding: .2rem 1.15rem;
+    border-left: 1px solid $border-color;
+
+    &:first-child {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+.visitor-counter__symbol {
+    color: #74776f;
+    font-family: $serif;
+    font-size: .88rem;
+    font-style: italic;
+}
+
+.visitor-counter__value {
+    color: $primary-color;
+    font-family: $serif;
+    font-size: 1.4rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+}
+
+.visitor-counter__label {
+    grid-column: 2;
+    color: #74776f;
+    font-size: .76rem;
+}
+
+.visitor-counter__status {
+    grid-column: 1 / -1;
+    margin-top: .9rem;
+    padding-top: .65rem;
+    border-top: 1px dotted $border-color;
+    color: #74776f;
+    font-family: $monospace;
+    font-size: .68rem;
+    letter-spacing: .02em;
+}
+
 @media (max-width: $small) {
     .metric-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -334,6 +389,20 @@ h1:before, .anchor:before {
 
         img {
             width: 56px;
+        }
+    }
+
+    .visitor-counter {
+        grid-template-columns: 1fr;
+    }
+
+    .visitor-counter__metric {
+        padding: .65rem 0;
+        border-top: 1px dotted $border-color;
+        border-left: 0;
+
+        &:first-child {
+            border-top: 0;
         }
     }
 }

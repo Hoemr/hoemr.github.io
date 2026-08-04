@@ -12,6 +12,7 @@ title_separator          : "-"
 description              : "Focusing on probabilistic modeling & generation."
 repository               : "hoemr/hoemr.github.io"
 google_scholar_stats_use_cdn : true
+visitor_counter_endpoint : "https://hoemr-visitor-counter.wei-chen-home.workers.dev/visit"
 
 # google analytics
 google_analytics_id      : "G-NKQYF1TB6S" # get google_analytics_id from https://analytics.google.com/analytics/
@@ -69,6 +70,7 @@ include:
 exclude:
   - docs
   - google_scholar_crawler
+  - visitor-counter
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

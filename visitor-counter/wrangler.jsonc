@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "hoemr-visitor-counter",
+	"main": "src/index.js",
+	"compatibility_date": "2026-08-04",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "hoemr-visitors",
+			"database_id": "1fa9afda-ac85-4ffa-9180-454d78b7a51f"
+		}
+	]
+}

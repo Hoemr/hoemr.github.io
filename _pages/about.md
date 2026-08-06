@@ -32,6 +32,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='news'></span>
 # <span class="section-number">01</span> News
 <ul class="news-list">
+<li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
 <li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>
 <li>2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer">[Paper ↓]</a></li>
@@ -76,11 +77,11 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   <div class="topic-grid">
     <a href="#" class="filter-link topic-card active" id="filter-all" onclick="showTopic('all'); return false;">
       <div class="topic-card-title">All Papers</div>
-      <div class="topic-card-meta">14 papers</div>
+      <div class="topic-card-meta">15 papers</div>
     </a>
     <a href="#" class="filter-link topic-card topic-generative" id="filter-generative" onclick="showTopic('generative'); return false;">
       <div class="topic-card-title">Deep Generative Modeling</div>
-      <div class="topic-card-meta">4 papers · Diffusion / Normalizing Flow</div>
+      <div class="topic-card-meta">5 papers · Diffusion / Variational Inference</div>
     </a>
     <a href="#" class="filter-link topic-card topic-llm" id="filter-llm" onclick="showTopic('llm'); return false;">
       <div class="topic-card-title">LLM Post-Training</div>
@@ -102,6 +103,24 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 ## Deep Generative Modeling
 
 <div id="section-generative">
+
+<span class='anchor' id='xu2026implicit'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">UAI 2026</div>
+<img src="images/ivrs.svg" alt="Implicit Variational Rejection Sampling overview" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU), Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao* <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**UAI 2026** \| [**Paper**](https://openreview.net/forum?id=fqSPFeDbOU) \| [**arXiv**](https://arxiv.org/abs/2606.14235)
+
+- Combines flexible implicit proposal distributions with rejection sampling, using a discriminator to estimate the proposal-to-posterior density ratio.
+- Introduces the Implicit Resampling Evidence Lower Bound (IR-ELBO), yielding a tighter variational bound and improved posterior approximation.
+</div>
+</div>
 
 <span class='anchor' id='li2025evodiff'></span>
 
@@ -425,10 +444,17 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <span class='anchor' id='talks'></span>
 # <span class="section-number">05</span> Invited Talks
-<div class="single-entry">
+<div class="entry-list talk-list">
+<div class="talk-entry">
+  <div class="entry-title">Invited Talk · University of Waterloo</div>
+  <div class="entry-detail"><b>Topic:</b> "From Density Ratios to Preference Dynamics: Diagnosing and Calibrating Preference Optimization"</div>
+  <div class="entry-meta">June 30, 2026</div>
+</div>
+<div class="talk-entry">
   <div class="entry-title">Online Keynote Speaker · University of Waterloo</div>
   <div class="entry-detail"><b>Topic:</b> "One-Step Score-Based Density Ratio Estimation: From 'Accurate or Fast' to 'Accurate and Fast'"</div>
   <div class="entry-meta">Feb 2026</div>
+</div>
 </div>
 
 <span class='anchor' id='internships'></span>
@@ -468,6 +494,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <script>
 var bibData = {
+  "xu2026implicit": "@inproceedings{xu2026implicit,\n  title={Implicit Variational Rejection Sampling},\n  author={Xu, Jian and Li, Shigui and Chen, Wei and Li, Jiacheng and Lin, Zhiqi and Zeng, Delu and Ding, Xinghao and Paisley, John and Zhao, Qibin},\n  booktitle={Conference on Uncertainty in Artificial Intelligence},\n  year={2026},\n  url={https://openreview.net/forum?id=fqSPFeDbOU}\n}",
   "li2025evodiff": "@inproceedings{li2025evodiff,\n  title={EVODiff: Entropy-aware Variance Optimized Diffusion Inference},\n  author={Shigui Li and Wei Chen and Delu Zeng},\n  booktitle={The Annual Conference on Neural Information Processing Systems},\n  year={2025},\n  url={https://openreview.net/forum?id=rKASv92Myl}\n}",
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",
   "lin2025reciprocalla": "@article{lin2025reciprocalla,\n  title={ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process},\n  author={Lin, Zhiqi and Chen, Wei and Xu, Jian and Zeng, Delu and Chen, Min},\n  journal={Neurocomputing},\n  pages={131438},\n  year={2025},\n  publisher={Elsevier}\n}",
@@ -503,6 +530,7 @@ function copyBib(key, event) {
 
 // Topic filter: anchor-to-topic mapping (for News section links)
 var anchorToTopic = {
+  'xu2026implicit': 'generative',
   'li2025evodiff': 'generative',
   'chen2025entropy': 'generative',
   'lin2025reciprocalla': 'generative',

@@ -3,6 +3,14 @@ const ALLOWED_ORIGINS = new Set([
   "http://localhost:4000",
 ]);
 
+// The retired counter recorded several hundred visitors before this first-party
+// counter went live. These estimates preserve that historical continuity while
+// keeping today's count entirely database-backed.
+export const LEGACY_BASELINE = Object.freeze({
+  uniqueVisitors: 487,
+  pageViews: 731,
+});
+
 const UUID_V4_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
@@ -73,11 +81,19 @@ async function recordVisit(request, env, headers) {
     `).bind(day),
   ]);
 
-  const stats = results[3]?.results?.[0];
+  const databaseStats = results[3]?.results?.[0];
 
-  if (!stats) {
+  if (!databaseStats) {
     return json({ error: "Statistics unavailable" }, 500, headers);
   }
+
+  const stats = {
+    ...databaseStats,
+    total_views: Number(databaseStats.total_views) + LEGACY_BASELINE.pageViews,
+    unique_visitors:
+      Number(databaseStats.unique_visitors) + LEGACY_BASELINE.uniqueVisitors,
+    includes_legacy_baseline: true,
+  };
 
   return json(stats, 200, headers);
 }

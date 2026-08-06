@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Implicit Variational Rejection Sampling</title>
+  <desc id="desc">A mathematical diagram showing samples from an implicit proposal being calibrated by a density-ratio discriminator and accepted into a refined posterior.</desc>
+  <rect width="720" height="420" fill="#f6f5ee"/>
+  <g stroke="#d8d8ce" stroke-width="1">
+    <path d="M0 70H720M0 140H720M0 210H720M0 280H720M0 350H720"/>
+    <path d="M90 0V420M180 0V420M270 0V420M360 0V420M450 0V420M540 0V420M630 0V420"/>
+  </g>
+  <text x="42" y="52" fill="#24574f" font-family="Georgia, serif" font-size="28" font-weight="700">Implicit Variational Rejection Sampling</text>
+  <text x="43" y="82" fill="#6d7069" font-family="monospace" font-size="14" letter-spacing="2">IMPLICIT PROPOSAL  →  DENSITY RATIO  →  RESAMPLED POSTERIOR</text>
+  <g transform="translate(52 125)">
+    <rect width="166" height="174" rx="6" fill="#fffef9" stroke="#aebbb5" stroke-width="2"/>
+    <text x="83" y="34" text-anchor="middle" fill="#24574f" font-family="Georgia, serif" font-size="22" font-style="italic">z ∼ qφ(z|x)</text>
+    <g fill="#91aaa2">
+      <circle cx="40" cy="76" r="7"/><circle cx="77" cy="67" r="7"/><circle cx="117" cy="82" r="7"/>
+      <circle cx="55" cy="115" r="7"/><circle cx="96" cy="107" r="7"/><circle cx="135" cy="126" r="7"/>
+      <circle cx="81" cy="145" r="7"/>
+    </g>
+  </g>
+  <path d="M235 212H286" stroke="#24574f" stroke-width="3"/>
+  <path d="m278 204 12 8-12 8" fill="none" stroke="#24574f" stroke-width="3"/>
+  <g transform="translate(292 125)">
+    <rect width="166" height="174" rx="6" fill="#fffef9" stroke="#aebbb5" stroke-width="2"/>
+    <text x="83" y="34" text-anchor="middle" fill="#24574f" font-family="Georgia, serif" font-size="20" font-style="italic">rψ(z, x)</text>
+    <path d="M25 132 C50 127 59 79 83 79 C108 79 112 114 142 55" fill="none" stroke="#9d5048" stroke-width="4"/>
+    <path d="M25 145H143M25 52V145" stroke="#bfc2ba" stroke-width="2"/>
+    <text x="83" y="162" text-anchor="middle" fill="#6d7069" font-family="monospace" font-size="12">discriminator</text>
+  </g>
+  <path d="M475 212H526" stroke="#24574f" stroke-width="3"/>
+  <path d="m518 204 12 8-12 8" fill="none" stroke="#24574f" stroke-width="3"/>
+  <g transform="translate(532 125)">
+    <rect width="136" height="174" rx="6" fill="#fffef9" stroke="#aebbb5" stroke-width="2"/>
+    <text x="68" y="34" text-anchor="middle" fill="#24574f" font-family="Georgia, serif" font-size="20" font-style="italic">q̃(z|x)</text>
+    <g fill="#24574f">
+      <circle cx="39" cy="82" r="8"/><circle cx="73" cy="69" r="8"/><circle cx="100" cy="91" r="8"/>
+      <circle cx="55" cy="118" r="8"/><circle cx="89" cy="125" r="8"/>
+    </g>
+    <text x="68" y="160" text-anchor="middle" fill="#6d7069" font-family="monospace" font-size="12">accept / reject</text>
+  </g>
+  <text x="360" y="355" text-anchor="middle" fill="#24574f" font-family="Georgia, serif" font-size="24" font-style="italic">IR-ELBO ≤ log p(x)</text>
+  <text x="360" y="384" text-anchor="middle" fill="#6d7069" font-family="monospace" font-size="13">a tighter variational lower bound</text>
+</svg>

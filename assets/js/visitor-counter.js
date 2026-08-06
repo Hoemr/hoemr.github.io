@@ -41,7 +41,9 @@
         Number(stats.today_unique).toLocaleString();
       counter.querySelector("[data-total-views]").textContent =
         Number(stats.total_views).toLocaleString();
-      status.textContent = "Anonymous first-party count · no IP stored";
+      status.textContent = stats.includes_legacy_baseline
+        ? "Anonymous first-party count · includes legacy estimate · no IP stored"
+        : "Anonymous first-party count · no IP stored";
       counter.classList.add("visitor-counter--ready");
     })
     .catch(function () {

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import worker, { isValidVisitorId } from "../src/index.js";
+import worker, { isValidVisitorId, LEGACY_BASELINE } from "../src/index.js";
 
 const VALID_VISITOR_ID = "123e4567-e89b-42d3-a456-426614174000";
 
@@ -49,7 +49,7 @@ test("rejects requests from other origins", async () => {
   assert.equal(response.status, 403);
 });
 
-test("records a visit and returns aggregate statistics", async () => {
+test("records a visit and adds the legacy baseline to cumulative statistics", async () => {
   const stats = {
     total_views: 120,
     unique_visitors: 80,
@@ -74,5 +74,10 @@ test("records a visit and returns aggregate statistics", async () => {
     response.headers.get("Access-Control-Allow-Origin"),
     "https://hoemr.github.io",
   );
-  assert.deepEqual(await response.json(), stats);
+  assert.deepEqual(await response.json(), {
+    ...stats,
+    total_views: stats.total_views + LEGACY_BASELINE.pageViews,
+    unique_visitors: stats.unique_visitors + LEGACY_BASELINE.uniqueVisitors,
+    includes_legacy_baseline: true,
+  });
 });

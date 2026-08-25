@@ -242,7 +242,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 [**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672), **`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng* <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.10672) \| [**Code**]()
+**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.10672) \| [**Code**](https://github.com/Hoemr/OpenDRE)
 
 - Proposes OS-DRE, a solver-free framework that decomposes the time score into spatial and temporal parts, with the temporal part solved analytically.
 - Enables accurate density ratio estimation with only *one* function evaluation, combining the speed of classical methods with the accuracy of score-based approaches.

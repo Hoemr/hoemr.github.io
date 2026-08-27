@@ -215,7 +215,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-box-text" markdown="1">
 
-[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://openreview.net/pdf?id=TaNH4XiQ6P), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://arxiv.org/pdf/2604.18239), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 **ICML 2026** \| [**Paper**](https://arxiv.org/pdf/2604.18239) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
 

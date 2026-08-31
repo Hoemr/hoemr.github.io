@@ -32,6 +32,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='news'></span>
 # <span class="section-number">01</span> News
 <ul class="news-list">
+<li>2026.08: I have joined <a href="https://github.com/omdsh-dev/DSH-better-sidebar"><strong>DSH-better-sidebar</strong></a> as a contributor. <a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=flat-square&logo=github&logoColor=white&label=Stars&color=7d342d" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a> <a href="#open-source">[Details ↓]</a></li>
 <li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
 <li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>
@@ -470,8 +471,43 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 </div>
 
+<span class='anchor' id='open-source'></span>
+# <span class="section-number">07</span> Open Source
+
+Selected open-source projects I maintain or contribute to. Live badges below reflect the current state on GitHub.
+
+<div class="opensource-grid">
+
+  <div class="opensource-card">
+    <div class="opensource-card__header">
+      <h3><a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">DSH-better-sidebar</a></h3>
+      <span class="opensource-card__role role-contributor">Contributor</span>
+    </div>
+    <div class="opensource-card__badges">
+      <a href="https://github.com/omdsh-dev/DSH-better-sidebar/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
+      <a href="https://github.com/omdsh-dev/DSH-better-sidebar/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
+      <img src="https://img.shields.io/github/license/omdsh-dev/DSH-better-sidebar?style=for-the-badge" alt="License">
+    </div>
+    <p class="opensource-card__desc">An enhanced sidebar for Overleaf with file-tree, outline and productivity tweaks for the Data Science Hub (DSH) workflow. I contribute as a maintainer-side collaborator.</p>
+  </div>
+
+  <div class="opensource-card">
+    <div class="opensource-card__header">
+      <h3><a href="https://github.com/Hoemr/paper-to-beamer" target="_blank" rel="noopener">paper-to-beamer</a></h3>
+      <span class="opensource-card__role">Author</span>
+    </div>
+    <div class="opensource-card__badges">
+      <a href="https://github.com/Hoemr/paper-to-beamer/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
+      <a href="https://github.com/Hoemr/paper-to-beamer/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
+      <img src="https://img.shields.io/github/license/Hoemr/paper-to-beamer?style=for-the-badge" alt="License">
+    </div>
+    <p class="opensource-card__desc">A lightweight pipeline that turns an academic paper (PDF / markdown source) into a clean Beamer slide deck — extracts structure, generates section/subsection frames, and produces ready-to-compile LaTeX for journal-club or group-meeting talks.</p>
+  </div>
+
+</div>
+
 <span class='anchor' id='visitors'></span>
-# <span class="section-number">07</span> Visitors
+# <span class="section-number">08</span> Visitors
 <div class="visitor-counter" data-visitor-counter data-endpoint="{{ site.visitor_counter_endpoint }}">
   <div class="visitor-counter__metric">
     <span class="visitor-counter__symbol">N<sub>unique</sub></span>

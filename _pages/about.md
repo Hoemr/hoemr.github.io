@@ -36,11 +36,11 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
 <li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>
-<li>2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to Expert Systems With Applications (ESWA). <a href="#li2025diffinformer">[Paper ↓]</a></li>
-<li>2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to IEEE T-IM. <a href="#li2025generative">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">[News]</a></li>
+<li>2025.10: Our paper about <em>diffusion informer for time series modeling</em> is accepted to <strong>Expert Systems With Applications (ESWA)</strong>. <a href="#li2025diffinformer">[Paper ↓]</a></li>
+<li>2025.10: Our paper about <em>wavelet diffusion for time series modeling</em> is accepted to <strong>IEEE T-IM</strong>. <a href="#li2025generative">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4">[News]</a></li>
 <li>2025.09: Our paper about <em>diffusion modeling acceleration</em> is accepted to <strong>NeurIPS 2025</strong>. <a href="#li2025evodiff">[Paper ↓]</a> <a href="https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ">[News]</a></li>
-<li>2025.09: Our paper about <em>normalizing flow</em> is accepted to Pattern Recognition (PR). <a href="#chen2025entropy">[Paper ↓]</a></li>
-<li>2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to Neurocomputing. <a href="#lin2025reciprocalla">[Paper ↓]</a></li>
+<li>2025.09: Our paper about <em>normalizing flow</em> is accepted to <strong>Pattern Recognition (PR)</strong>. <a href="#chen2025entropy">[Paper ↓]</a></li>
+<li>2025.08: Our paper about <em>diffusion models for low-level CV</em> is accepted to <strong>Neurocomputing</strong>. <a href="#lin2025reciprocalla">[Paper ↓]</a></li>
 <li>2025.05: Our paper about <em>stable & efficient density ratio estimation</em> is accepted to <strong>ICML 2025</strong>. <a href="#chen2025dequantified">[Paper ↓]</a></li>
 <li>2022.02: Our paper about <em>efficient continuous normalizing flow</em> is accepted to <strong>CVPR 2022</strong>. <a href="#du2022flow">[Paper ↓]</a></li>
 </ul>

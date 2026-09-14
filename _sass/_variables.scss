@@ -12,12 +12,12 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* system typefaces */
-$serif                      : "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, Times, serif;
-$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
-
-// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+/* system typefaces
+   Serif carries the long-form prose; the sans face is reserved for navigation,
+   metadata and small UI labels. Both fall back to a stable system stack, so the
+   site still reads correctly if the webfonts never load. */
+$serif                      : "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
+$sans-serif                 : "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 $monospace                  : "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 
 /* sans serif typefaces */
@@ -31,9 +31,13 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
+$global-font-family         : $serif;
 $header-font-family         : $serif;
 $caption-font-family        : $serif;
+
+/* headings are set slightly tighter and never heavier than semibold */
+$heading-font-weight        : 600;
+$heading-letter-spacing     : -0.01em;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -62,6 +66,13 @@ $code-background-color      : #f3f3ed;
 $code-background-color-dark : $light-gray;
 $text-color                 : #262722;
 $border-color               : #deded5;
+
+/* paper surfaces and quiet ink used by the content cards */
+$paper-surface              : #fffef9;
+$paper-surface-muted        : #f5f5ee;
+$paper-line                 : #d9dbd2;
+$paper-ink-muted            : #74776f;
+$paper-ink-soft             : #50534d;
 
 $primary-color              : #24574f;
 $success-color              : #62c462;

@@ -51,7 +51,7 @@ I also collaborate with researchers at:
   </div>
   <div class="collab-row">
     <div class="collab-org">RIKEN-AIP</div>
-    <div class="collab-people"><a href="https://qibinzhao.github.io/">Qibin Zhao</a>, <a href="https://xujianscut.github.io/JianXu.github.io/about/">Jian Xu</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=vcEOMXkAAAAJ">Zerui Tao</a>, <a href="https://www.researchgate.net/profile/Yuning-Qiu-3">Yuning Qiu</a>, <a href="https://chaoliatriken.github.io/">Chao Li</a></div>, <a href="https://pingzaiwang.github.io/homepage/">Andong Wang</a></div>
+    <div class="collab-people"><a href="https://qibinzhao.github.io/">Qibin Zhao</a>, <a href="https://xujianscut.github.io/JianXu.github.io/about/">Jian Xu</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=vcEOMXkAAAAJ">Zerui Tao</a>, <a href="https://www.researchgate.net/profile/Yuning-Qiu-3">Yuning Qiu</a>, <a href="https://chaoliatriken.github.io/">Chao Li</a>, <a href="https://pingzaiwang.github.io/homepage/">Andong Wang</a></div>
   </div>
   <div class="collab-row">
     <div class="collab-org">Columbia University</div>
@@ -126,6 +126,10 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
   <div class="panel-heading">
     <div class="panel-title">Research Overview</div>
     <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (15)</a>
+  </div>
+  <div class="topic-hint">
+    <span class="topic-hint__hand" aria-hidden="true">&#9758;</span>
+    <span id="topic-hint-text">Click a topic to filter the publications below</span>
   </div>
   <div class="topic-list">
     <a href="#" class="filter-link topic-card" id="filter-imperfect" onclick="showTopic('imperfect'); return false;">
@@ -716,6 +720,14 @@ function showTopic(topicId) {
   filterLinks.forEach(function(link) { link.classList.remove('active'); });
   var activeLink = document.getElementById('filter-' + topicId);
   if (activeLink) activeLink.classList.add('active');
+
+  // Keep the hint line in step with what is currently on screen
+  var hint = document.getElementById('topic-hint-text');
+  if (hint) {
+    hint.textContent = (topicId === 'all')
+      ? 'Click a topic to filter the publications below'
+      : 'Showing one topic only — click “All papers” to see everything again';
+  }
 
   if (topicId === 'all') {
     // Show all sections

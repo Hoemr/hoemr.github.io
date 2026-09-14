@@ -51,7 +51,7 @@ I also collaborate with researchers at:
   </div>
   <div class="collab-row">
     <div class="collab-org">RIKEN-AIP</div>
-    <div class="collab-people"><a href="https://qibinzhao.github.io/">Qibin Zhao</a>, <a href="https://xujianscut.github.io/JianXu.github.io/about/">Jian Xu</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=vcEOMXkAAAAJ">Zerui Tao</a>, <a href="https://www.researchgate.net/profile/Yuning-Qiu-3">Yuning Qiu</a>, <a href="https://chaoliatriken.github.io/">Chao Li</a></div>
+    <div class="collab-people"><a href="https://qibinzhao.github.io/">Qibin Zhao</a>, <a href="https://xujianscut.github.io/JianXu.github.io/about/">Jian Xu</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=vcEOMXkAAAAJ">Zerui Tao</a>, <a href="https://www.researchgate.net/profile/Yuning-Qiu-3">Yuning Qiu</a>, <a href="https://chaoliatriken.github.io/">Chao Li</a></div>, <a href="https://pingzaiwang.github.io/homepage/">Andong Wang</a></div>
   </div>
   <div class="collab-row">
     <div class="collab-org">Columbia University</div>

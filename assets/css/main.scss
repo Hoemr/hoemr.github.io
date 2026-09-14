@@ -43,7 +43,10 @@
 .page__content {
     --paper-line: #{$paper-line};
 
-    /* long-form prose: serif, generous measure and leading */
+    /* long-form prose: serif, generous leading and a capped measure — without
+       this the article runs to ~120 characters per line on a wide display,
+       which is a large part of why the prose read as dense */
+    max-width: 50rem;
     line-height: 1.72;
 
     h1 {
@@ -168,9 +171,9 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-.topic-grid {
+/* one full-width row per research line: number | title + topics | paper count */
+.topic-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 8px;
 }
 
@@ -180,7 +183,10 @@ h1:before, .anchor:before {
 }
 
 .topic-card {
-    display: block;
+    display: grid;
+    grid-template-columns: 2.1rem minmax(0, 1fr) auto;
+    gap: .15rem .9rem;
+    align-items: baseline;
     padding: 12px 14px;
     border-radius: 4px;
     border: 1px solid $border-color;
@@ -204,23 +210,7 @@ h1:before, .anchor:before {
     }
 }
 
-/* applications are deliberately quieter than the three research lines */
-.topic-card--secondary {
-    margin-top: 8px;
-    border-style: dashed;
-    background: transparent;
-
-    .topic-card-title {
-        font-size: .95em;
-    }
-
-    &:hover {
-        background: $paper-surface;
-    }
-}
-
 .topic-card-index {
-    margin-bottom: .28rem;
     color: $primary-color;
     font-family: $monospace;
     font-size: .68rem;
@@ -235,7 +225,7 @@ h1:before, .anchor:before {
 }
 
 .topic-card-meta {
-    margin-top: .3rem;
+    margin-top: .22rem;
     color: $paper-ink-muted;
     font-family: $sans-serif;
     font-size: .8rem;
@@ -243,11 +233,12 @@ h1:before, .anchor:before {
 }
 
 .topic-card-count {
-    margin-top: .5rem;
+    justify-self: end;
     color: $paper-ink-muted;
     font-family: $sans-serif;
     font-size: .78rem;
     font-variant-numeric: tabular-nums;
+    white-space: nowrap;
 
     &--emerging {
         color: $primary-color;
@@ -321,7 +312,101 @@ h1:before, .anchor:before {
     }
 }
 
-.section-question {
+/* the research statement sits under the trajectory: one question, three
+   settings, then the methods — each on its own line rather than in a block
+   of prose, which is what made the old intro read as a wall of text */
+.research-statement {
+    margin: 0 0 1.6rem;
+    padding: 1.15rem 1.25rem 1.2rem;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    background: $paper-surface;
+    box-shadow: 0 4px 14px rgba(39, 46, 40, .04);
+}
+
+.research-statement__label {
+    margin-bottom: .5rem;
+    color: $paper-ink-muted;
+    font-family: $monospace;
+    font-size: .66rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+p.research-statement__question {
+    margin: 0 0 1rem;
+    padding-bottom: .95rem;
+    border-bottom: 1px solid $paper-line;
+    color: $text-color;
+    font-family: $serif;
+    font-size: 1.16em;
+    line-height: 1.5;
+}
+
+.research-themes {
+    display: grid;
+    gap: .7rem;
+}
+
+.research-theme {
+    display: grid;
+    grid-template-columns: 12.5rem minmax(0, 1fr);
+    gap: .15rem 1.1rem;
+    align-items: baseline;
+}
+
+.research-theme__name {
+    color: $primary-color;
+    font-family: $serif;
+    font-size: .95em;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.research-theme__desc {
+    color: $paper-ink-soft;
+    font-size: .93em;
+    line-height: 1.6;
+}
+
+p.research-statement__methods {
+    margin: .95rem 0 0;
+    padding-top: .85rem;
+    border-top: 1px dotted $paper-line;
+    color: $paper-ink-muted;
+    font-size: .88em;
+    line-height: 1.6;
+}
+
+/* collaborators, one institution per line */
+.collab-list {
+    margin: .5rem 0 1.35rem;
+    border-top: 1px solid $border-color;
+}
+
+.collab-row {
+    display: grid;
+    grid-template-columns: 12.5rem minmax(0, 1fr);
+    gap: .2rem 1.1rem;
+    padding: .6rem 0;
+    border-bottom: 1px solid $border-color;
+}
+
+.collab-org {
+    color: $text-color;
+    font-family: $sans-serif;
+    font-size: .84rem;
+    font-weight: 600;
+    letter-spacing: .01em;
+}
+
+.collab-people {
+    color: $paper-ink-soft;
+    font-size: .92em;
+    line-height: 1.55;
+}
+
+p.section-question {
     margin: .1rem 0 .85rem;
     color: $paper-ink-soft;
     font-family: $serif;
@@ -683,8 +768,26 @@ h1:before, .anchor:before {
         }
     }
 
-    .topic-grid {
+    /* stacked cards: number and body on one row, count beneath the body */
+    .topic-card {
+        grid-template-columns: 2.1rem minmax(0, 1fr);
+    }
+
+    .topic-card-count {
+        grid-column: 2;
+        justify-self: start;
+        margin-top: .3rem;
+    }
+
+    /* label above value instead of beside it */
+    .research-theme,
+    .collab-row {
         grid-template-columns: 1fr;
+        gap: .1rem;
+    }
+
+    .collab-row {
+        padding: .55rem 0;
     }
 
     .metric-grid {

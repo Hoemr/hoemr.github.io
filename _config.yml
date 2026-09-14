@@ -9,7 +9,7 @@
 locale                   : "zh-CN"
 title                    : "Wei Chen (陈炜)"
 title_separator          : "-"
-description              : "Focusing on probabilistic modeling & generation."
+description              : "Learning from imperfect, generated, and self-generated data."
 repository               : "hoemr/hoemr.github.io"
 google_scholar_stats_use_cdn : true
 visitor_counter_endpoint : "https://hoemr-visitor-counter.wei-chen-home.workers.dev/visit"

@@ -20,13 +20,56 @@ redirect_from:
   </ol>
 </div>
 
-I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I also collaborate with researchers at **SCUT** ([Junmei Yang](https://dblp.uni-trier.de/pid/157/9330.html), [Min Chen](https://people.ece.ubc.ca/minchen/), [Jiacheng Li](https://openreview.net/profile?id=~Jiacheng_Li9), [Shigui Li](https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&hl=zh-CN)), **RIKEN-AIP** ([Qibin Zhao](https://qibinzhao.github.io/), [Jian Xu](https://xujianscut.github.io/JianXu.github.io/about/), [Zerui Tao](https://scholar.google.com/citations?hl=zh-CN&user=vcEOMXkAAAAJ), [Yuning Qiu](https://www.researchgate.net/profile/Yuning-Qiu-3), [Chao Li](https://chaoliatriken.github.io/)), **Columbia University** ([John Paisley](https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ)), **University of Waterloo** ([Zhou Wang](https://ece.uwaterloo.ca/~z70wang/)), **Tsinghua University** ([Shian Du](https://shiandu.github.io/)), and **Shanghai Jiaotong University** ([Wenjing Lu](https://scholar.google.com.hk/citations?hl=zh-CN&user=yVw0XEMAAAAJ)).
+<div class="research-statement">
+  <div class="research-statement__label">Research question</div>
+  <p class="research-statement__question">How should machine learning proceed when high-quality external data are insufficient?</p>
+  <div class="research-themes">
+    <div class="research-theme">
+      <div class="research-theme__name">Learning from imperfect data</div>
+      <div class="research-theme__desc">Distribution shift, weak or noisy supervision, limited labeled data, and selection bias.</div>
+    </div>
+    <div class="research-theme">
+      <div class="research-theme__name">Generating additional data</div>
+      <div class="research-theme__desc">When external data are scarce, how probabilistic and generative models can supply additional useful data or learning signals.</div>
+    </div>
+    <div class="research-theme">
+      <div class="research-theme__name">Learning from self-generated data</div>
+      <div class="research-theme__desc">An emerging direction: the learner itself creates, selects, or shapes the data used for its future training.</div>
+    </div>
+  </div>
+  <p class="research-statement__methods">Methodologically, I work with density-ratio estimation, generative modeling, reinforcement learning, optimization, and foundation-model post-training, with the aim of building mathematically grounded methods for reliable learning under limited supervision. I am currently interested in how density-ratio estimation and preference optimization can make post-training for LLMs more reliable.</p>
+</div>
 
-My research asks a simple question: **how should machine learning proceed when high-quality external data are insufficient?**
+I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN).
 
-I study this question in three connected settings. The first is **learning from imperfect data**, which includes distribution shift, weak or noisy supervision, limited labeled data, and selection bias. The second is **generating additional data**: when external data are scarce, how can probabilistic and generative models provide additional useful data or learning signals? The third, and most recent, is **learning from self-generated data**, where the learner itself creates, selects, or shapes the data used for its future training — an emerging direction I am exploring, rather than a completed line of work.
+I also collaborate with researchers at:
 
-Across these settings I work with density-ratio estimation, generative modeling, reinforcement learning, optimization, and foundation-model post-training, aiming to develop mathematically grounded methods for reliable learning under limited supervision. I am particularly interested in how density-ratio estimation and preference optimization can make post-training for LLMs more reliable.
+<div class="collab-list">
+  <div class="collab-row">
+    <div class="collab-org">SCUT</div>
+    <div class="collab-people"><a href="https://dblp.uni-trier.de/pid/157/9330.html">Junmei Yang</a>, <a href="https://people.ece.ubc.ca/minchen/">Min Chen</a>, <a href="https://openreview.net/profile?id=~Jiacheng_Li9">Jiacheng Li</a>, <a href="https://scholar.google.com.hk/citations?user=Fm039ikAAAAJ&amp;hl=zh-CN">Shigui Li</a></div>
+  </div>
+  <div class="collab-row">
+    <div class="collab-org">RIKEN-AIP</div>
+    <div class="collab-people"><a href="https://qibinzhao.github.io/">Qibin Zhao</a>, <a href="https://xujianscut.github.io/JianXu.github.io/about/">Jian Xu</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=vcEOMXkAAAAJ">Zerui Tao</a>, <a href="https://www.researchgate.net/profile/Yuning-Qiu-3">Yuning Qiu</a>, <a href="https://chaoliatriken.github.io/">Chao Li</a></div>
+  </div>
+  <div class="collab-row">
+    <div class="collab-org">Columbia University</div>
+    <div class="collab-people"><a href="https://scholar.google.com.hk/citations?user=r31_fYQAAAAJ">John Paisley</a></div>
+  </div>
+  <div class="collab-row">
+    <div class="collab-org">University of Waterloo</div>
+    <div class="collab-people"><a href="https://ece.uwaterloo.ca/~z70wang/">Zhou Wang</a></div>
+  </div>
+  <div class="collab-row">
+    <div class="collab-org">Tsinghua University</div>
+    <div class="collab-people"><a href="https://shiandu.github.io/">Shian Du</a></div>
+  </div>
+  <div class="collab-row">
+    <div class="collab-org">Shanghai Jiaotong University</div>
+    <div class="collab-people"><a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=yVw0XEMAAAAJ">Wenjing Lu</a></div>
+  </div>
+</div>
 
 I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).
 
@@ -84,31 +127,40 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     <div class="panel-title">Research Overview</div>
     <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (15)</a>
   </div>
-  <div class="topic-grid">
+  <div class="topic-list">
     <a href="#" class="filter-link topic-card" id="filter-imperfect" onclick="showTopic('imperfect'); return false;">
       <div class="topic-card-index">01</div>
-      <div class="topic-card-title">Learning from Imperfect Data</div>
-      <div class="topic-card-meta">Distribution shift · weak/noisy supervision · limited labeled data</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Learning from Imperfect Data</div>
+        <div class="topic-card-meta">Distribution shift · weak/noisy supervision · limited labeled data</div>
+      </div>
       <div class="topic-card-count">5 papers</div>
     </a>
     <a href="#" class="filter-link topic-card" id="filter-generating" onclick="showTopic('generating'); return false;">
       <div class="topic-card-index">02</div>
-      <div class="topic-card-title">Generating Additional Data</div>
-      <div class="topic-card-meta">Generative modeling · diffusion · flows · probabilistic modeling</div>
-      <div class="topic-card-count">4 papers</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Generating Additional Data</div>
+        <div class="topic-card-meta">Generative modeling · diffusion · flows · probabilistic modeling</div>
+      </div>
+      <div class="topic-card-count">5 papers</div>
     </a>
     <a href="#" class="filter-link topic-card" id="filter-selfgen" onclick="showTopic('selfgen'); return false;">
       <div class="topic-card-index">03</div>
-      <div class="topic-card-title">Learning from Self-Generated Data</div>
-      <div class="topic-card-meta">Self-training · model-generated experience · iterative self-improvement</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Learning from Self-Generated Data</div>
+        <div class="topic-card-meta">Self-training · model-generated experience · iterative self-improvement</div>
+      </div>
       <div class="topic-card-count topic-card-count--emerging">Emerging direction</div>
     </a>
+    <a href="#" class="filter-link topic-card" id="filter-applications" onclick="showTopic('applications'); return false;">
+      <div class="topic-card-index"></div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Applications &amp; Collaborations</div>
+        <div class="topic-card-meta">Time-series forecasting · applied and collaborative work</div>
+      </div>
+      <div class="topic-card-count">5 papers</div>
+    </a>
   </div>
-  <a href="#" class="filter-link topic-card topic-card--secondary" id="filter-applications" onclick="showTopic('applications'); return false;">
-    <div class="topic-card-title">Applications &amp; Collaborations</div>
-    <div class="topic-card-meta">Time-series forecasting · image enhancement · applied and collaborative work</div>
-    <div class="topic-card-count">6 papers</div>
-  </a>
 </div>
 
 <!-- Section anchors. The ids below the first one are legacy anchors kept so that
@@ -296,6 +348,26 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 
 
+<span class='anchor' id='lin2025reciprocalla'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
+<img src="images/reciprocalla.png" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
+
+- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
+- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
+</div>
+<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Low-Light Imaging</span></div>
+</div>
+
+
 <span class='anchor' id='du2022flow'></span>
 
 <div class="paper-box">
@@ -346,7 +418,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <p class="section-question">How do these methodological ideas behave in concrete domains and in joint work?</p>
 
-<p>Application-oriented and collaborative work, where probabilistic and generative methods meet real data — including time-series forecasting, image enhancement, and IoT/fintech settings.</p>
+<p>Application-oriented and collaborative work, where probabilistic and generative methods meet real data — including time-series forecasting and IoT/fintech settings.</p>
 
 <span class='anchor' id='li2025evolvinformer'></span>
 
@@ -405,26 +477,6 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 - Achieves consistent improvements over existing methods across five large-scale real-world datasets.
 </div>
 <div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Diffusion</span></div>
-</div>
-
-
-<span class='anchor' id='lin2025reciprocalla'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
-<img src="images/reciprocalla.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
-
-- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
-- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
-</div>
-<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Low-Light Imaging</span></div>
 </div>
 
 
@@ -630,6 +682,7 @@ var anchorToTopic = {
   'xu2026implicit': 'generating',
   'li2025evodiff': 'generating',
   'chen2025entropy': 'generating',
+  'lin2025reciprocalla': 'generating',
   'du2022flow': 'generating',
   'chen2026a': 'imperfect',
   'chen2026one': 'imperfect',
@@ -639,7 +692,6 @@ var anchorToTopic = {
   'li2025evolvinformer': 'applications',
   'li2025generative': 'applications',
   'li2025diffinformer': 'applications',
-  'lin2025reciprocalla': 'applications',
   'li2024deepar': 'applications',
   'li2024neural': 'applications'
 };

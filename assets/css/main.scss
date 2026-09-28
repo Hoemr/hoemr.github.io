@@ -422,6 +422,34 @@ p.research-statement__gloss {
     line-height: 1.72;
 }
 
+/* the two sides are siblings, so they share a left rule and sit one level
+   below the framing line rather than reading as two more paragraphs of prose */
+.research-sides {
+    margin: .85rem 0 0;
+    padding-left: 1rem;
+    border-left: 2px solid $paper-line;
+
+    p {
+        margin: 0;
+        color: $paper-ink-soft;
+        line-height: 1.72;
+    }
+
+    p + p {
+        margin-top: .6rem;
+    }
+}
+
+/* the payoff line: set off from the two sides so the goal lands as its own
+   tier of the argument instead of trailing off the end of a paragraph */
+p.research-statement__goal {
+    margin: 1rem 0 0;
+    padding-top: .9rem;
+    border-top: 1px dotted $paper-line;
+    color: $text-color;
+    line-height: 1.72;
+}
+
 /* the arrow that turns the two foundations into a sequence rather than a list */
 .research-map__link {
     padding: .1rem 0;
@@ -719,6 +747,12 @@ p.section-question {
     font-family: $monospace;
     font-size: .68rem;
     letter-spacing: .02em;
+}
+
+/* once the numbers are in, the status line has nothing left to say — drop it
+   and the dotted rule it would otherwise leave behind */
+.visitor-counter--ready .visitor-counter__status {
+    display: none;
 }
 
 .opensource-grid {

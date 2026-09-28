@@ -23,7 +23,12 @@ redirect_from:
 <div class="research-statement">
   <div class="research-statement__label">Research question</div>
   <p class="research-statement__question">How can learning systems continue to improve when high-quality external data and supervision are limited or imperfect?</p>
-  <p class="research-statement__gloss">My research studies this question from two complementary directions. <strong>Generative learning</strong> asks how models can construct data, representations, and experience beyond what has been observed; my work on normalizing flows, variational inference, and diffusion models contributes to this foundation. <strong>Discriminative learning</strong> asks how a system can identify what is reliable, informative, and worth learning from; my work on density-ratio estimation and preference optimization studies this under distribution mismatch and imperfect supervision. The two directions meet in a longer-term goal &mdash; reliable self-improvement, where a model generates its own experience and the loop between generation and discrimination stays stable.</p>
+  <p class="research-statement__gloss">I approach this from two sides.</p>
+  <div class="research-sides">
+    <p><strong>Generative learning</strong> is one: how a model can construct distributions and data beyond what it has observed. My work here is on normalizing flows, variational inference, and diffusion models.</p>
+    <p><strong>Discriminative learning</strong> is the other: how a model can tell which information is reliable and worth learning from. Here I work on density-ratio estimation, which compares distributions under shift and imbalance, and on preference optimization, where the supervision is comparative rather than a clean label.</p>
+  </div>
+  <p class="research-statement__goal">The two sides meet in the question I care about most now: when a model generates its own experience, what keeps that loop from degrading?</p>
 </div>
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN).

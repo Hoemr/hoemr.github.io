@@ -10,34 +10,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div class="research-trajectory" aria-label="Research trajectory">
-  <div class="research-trajectory__label">Research trajectory</div>
-  <ol class="research-trajectory__steps">
-    <li>Imperfect Data</li>
-    <li>Generated Data</li>
-    <li>Self-Generated Data</li>
-    <li>Reliable Self-Improvement</li>
-  </ol>
+<div class="research-identity" aria-label="Research identity">
+  <div class="research-identity__label">Research</div>
+  <div class="research-identity__chain">
+    <span class="step">Generate</span>
+    <span class="step">Discriminate</span>
+    <span class="step step--last">Improve</span>
+  </div>
+  <p class="research-identity__gloss">Generative&ndash;discriminative learning for reliable self-improvement.</p>
 </div>
 
 <div class="research-statement">
   <div class="research-statement__label">Research question</div>
-  <p class="research-statement__question">How should machine learning proceed when high-quality external data are insufficient?</p>
-  <div class="research-themes">
-    <div class="research-theme">
-      <div class="research-theme__name">Learning from imperfect data</div>
-      <div class="research-theme__desc">Distribution shift, weak or noisy supervision, limited labeled data, and selection bias.</div>
-    </div>
-    <div class="research-theme">
-      <div class="research-theme__name">Generating additional data</div>
-      <div class="research-theme__desc">When external data are scarce, how probabilistic and generative models can supply additional useful data or learning signals.</div>
-    </div>
-    <div class="research-theme">
-      <div class="research-theme__name">Learning from self-generated data</div>
-      <div class="research-theme__desc">An emerging direction: the learner itself creates, selects, or shapes the data used for its future training.</div>
-    </div>
-  </div>
-  <p class="research-statement__methods">Methodologically, I work with density-ratio estimation, generative modeling, reinforcement learning, optimization, and foundation-model post-training, with the aim of building mathematically grounded methods for reliable learning under limited supervision. I am currently interested in how density-ratio estimation and preference optimization can make post-training for LLMs more reliable.</p>
+  <p class="research-statement__question">How can learning systems continue to improve when high-quality external data and supervision are limited or imperfect?</p>
+  <p class="research-statement__gloss">My research studies this question from two complementary directions. <strong>Generative learning</strong> asks how models can construct data, representations, and experience beyond what has been observed; my work on normalizing flows, variational inference, and diffusion models contributes to this foundation. <strong>Discriminative learning</strong> asks how a system can identify what is reliable, informative, and worth learning from; my work on density-ratio estimation and preference optimization studies this under distribution mismatch and imperfect supervision. The two directions meet in a longer-term goal &mdash; reliable self-improvement, where a model generates its own experience and the loop between generation and discrimination stays stable.</p>
 </div>
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN).
@@ -81,6 +67,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='news'></span>
 # <span class="section-number">01</span> News
 <ul class="news-list">
+<li>2026.09: Our paper about <em>flow matching models</em> is accepted to <strong>NeurIPS  2026</strong>. </li>
 <li>2026.08: I have joined <a href="https://github.com/omdsh-dev/DSH-better-sidebar"><strong>DSH-better-sidebar</strong></a> as a contributor. <a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=flat-square&logo=github&logoColor=white&label=Stars&color=7d342d" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a> <a href="#open-source">[Details ↓]</a></li>
 <li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
@@ -127,59 +114,154 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     <div class="panel-title">Research Overview</div>
     <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (15)</a>
   </div>
+  <div class="topic-list">
+    <a href="#" class="filter-link topic-card" id="filter-generative" onclick="showTopic('generative'); return false;">
+      <div class="topic-card-index">01</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Generative Learning</div>
+        <div class="topic-card-meta">Construct new data and experience</div>
+      </div>
+      <div class="topic-card-count">4 papers</div>
+    </a>
+    <a href="#" class="filter-link topic-card" id="filter-discriminative" onclick="showTopic('discriminative'); return false;">
+      <div class="topic-card-index">02</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Discriminative Learning</div>
+        <div class="topic-card-meta">Identify what is reliable and useful</div>
+      </div>
+      <div class="topic-card-count">5 papers</div>
+    </a>
+    <div class="research-map__link" aria-hidden="true">&#8595;</div>
+    <div class="topic-card topic-card--goal">
+      <div class="topic-card-index">03</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Reliable Self-Improvement</div>
+        <div class="topic-card-meta">Close the generate&ndash;evaluate&ndash;learn loop</div>
+      </div>
+      <div class="topic-card-count topic-card-count--emerging">Long-term goal</div>
+    </div>
+    <div class="topic-sep" role="presentation"></div>
+    <a href="#" class="filter-link topic-card" id="filter-applications" onclick="showTopic('applications'); return false;">
+      <div class="topic-card-index">&#8212;</div>
+      <div class="topic-card-body">
+        <div class="topic-card-title">Applications &amp; Collaborations</div>
+        <div class="topic-card-meta">Time series · low-level vision · joint work</div>
+      </div>
+      <div class="topic-card-count">6 papers</div>
+    </a>
+  </div>
   <div class="topic-hint">
     <span class="topic-hint__hand" aria-hidden="true">&#9758;</span>
     <span id="topic-hint-text">Click a topic to filter the publications below</span>
   </div>
-  <div class="topic-list">
-    <a href="#" class="filter-link topic-card" id="filter-imperfect" onclick="showTopic('imperfect'); return false;">
-      <div class="topic-card-index">01</div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Learning from Imperfect Data</div>
-        <div class="topic-card-meta">Distribution shift · weak/noisy supervision · limited labeled data</div>
-      </div>
-      <div class="topic-card-count">5 papers</div>
-    </a>
-    <a href="#" class="filter-link topic-card" id="filter-generating" onclick="showTopic('generating'); return false;">
-      <div class="topic-card-index">02</div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Generating Additional Data</div>
-        <div class="topic-card-meta">Generative modeling · diffusion · flows · probabilistic modeling</div>
-      </div>
-      <div class="topic-card-count">5 papers</div>
-    </a>
-    <a href="#" class="filter-link topic-card" id="filter-selfgen" onclick="showTopic('selfgen'); return false;">
-      <div class="topic-card-index">03</div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Learning from Self-Generated Data</div>
-        <div class="topic-card-meta">Self-training · model-generated experience · iterative self-improvement</div>
-      </div>
-      <div class="topic-card-count topic-card-count--emerging">Emerging direction</div>
-    </a>
-    <a href="#" class="filter-link topic-card" id="filter-applications" onclick="showTopic('applications'); return false;">
-      <div class="topic-card-index"></div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Applications &amp; Collaborations</div>
-        <div class="topic-card-meta">Time-series forecasting · applied and collaborative work</div>
-      </div>
-      <div class="topic-card-count">5 papers</div>
-    </a>
-  </div>
 </div>
 
-<!-- Section anchors. The ids below the first one are legacy anchors kept so that
-     external links to the previous topic taxonomy keep resolving. -->
+<!-- Section anchors. The ids below the first one on each block are legacy anchors
+     kept so that external links to the previous topic taxonomy keep resolving. -->
+<span class='anchor' id='generative-learning'></span>
+<span class='anchor' id='generating-additional-data'></span>
+<span class='anchor' id='deep-generative-modeling'></span>
+
+<div id="section-generative">
+
+<h2><span class="section-number">A</span> Generative Learning</h2>
+
+<p class="section-question">How can models construct useful data, representations, and experience beyond limited observations?</p>
+
+<p>Generative modeling is the methodological foundation of this pillar: it is what lets a model represent, sample from, and construct data when external data are limited. The work below contributes to that foundation across variational inference, normalizing flows, and diffusion models.</p>
+
+<span class='anchor' id='xu2026implicit'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">UAI 2026</div>
+<img src="images/ivrs.svg" alt="Implicit Variational Rejection Sampling overview" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU), Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao* <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**UAI 2026** \| [**Paper**](https://openreview.net/forum?id=fqSPFeDbOU) \| [**arXiv**](https://arxiv.org/abs/2606.14235)
+
+- Combines flexible implicit proposal distributions with rejection sampling, using a discriminator to estimate the proposal-to-posterior density ratio.
+- Introduces the Implicit Resampling Evidence Lower Bound (IR-ELBO), yielding a tighter variational bound and improved posterior approximation.
+</div>
+<div class="paper-tags"><span class="paper-tag">Variational Inference</span><span class="paper-tag">DRE</span><span class="paper-tag">Rejection Sampling</span></div>
+</div>
+
+<span class='anchor' id='li2025evodiff'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">NeurIPS 2025</div>
+<img src="images/evodiff.png" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**NeurIPS 2025** \| [**Paper**](https://arxiv.org/abs/2509.26096) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
+
+- Proposes EVODiff, a fast inference method for diffusion models that optimizes conditional entropy during denoising.
+- Generates higher-quality images with fewer steps (e.g., 25% fewer steps on ImageNet-256) while significantly reducing artifacts.
+</div>
+<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Sampling Acceleration</span></div>
+</div>
+
+
+<span class='anchor' id='chen2025entropy'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">PR 2025</div>
+<img src="images/eiw_flow.png" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442), **`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**Pattern Recognition (PR) 2025** \| [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) \| [**Code**](https://github.com/ShianDu/EIW-Flow)
+
+- Proposes EIW-Flow, which adaptively assigns channel-wise weights and shuffles latent variables in normalizing flows.
+- Achieves state-of-the-art density estimation on CIFAR-10, CelebA, and ImageNet with negligible extra cost.
+</div>
+<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Density Estimation</span></div>
+</div>
+
+
+<span class='anchor' id='du2022flow'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">CVPR 2022</div>
+<img src="images/toflow.png" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng* <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
+
+- Proposes To-Flow, which optimizes the evolutionary time of neural ODEs via coordinate descent to speed up continuous normalizing flow training.
+- Accelerates training by ~20% without sacrificing generation quality, and is compatible with existing regularization methods.
+</div>
+<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Neural ODE</span></div>
+</div>
+
+</div>
+
+<span class='anchor' id='discriminative-learning'></span>
 <span class='anchor' id='learning-from-imperfect-data'></span>
 <span class='anchor' id='density-ratio-estimation'></span>
 <span class='anchor' id='llm-post-training'></span>
 
-<div id="section-imperfect">
+<div id="section-discriminative">
 
-<h2><span class="section-number">A</span> Learning from Imperfect Data</h2>
+<h2><span class="section-number">B</span> Discriminative Learning</h2>
 
-<p class="section-question">How can we learn reliably when the available data or supervision are imperfect?</p>
+<p class="section-question">How can a learning system identify what is reliable, informative, and worth learning from?</p>
 
-<p>Most of my work studies this setting through <strong>density-ratio estimation</strong>, which gives a principled handle on distribution mismatch — covariate shift, class imbalance, and the density or support chasms between two distributions. I have also studied <strong>preference supervision</strong>, where the learning signal is comparative and implicit rather than a clean label.</p>
+<p>My work here develops <strong>density-ratio estimation</strong> as a principled way to compare two distributions and discriminate useful information, under covariate shift, class imbalance, and the density or support chasms that break standard estimators. I also study <strong>preference optimization</strong>, which introduces a discriminative preference signal into a generative policy — a comparative, implicit form of supervision rather than a clean label.</p>
 
 <span class='anchor' id='chen2026a'></span>
 
@@ -282,147 +364,17 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 </div>
 
-<span class='anchor' id='generating-additional-data'></span>
-<span class='anchor' id='deep-generative-modeling'></span>
-
-<div id="section-generating">
-
-<h2><span class="section-number">B</span> Generating Additional Data</h2>
-
-<p class="section-question">When external data are limited, how can generative and probabilistic models provide additional useful data or learning signals?</p>
-
-<p>Generative modeling is the methodological foundation of this line: it is what allows a model to represent, sample from, and synthesize data when external data are limited. The work below contributes to that foundation across normalizing flows, variational inference, and diffusion models.</p>
-
-<span class='anchor' id='xu2026implicit'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">UAI 2026</div>
-<img src="images/ivrs.svg" alt="Implicit Variational Rejection Sampling overview" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU), Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao* <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**UAI 2026** \| [**Paper**](https://openreview.net/forum?id=fqSPFeDbOU) \| [**arXiv**](https://arxiv.org/abs/2606.14235)
-
-- Combines flexible implicit proposal distributions with rejection sampling, using a discriminator to estimate the proposal-to-posterior density ratio.
-- Introduces the Implicit Resampling Evidence Lower Bound (IR-ELBO), yielding a tighter variational bound and improved posterior approximation.
-</div>
-<div class="paper-tags"><span class="paper-tag">Variational Inference</span><span class="paper-tag">DRE</span><span class="paper-tag">Rejection Sampling</span></div>
-</div>
-
-<span class='anchor' id='li2025evodiff'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">NeurIPS 2025</div>
-<img src="images/evodiff.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**NeurIPS 2025** \| [**Paper**](https://arxiv.org/abs/2509.26096) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
-
-- Proposes EVODiff, a fast inference method for diffusion models that optimizes conditional entropy during denoising.
-- Generates higher-quality images with fewer steps (e.g., 25% fewer steps on ImageNet-256) while significantly reducing artifacts.
-</div>
-<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Sampling Acceleration</span></div>
-</div>
-
-
-<span class='anchor' id='chen2025entropy'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">PR 2025</div>
-<img src="images/eiw_flow.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442), **`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**Pattern Recognition (PR) 2025** \| [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) \| [**Code**](https://github.com/ShianDu/EIW-Flow)
-
-- Proposes EIW-Flow, which adaptively assigns channel-wise weights and shuffles latent variables in normalizing flows.
-- Achieves state-of-the-art density estimation on CIFAR-10, CelebA, and ImageNet with negligible extra cost.
-</div>
-<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Density Estimation</span></div>
-</div>
-
-
-<span class='anchor' id='lin2025reciprocalla'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
-<img src="images/reciprocalla.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
-
-- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
-- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
-</div>
-<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Low-Light Imaging</span></div>
-</div>
-
-
-<span class='anchor' id='du2022flow'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">CVPR 2022</div>
-<img src="images/toflow.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng* <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
-
-- Proposes To-Flow, which optimizes the evolutionary time of neural ODEs via coordinate descent to speed up continuous normalizing flow training.
-- Accelerates training by ~20% without sacrificing generation quality, and is compatible with existing regularization methods.
-</div>
-<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Neural ODE</span></div>
-</div>
-
-</div>
-
-<span class='anchor' id='learning-from-self-generated-data'></span>
-
-<div id="section-selfgen">
-
-<h2><span class="section-number">C</span> Learning from Self-Generated Data</h2>
-
-<p class="section-question">What happens when the learner itself generates, selects, or shapes the data used for its future learning?</p>
-
-<p>This is an emerging direction in my research rather than a body of published work. The questions I am currently interested in include:</p>
-
-<ul>
-<li>self-training and self-generated supervision</li>
-<li>synthetic trajectories and RL rollouts</li>
-<li>self-distillation and self-play</li>
-<li>agent experience and world-model-generated experience</li>
-<li>iterative self-improvement, and the conditions under which it remains reliable</li>
-</ul>
-
-</div>
-
 <span class='anchor' id='applications-collaborations'></span>
 <span class='anchor' id='time-series-forecast'></span>
+<span class='anchor' id='learning-from-self-generated-data'></span>
 
 <div id="section-applications">
 
-<h2><span class="section-number">D</span> Applications &amp; Collaborations</h2>
+<h2><span class="section-number">C</span> Applications &amp; Collaborations</h2>
 
 <p class="section-question">How do these methodological ideas behave in concrete domains and in joint work?</p>
 
-<p>Application-oriented and collaborative work, where probabilistic and generative methods meet real data — including time-series forecasting and IoT/fintech settings.</p>
+<p>Application-oriented and collaborative work, where probabilistic and generative methods meet real data — time-series forecasting, IoT and fintech settings, and low-level vision.</p>
 
 <span class='anchor' id='li2025evolvinformer'></span>
 
@@ -518,6 +470,26 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 </div>
 <div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Neural ODE</span></div>
 </div>
+
+<span class='anchor' id='lin2025reciprocalla'></span>
+
+<div class="paper-box">
+<div class="paper-box-image" style="position: relative;">
+<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
+<img src="images/reciprocalla.png" alt="sym" style="width:100%;">
+</div>
+<div class="paper-box-text" markdown="1">
+
+[**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
+
+- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
+- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
+</div>
+<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Low-Light Imaging</span></div>
+</div>
+
 
 </div>
 
@@ -683,16 +655,16 @@ function copyBib(key, event) {
 
 // Topic filter: anchor-to-topic mapping (for News section links)
 var anchorToTopic = {
-  'xu2026implicit': 'generating',
-  'li2025evodiff': 'generating',
-  'chen2025entropy': 'generating',
-  'lin2025reciprocalla': 'generating',
-  'du2022flow': 'generating',
-  'chen2026a': 'imperfect',
-  'chen2026one': 'imperfect',
-  'chen2025dequantified': 'imperfect',
-  'chen2025diffusion': 'imperfect',
-  'chen2026towards': 'imperfect',
+  'xu2026implicit': 'generative',
+  'li2025evodiff': 'generative',
+  'chen2025entropy': 'generative',
+  'du2022flow': 'generative',
+  'chen2026a': 'discriminative',
+  'chen2026one': 'discriminative',
+  'chen2025dequantified': 'discriminative',
+  'chen2025diffusion': 'discriminative',
+  'chen2026towards': 'discriminative',
+  'lin2025reciprocalla': 'applications',
   'li2025evolvinformer': 'applications',
   'li2025generative': 'applications',
   'li2025diffinformer': 'applications',
@@ -701,16 +673,14 @@ var anchorToTopic = {
 };
 
 var topicSections = {
-  'imperfect': document.getElementById('section-imperfect'),
-  'generating': document.getElementById('section-generating'),
-  'selfgen': document.getElementById('section-selfgen'),
+  'generative': document.getElementById('section-generative'),
+  'discriminative': document.getElementById('section-discriminative'),
   'applications': document.getElementById('section-applications')
 };
 
 var topicAnchors = {
-  'imperfect': 'learning-from-imperfect-data',
-  'generating': 'generating-additional-data',
-  'selfgen': 'learning-from-self-generated-data',
+  'generative': 'generative-learning',
+  'discriminative': 'discriminative-learning',
   'applications': 'applications-collaborations'
 };
 

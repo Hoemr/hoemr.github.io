@@ -296,6 +296,22 @@ h1:before, .anchor:before {
     }
 }
 
+/* the long-term goal is a statement, not a filter, so it must not look
+   clickable — no hover, no pointer, no slide-in arrow */
+.topic-card--goal {
+    cursor: default;
+    border-style: dashed;
+
+    &:hover {
+        border-color: $border-color;
+        background: $paper-surface;
+    }
+
+    .topic-card-title::after {
+        content: none;
+    }
+}
+
 .panel-reset {
     color: $paper-ink-muted;
     font-family: $sans-serif;
@@ -312,14 +328,16 @@ h1:before, .anchor:before {
     display: none !important;
 }
 
-.research-trajectory {
+/* the page's identity line: the three verbs carry the whole research story,
+   so they are the largest type above the fold and nothing competes with them */
+.research-identity {
     margin: 0 0 1.6rem;
     padding: .8rem 0 .85rem;
     border-top: 1px solid $paper-line;
     border-bottom: 1px solid $paper-line;
 }
 
-.research-trajectory__label {
+.research-identity__label {
     margin-bottom: .45rem;
     color: $paper-ink-muted;
     font-family: $monospace;
@@ -328,27 +346,25 @@ h1:before, .anchor:before {
     text-transform: uppercase;
 }
 
-.research-trajectory__steps {
+.research-identity__chain {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     gap: .4rem;
     margin: 0;
-    padding: 0;
-    list-style: none;
     color: $text-color;
     font-family: $serif;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.34rem;
+    font-weight: 600;
+    line-height: 1.35;
 
-    li {
+    .step {
         display: inline-flex;
         align-items: baseline;
         gap: .4rem;
-        margin: 0;
         font-size: inherit;
 
-        &:not(:last-child)::after {
+        &:not(.step--last)::after {
             content: "→";
             color: #a9aca4;
             font-family: $sans-serif;
@@ -356,15 +372,22 @@ h1:before, .anchor:before {
         }
     }
 
-    li:last-child {
+    .step--last {
         color: $primary-color;
-        font-weight: 600;
     }
 }
 
-/* the research statement sits under the trajectory: one question, three
-   settings, then the methods — each on its own line rather than in a block
-   of prose, which is what made the old intro read as a wall of text */
+.research-identity__gloss {
+    margin: .55rem 0 0;
+    color: $paper-ink-muted;
+    font-family: $sans-serif;
+    font-size: .88rem;
+    line-height: 1.55;
+}
+
+/* the research statement sits under the identity line: one question, then a
+   single short paragraph — the old version split the same story across three
+   theme rows plus a methods line, which read as a wall of text */
 .research-statement {
     margin: 0 0 1.6rem;
     padding: 1.15rem 1.25rem 1.2rem;
@@ -393,39 +416,25 @@ p.research-statement__question {
     line-height: 1.5;
 }
 
-.research-themes {
-    display: grid;
-    gap: .7rem;
-}
-
-.research-theme {
-    display: grid;
-    grid-template-columns: 12.5rem minmax(0, 1fr);
-    gap: .15rem 1.1rem;
-    align-items: baseline;
-}
-
-.research-theme__name {
-    color: $primary-color;
-    font-family: $serif;
-    font-size: .95em;
-    font-weight: 600;
-    line-height: 1.45;
-}
-
-.research-theme__desc {
+p.research-statement__gloss {
+    margin: 0;
     color: $paper-ink-soft;
-    font-size: .93em;
-    line-height: 1.6;
+    line-height: 1.72;
 }
 
-p.research-statement__methods {
-    margin: .95rem 0 0;
-    padding-top: .85rem;
+/* the arrow that turns the two foundations into a sequence rather than a list */
+.research-map__link {
+    padding: .1rem 0;
+    color: $primary-color;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+}
+
+/* rules off the supporting category from the research story above it */
+.topic-sep {
+    margin: .35rem 0 .1rem;
     border-top: 1px dotted $paper-line;
-    color: $paper-ink-muted;
-    font-size: .88em;
-    line-height: 1.6;
 }
 
 /* collaborators, one institution per line */
@@ -801,14 +810,14 @@ p.section-question {
         margin-top: 2rem;
     }
 
-    /* the trajectory becomes a vertical sequence so it never wraps mid-arrow */
-    .research-trajectory__steps {
+    /* the identity line becomes a vertical sequence so it never wraps mid-arrow */
+    .research-identity__chain {
         display: block;
 
-        li {
+        .step {
             display: block;
 
-            &:not(:last-child)::after {
+            &:not(.step--last)::after {
                 content: "↓";
                 display: block;
                 margin: .1rem 0 .15rem;
@@ -830,7 +839,6 @@ p.section-question {
     }
 
     /* label above value instead of beside it */
-    .research-theme,
     .collab-row {
         grid-template-columns: 1fr;
         gap: .1rem;

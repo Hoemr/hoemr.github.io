@@ -28,7 +28,7 @@ redirect_from:
     <p><strong>Generative learning</strong> is one: how a model can construct distributions and data beyond what it has observed. My work here is on normalizing flows, variational inference, and diffusion models.</p>
     <p><strong>Discriminative learning</strong> is the other: how a model can tell which information is reliable and worth learning from. Here I work on density-ratio estimation, which compares distributions under shift and imbalance, and on preference optimization, where the supervision is comparative rather than a clean label.</p>
   </div>
-  <p class="research-statement__goal">The two sides meet in the question I care about most now: when a model generates its own experience, what keeps that loop from degrading?</p>
+  <p class="research-statement__goal">The two sides meet in the question I care about most now: how to <strong>value</strong> self-generated experience. I treat the reliability of a self-generated sample as an estimable quantity &mdash; a density ratio or a preference signal &mdash; rather than a binary accept-or-reject decision, and study how such values should drive policy updates without degrading the model. In the longer term, I aim to understand how a system can generate, evaluate, and selectively internalize its own experience for sustained improvement.</p>
 </div>
 
 I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN).
@@ -141,7 +141,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
       <div class="topic-card-index">03</div>
       <div class="topic-card-body">
         <div class="topic-card-title">Reliable Self-Improvement</div>
-        <div class="topic-card-meta">Close the generate&ndash;evaluate&ndash;learn loop</div>
+        <div class="topic-card-meta">Value self-generated experience by its reliability</div>
       </div>
       <div class="topic-card-count topic-card-count--emerging">Long-term goal</div>
     </div>

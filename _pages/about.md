@@ -217,7 +217,7 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 <span class="publication-venue">ICLR 2026</span> [**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2602.00834)<br>
 **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng*<br>
-[Paper](https://arxiv.org/abs/2602.00834) · <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[Paper](https://arxiv.org/abs/2602.00834) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -262,7 +262,7 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 <span class="publication-venue">Preprint 2025</span> [**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852)<br>
 **`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao<br>
-[Paper](https://arxiv.org/abs/2509.04852) · <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+[Paper](https://arxiv.org/abs/2509.04852) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -439,14 +439,14 @@ Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen<br>
 <div class="profile-entry">
   <span class="entry-title">vivo</span>
   <div>
-    <div class="entry-title">BlueImage Lab</div>
+    <div class="entry-title"><a href="https://libraboli.github.io/blueimage/" target="_blank" rel="noopener">BlueImage Lab</a></div>
     <div class="entry-meta">2026.06</div>
   </div>
 </div>
 <div class="profile-entry">
   <img src="images/AIP.png" alt="RIKEN AIP">
   <div>
-    <div class="entry-title">RIKEN AIP — Tensor Learning Team</div>
+    <div class="entry-title"><a href="https://aip.riken.jp/" target="_blank" rel="noopener">RIKEN AIP</a> — Tensor Learning Team</div>
     <div class="entry-meta">2026.02 – 2026.05</div>
     <div class="entry-detail">Supervisor: <a href="https://qibinzhao.github.io/">Qibin Zhao</a> · <a href="https://qibinzhao.github.io/">Team Page</a></div>
   </div>

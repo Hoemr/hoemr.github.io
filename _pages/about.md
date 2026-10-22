@@ -159,47 +159,17 @@ Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao 
 
 </div>
 
-<span class='anchor' id='li2025evodiff'></span>
+<span class='anchor' id='chen2026one'></span>
 
 <div class="publication-entry" markdown="1">
 
 <!--
-<img src="images/evodiff.png" alt="sym" style="width:100%;">
+<img src="images/osdre.png" alt="OS-DRE" style="width:100%;">
 -->
 
-<span class="publication-venue">NeurIPS 2025</span> [**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096)<br>
-Shigui Li, **`Wei Chen`**, Delu Zeng*<br>
-[Paper](https://arxiv.org/abs/2509.26096) · [Code](https://github.com/ShiguiLi/EVODiff) · [News&#127881;](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ) · <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
-
-
-<span class='anchor' id='chen2025entropy'></span>
-
-<div class="publication-entry" markdown="1">
-
-<!--
-<img src="images/eiw_flow.png" alt="sym" style="width:100%;">
--->
-
-<span class="publication-venue">PR 2025</span> [**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442)<br>
-**`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley<br>
-[Paper](https://doi.org/10.1016/j.patcog.2025.112442) · [Code](https://github.com/ShianDu/EIW-Flow) · <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
-
-
-<span class='anchor' id='du2022flow'></span>
-
-<div class="publication-entry" markdown="1">
-
-<!--
-<img src="images/toflow.png" alt="sym" style="width:100%;">
--->
-
-<span class="publication-venue">CVPR 2022</span> [**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335)<br>
-Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
-[Paper](https://arxiv.org/abs/2203.10335) · [Code](https://github.com/ShianDu/TO-FLOW) · <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">Preprint 2026</span> [**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672)<br>
+**`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2604.10672) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -221,21 +191,47 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 </div>
 
-
-<span class='anchor' id='chen2026one'></span>
+<span class='anchor' id='li2025evodiff'></span>
 
 <div class="publication-entry" markdown="1">
 
 <!--
-<img src="images/osdre.png" alt="OS-DRE" style="width:100%;">
+<img src="images/evodiff.png" alt="sym" style="width:100%;">
 -->
 
-<span class="publication-venue">Preprint 2026</span> [**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672)<br>
-**`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng*<br>
-[Paper](https://arxiv.org/abs/2604.10672) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">NeurIPS 2025</span> [**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096)<br>
+Shigui Li, **`Wei Chen`**, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2509.26096) · [Code](https://github.com/ShiguiLi/EVODiff) · [News&#127881;](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ) · <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
+<span class='anchor' id='chen2025entropy'></span>
+
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/eiw_flow.png" alt="sym" style="width:100%;">
+-->
+
+<span class="publication-venue">PR 2025</span> [**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442)<br>
+**`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley<br>
+[Paper](https://doi.org/10.1016/j.patcog.2025.112442) · [Code](https://github.com/ShianDu/EIW-Flow) · <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<span class='anchor' id='chen2025diffusion'></span>
+
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/isadre.png" alt="ISA-DRE" style="width:100%;">
+-->
+
+<span class="publication-venue">Preprint 2025</span> [**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852)<br>
+**`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao<br>
+[Paper](https://arxiv.org/abs/2509.04852) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
 
 <span class='anchor' id='chen2025dequantified'></span>
 
@@ -251,18 +247,17 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 </div>
 
-
-<span class='anchor' id='chen2025diffusion'></span>
+<span class='anchor' id='du2022flow'></span>
 
 <div class="publication-entry" markdown="1">
 
 <!--
-<img src="images/isadre.png" alt="ISA-DRE" style="width:100%;">
+<img src="images/toflow.png" alt="sym" style="width:100%;">
 -->
 
-<span class="publication-venue">Preprint 2025</span> [**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852)<br>
-**`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao<br>
-[Paper](https://arxiv.org/abs/2509.04852) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">CVPR 2022</span> [**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335)<br>
+Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2203.10335) · [Code](https://github.com/ShianDu/TO-FLOW) · <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -306,7 +301,6 @@ Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br
 
 </div>
 
-
 <span class='anchor' id='li2025generative'></span>
 
 <div class="publication-entry" markdown="1">
@@ -321,7 +315,6 @@ Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br
 
 </div>
 
-
 <span class='anchor' id='li2025diffinformer'></span>
 
 <div class="publication-entry" markdown="1">
@@ -333,32 +326,6 @@ Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br
 <span class="publication-venue">ESWA 2025</span> [**Diffinformer: Diffusion Informer model for long sequence time-series forecasting**](https://doi.org/10.1016/j.eswa.2025.129944)<br>
 Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br>
 [Paper](https://doi.org/10.1016/j.eswa.2025.129944) · <a href="#" onclick="return copyBib('li2025diffinformer', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
-
-
-<div class="publication-entry" markdown="1">
-
-<!--
-<img src="images/deepara.png" alt="sym" style="width:100%;">
--->
-
-<span class="publication-venue">Neural Computing and Applications 2024</span> [**DeepAR-Attention probabilistic prediction for stock price series**](https://doi.org/10.1007/s00521-024-09916-3)<br>
-Jiacheng Li, **`Wei Chen`**, Zhiheng Zhou, Junmei Yang, Delu Zeng*<br>
-[Paper](https://doi.org/10.1007/s00521-024-09916-3) · <a href="#" onclick="return copyBib('li2024deepar', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
-
-
-<div class="publication-entry" markdown="1">
-
-<!--
-<img src="images/ODE_LSTM.png" alt="sym" style="width:100%;">
--->
-
-<span class="publication-venue">IEEE IoTJ 2024</span> [**Neural ordinary differential equation networks for fintech applications using IoT**](https://doi.org/10.1109/JIOT.2024.3376748)<br>
-Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Delu Zeng*, Zhiheng Zhou<br>
-[Paper](https://doi.org/10.1109/JIOT.2024.3376748) · <a href="#" onclick="return copyBib('li2024neural', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -376,6 +343,30 @@ Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen<br>
 
 </div>
 
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/deepara.png" alt="sym" style="width:100%;">
+-->
+
+<span class="publication-venue">Neural Computing and Applications 2024</span> [**DeepAR-Attention probabilistic prediction for stock price series**](https://doi.org/10.1007/s00521-024-09916-3)<br>
+Jiacheng Li, **`Wei Chen`**, Zhiheng Zhou, Junmei Yang, Delu Zeng*<br>
+[Paper](https://doi.org/10.1007/s00521-024-09916-3) · <a href="#" onclick="return copyBib('li2024deepar', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/ODE_LSTM.png" alt="sym" style="width:100%;">
+-->
+
+<span class="publication-venue">IEEE IoTJ 2024</span> [**Neural ordinary differential equation networks for fintech applications using IoT**](https://doi.org/10.1109/JIOT.2024.3376748)<br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Delu Zeng*, Zhiheng Zhou<br>
+[Paper](https://doi.org/10.1109/JIOT.2024.3376748) · <a href="#" onclick="return copyBib('li2024neural', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
 
 </div>
 
@@ -384,8 +375,8 @@ Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen<br>
 <div class="quiet-note">
   <ul>
     <li><b>2020</b> — National Encouragement Scholarship</li>
-    <li><b>2019</b> — Outstanding Student Leader (University-level); Third-Class University Scholarship</li>
-    <li><b>2018</b> — Merit Student (College-level); Third-Class University Scholarship</li>
+    <li><b>2019</b> — Outstanding Student Leader (University-level); University Scholarship</li>
+    <li><b>2018</b> — Merit Student (College-level); University Scholarship</li>
   </ul>
 </div>
 

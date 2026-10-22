@@ -12,16 +12,16 @@ redirect_from:
 
 I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学).
 
+<!--
 <div class="research-identity" aria-label="Research identity">
   <div class="research-identity__label">Research Focus</div>
   <div class="research-identity__chain">
     <span class="step step--last">Machine Learning under Distribution Shift and Limited Overlap</span>
   </div>
 </div>
+-->
 
-<div class="research-statement">
-  <p class="research-statement__gloss">My research focuses on <strong>machine learning under distribution shift and limited overlap</strong>. I approach these problems through <strong>deep generative methods</strong>, with applications to information estimation, change-point detection, out-of-distribution detection, and explainable and reliable language-model learning, including <strong>preference optimization</strong>, <strong>on-policy self-distillation</strong>, and <strong>model self-evolution</strong>. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).</p>
-</div>
+My research focuses on <strong>machine learning under distribution shift and limited overlap</strong>. I approach these problems through <strong>deep generative methods</strong>, with applications to information estimation, change-point detection, out-of-distribution detection, and explainable and reliable language-model learning, including preference optimization, on-policy self-distillation, and self-evolving LLM/Agents. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).
 
 <!--
 I also collaborate with researchers at:

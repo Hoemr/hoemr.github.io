@@ -10,29 +10,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN). I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学).
+
 <div class="research-identity" aria-label="Research identity">
-  <div class="research-identity__label">Research</div>
+  <div class="research-identity__label">Research Focus</div>
   <div class="research-identity__chain">
-    <span class="step">Generate</span>
-    <span class="step">Discriminate</span>
-    <span class="step step--last">Improve</span>
+    <span class="step step--last">Machine Learning under Distribution Shift and Limited Overlap</span>
   </div>
-  <p class="research-identity__gloss">Generative&ndash;discriminative learning for reliable self-improvement.</p>
 </div>
 
 <div class="research-statement">
-  <div class="research-statement__label">Research question</div>
-  <p class="research-statement__question">How can learning systems continue to improve when high-quality external data and supervision are limited or imperfect?</p>
-  <p class="research-statement__gloss">I approach this from two sides.</p>
-  <div class="research-sides">
-    <p><strong>Generative learning</strong> is one: how a model can construct distributions and data beyond what it has observed. My work here is on normalizing flows, variational inference, and diffusion models.</p>
-    <p><strong>Discriminative learning</strong> is the other: how a model can tell which information is reliable and worth learning from. Here I work on density-ratio estimation, which compares distributions under shift and imbalance, and on preference optimization, where the supervision is comparative rather than a clean label.</p>
-  </div>
-  <p class="research-statement__goal">The two sides meet here: how to <strong>value</strong> self-generated experience. I estimate the reliability of each self-generated sample, and study how such values should drive policy updates, so that a system can generate, evaluate, and selectively internalize its own experience rather than degrade.</p>
+  <p class="research-statement__gloss">My research focuses on <strong>machine learning under distribution shift and limited overlap</strong>. I approach these problems through <strong>deep generative methods</strong>, with applications to information estimation, change-point detection, out-of-distribution detection, and explainable and reliable language-model learning, including <strong>preference optimization</strong>, <strong>on-policy self-distillation</strong>, and <strong>model self-evolution</strong>. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).</p>
 </div>
 
-I received my B.S. degree in Statistics from Wuhan University of Technology (WHUT, 武汉理工大学). Currently, I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics, South China University of Technology (SCUT, 华南理工大学), advised by Prof. [Delu Zeng](https://scholar.google.com.hk/citations?user=08RCdoIAAAAJ&hl=zh-CN).
-
+<!--
 I also collaborate with researchers at:
 
 <div class="collab-list">
@@ -61,10 +52,9 @@ I also collaborate with researchers at:
     <div class="collab-people"><a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=yVw0XEMAAAAJ">Wenjing Lu</a></div>
   </div>
 </div>
+-->
 
-I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).
-
-I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, Internet of Things Journal (IoTJ), Expert Systems with Applications (ESWA), EAAI...
+I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, IoTJ, ESWA, EAAI...
 
 Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
 
@@ -116,43 +106,26 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <div class="academic-panel research-overview">
   <div class="panel-heading">
-    <div class="panel-title">Research Overview</div>
+    <div class="panel-title">Publication Topics</div>
     <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (15)</a>
   </div>
   <div class="topic-list">
-    <a href="#" class="filter-link topic-card" id="filter-generative" onclick="showTopic('generative'); return false;">
+    <a href="#" class="filter-link topic-card" id="filter-distribution" onclick="showTopic('distribution'); return false;">
       <div class="topic-card-index">01</div>
       <div class="topic-card-body">
-        <div class="topic-card-title">Generative Learning</div>
-        <div class="topic-card-meta">Construct new data and experience</div>
+        <div class="topic-card-title">Machine Learning Under Distribution Shift and Limited Overlap</div>
+        <div class="topic-card-meta">Deep generative methods · density-ratio estimation</div>
       </div>
-      <div class="topic-card-count">4 papers</div>
+      <div class="topic-card-count">8 papers</div>
     </a>
-    <a href="#" class="filter-link topic-card" id="filter-discriminative" onclick="showTopic('discriminative'); return false;">
-      <div class="topic-card-index">02</div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Discriminative Learning</div>
-        <div class="topic-card-meta">Identify what is reliable and useful</div>
-      </div>
-      <div class="topic-card-count">5 papers</div>
-    </a>
-    <div class="research-map__link" aria-hidden="true">&#8595;</div>
-    <div class="topic-card topic-card--goal">
-      <div class="topic-card-index">03</div>
-      <div class="topic-card-body">
-        <div class="topic-card-title">Reliable Self-Improvement</div>
-        <div class="topic-card-meta">Value self-generated experience by its reliability</div>
-      </div>
-      <div class="topic-card-count topic-card-count--emerging">Long-term goal</div>
-    </div>
     <div class="topic-sep" role="presentation"></div>
     <a href="#" class="filter-link topic-card" id="filter-applications" onclick="showTopic('applications'); return false;">
-      <div class="topic-card-index">&#8212;</div>
+      <div class="topic-card-index">02</div>
       <div class="topic-card-body">
-        <div class="topic-card-title">Applications &amp; Collaborations</div>
-        <div class="topic-card-meta">Time series · low-level vision · joint work</div>
+        <div class="topic-card-title">Applications</div>
+        <div class="topic-card-meta">Language-model learning · time series · low-level vision</div>
       </div>
-      <div class="topic-card-count">6 papers</div>
+      <div class="topic-card-count">7 papers</div>
     </a>
   </div>
   <div class="topic-hint">
@@ -163,209 +136,136 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <!-- Section anchors. The ids below the first one on each block are legacy anchors
      kept so that external links to the previous topic taxonomy keep resolving. -->
+<span class='anchor' id='distribution-shift-and-limited-overlap'></span>
 <span class='anchor' id='generative-learning'></span>
 <span class='anchor' id='generating-additional-data'></span>
 <span class='anchor' id='deep-generative-modeling'></span>
 
-<div id="section-generative">
+<div id="section-distribution">
 
-<h2><span class="section-number">A</span> Generative Learning</h2>
-
-<p class="section-question">How can models construct useful data, representations, and experience beyond limited observations?</p>
-
-<p>Generative modeling is the methodological foundation of this pillar: it is what lets a model represent, sample from, and construct data when external data are limited. The work below contributes to that foundation across variational inference, normalizing flows, and diffusion models.</p>
+<h2><span class="section-number">A</span> Machine Learning Under Distribution Shift and Limited Overlap</h2>
 
 <span class='anchor' id='xu2026implicit'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">UAI 2026</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/ivrs.svg" alt="Implicit Variational Rejection Sampling overview" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU), Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao* <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">UAI 2026</span> [**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU)<br>
+Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao*<br>
+[Paper](https://openreview.net/forum?id=fqSPFeDbOU) · [arXiv](https://arxiv.org/abs/2606.14235) · <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**UAI 2026** \| [**Paper**](https://openreview.net/forum?id=fqSPFeDbOU) \| [**arXiv**](https://arxiv.org/abs/2606.14235)
-
-- Combines flexible implicit proposal distributions with rejection sampling, using a discriminator to estimate the proposal-to-posterior density ratio.
-- Introduces the Implicit Resampling Evidence Lower Bound (IR-ELBO), yielding a tighter variational bound and improved posterior approximation.
-</div>
-<div class="paper-tags"><span class="paper-tag">Variational Inference</span><span class="paper-tag">DRE</span><span class="paper-tag">Rejection Sampling</span></div>
 </div>
 
 <span class='anchor' id='li2025evodiff'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">NeurIPS 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/evodiff.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096), Shigui Li, **`Wei Chen`**, Delu Zeng* <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">NeurIPS 2025</span> [**EVODiff: Entropy-aware Variance Optimized Diffusion Inference**](https://arxiv.org/abs/2509.26096)<br>
+Shigui Li, **`Wei Chen`**, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2509.26096) · [Code](https://github.com/ShiguiLi/EVODiff) · [News&#127881;](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ) · <a href="#" onclick="return copyBib('li2025evodiff', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**NeurIPS 2025** \| [**Paper**](https://arxiv.org/abs/2509.26096) \| [**Code**](https://github.com/ShiguiLi/EVODiff) \| [**News&#127881;**](https://mp.weixin.qq.com/s/mviiMgexMub_os4oSIdwiQ)
-
-- Proposes EVODiff, a fast inference method for diffusion models that optimizes conditional entropy during denoising.
-- Generates higher-quality images with fewer steps (e.g., 25% fewer steps on ImageNet-256) while significantly reducing artifacts.
-</div>
-<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Sampling Acceleration</span></div>
 </div>
 
 
 <span class='anchor' id='chen2025entropy'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">PR 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/eiw_flow.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442), **`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">PR 2025</span> [**Entropy-informed weighting channel normalizing flow for deep generative models**](https://doi.org/10.1016/j.patcog.2025.112442)<br>
+**`Wei Chen`**#, Shian Du#, Shigui Li#, Delu Zeng*, John Paisley<br>
+[Paper](https://doi.org/10.1016/j.patcog.2025.112442) · [Code](https://github.com/ShianDu/EIW-Flow) · <a href="#" onclick="return copyBib('chen2025entropy', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Pattern Recognition (PR) 2025** \| [**Paper**](https://doi.org/10.1016/j.patcog.2025.112442) \| [**Code**](https://github.com/ShianDu/EIW-Flow)
-
-- Proposes EIW-Flow, which adaptively assigns channel-wise weights and shuffles latent variables in normalizing flows.
-- Achieves state-of-the-art density estimation on CIFAR-10, CelebA, and ImageNet with negligible extra cost.
-</div>
-<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Density Estimation</span></div>
 </div>
 
 
 <span class='anchor' id='du2022flow'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">CVPR 2022</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/toflow.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335), Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng* <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**CVPR 2022** \| [**Paper**](https://arxiv.org/abs/2203.10335) \| [**Code**](https://github.com/ShianDu/TO-FLOW)
-
-- Proposes To-Flow, which optimizes the evolutionary time of neural ODEs via coordinate descent to speed up continuous normalizing flow training.
-- Accelerates training by ~20% without sacrificing generation quality, and is compatible with existing regularization methods.
-</div>
-<div class="paper-tags"><span class="paper-tag">Normalizing Flow</span><span class="paper-tag">Neural ODE</span></div>
-</div>
+<span class="publication-venue">CVPR 2022</span> [**To-Flow: Efficient Continuous Normalizing Flows with Temporal Optimization Adjoint with Moving Speed**](https://arxiv.org/abs/2203.10335)<br>
+Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2203.10335) · [Code](https://github.com/ShianDu/TO-FLOW) · <a href="#" onclick="return copyBib('du2022flow', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
 <span class='anchor' id='discriminative-learning'></span>
 <span class='anchor' id='learning-from-imperfect-data'></span>
 <span class='anchor' id='density-ratio-estimation'></span>
-<span class='anchor' id='llm-post-training'></span>
-
-<div id="section-discriminative">
-
-<h2><span class="section-number">B</span> Discriminative Learning</h2>
-
-<p class="section-question">How can a learning system identify what is reliable, informative, and worth learning from?</p>
-
-<p>My work here develops <strong>density-ratio estimation</strong> as a principled way to compare two distributions and discriminate useful information, under covariate shift, class imbalance, and the density or support chasms that break standard estimators. I also study <strong>preference optimization</strong>, which introduces a discriminative preference signal into a generative policy — a comparative, implicit form of supervision rather than a clean label.</p>
 
 <span class='anchor' id='chen2026a'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICLR 2026</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/mvp.jpg" alt="MVP" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2602.00834), **`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">ICLR 2026</span> [**A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2602.00834)<br>
+**`Wei Chen`**, Jiacheng Li, Shigui Li, Zhiqi Lin, Junmei Yang, John Paisley, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2602.00834) · <a href="#" onclick="return copyBib('chen2026a', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICLR 2026** \| [**Paper**](https://arxiv.org/abs/2602.00834) \| [**Code**]()
-
-- Resolves the path-dependence paradox in score-based methods by identifying the overlooked *path variance* term in training objectives.
-- Derives a closed-form variance expression and learns optimal, data-adaptive interpolation paths automatically, achieving state-of-the-art DRE accuracy.
-</div>
-<div class="paper-tags"><span class="paper-tag">DRE</span><span class="paper-tag">Score-Based</span><span class="paper-tag">Distribution Shift</span></div>
 </div>
 
 
 <span class='anchor' id='chen2026one'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2026</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/osdre.png" alt="OS-DRE" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672), **`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng* <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">Preprint 2026</span> [**One-Step Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2604.10672)<br>
+**`Wei Chen`**, Qibin Zhao, John Paisley, Junmei Yang, Delu Zeng*<br>
+[Paper](https://arxiv.org/abs/2604.10672) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2026one', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**arXiv 2026** \| [**Paper**](https://arxiv.org/abs/2604.10672) \| [**Code**](https://github.com/Hoemr/OpenDRE)
-
-- Proposes OS-DRE, a solver-free framework that decomposes the time score into spatial and temporal parts, with the temporal part solved analytically.
-- Enables accurate density ratio estimation with only *one* function evaluation, combining the speed of classical methods with the accuracy of score-based approaches.
-</div>
-<div class="paper-tags"><span class="paper-tag">DRE</span><span class="paper-tag">Score-Based</span></div>
 </div>
 
 
 <span class='anchor' id='chen2025dequantified'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICML 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/d3re.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Dequantified Diffusion-Schrödinger Bridge for Density Ratio Estimation**](https://arxiv.org/pdf/2505.05034?), **`Wei Chen`**, Shigui Li, Jiacheng Li, Junmei Yang, John Paisley, Delu Zeng* <a href="#" onclick="return copyBib('chen2025dequantified', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">ICML 2025</span> [**Dequantified Diffusion-Schrödinger Bridge for Density Ratio Estimation**](https://arxiv.org/pdf/2505.05034?)<br>
+**`Wei Chen`**, Shigui Li, Jiacheng Li, Junmei Yang, John Paisley, Delu Zeng*<br>
+[Paper](https://arxiv.org/pdf/2505.05034?) · [Code](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git) · <a href="#" onclick="return copyBib('chen2025dequantified', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**ICML 2025** \| [**Paper**](https://arxiv.org/pdf/2505.05034?) \| [**Code**](https://github.com/Hoemr/Dequantified-Diffusion-Bridge-Density-Ratio-Estimation.git)
-
-- Proposes D3RE, a unified framework that handles the density-chasm and support-chasm problems where existing methods fail.
-- Combines diffusion bridges with optimal transport to expand support coverage and stabilize score learning, enabling robust estimation even for very different distributions.
-</div>
-<div class="paper-tags"><span class="paper-tag">DRE</span><span class="paper-tag">Diffusion</span><span class="paper-tag">Optimal Transport</span></div>
 </div>
 
 
 <span class='anchor' id='chen2025diffusion'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#b45309;z-index:100;border-radius:0 0 4px 0;">Preprint 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/isadre.png" alt="ISA-DRE" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852), **`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">Preprint 2025</span> [**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852)<br>
+**`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao<br>
+[Paper](https://arxiv.org/abs/2509.04852) · <a href="#" onclick="return copyBib('chen2025diffusion', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**arXiv 2025** \| [**Paper**](https://arxiv.org/abs/2509.04852) \| [**Code**]()
-
-- Replaces high-variance tangent-based learning targets with their interval integral (*secant*), which is provably lower-variance and smoother for neural networks to learn.
-- Achieves accurate density ratio estimation with fewer function evaluations, and handles large distribution discrepancies more robustly than prior methods.
-</div>
-<div class="paper-tags"><span class="paper-tag">DRE</span><span class="paper-tag">Score-Based</span><span class="paper-tag">Diffusion</span></div>
 </div>
 
-
-<span class='anchor' id='chen2026towards'></span>
-
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ICML 2026</div>
-<img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
-
-[**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://arxiv.org/pdf/2604.18239), **`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-**ICML 2026** \| [**Paper**](https://arxiv.org/pdf/2604.18239) \| [**Code**](https://github.com/IceyWuu/DisentangledPreferenceOptimization)
-
-- Reveals that diverse preference optimization objectives share the same update direction and differ only in two scalar weights, and identifies a simple condition (*disentanglement band*) for the desired learning pathway.
-- Proposes a plug-and-play *reward calibration* method that rebalances updates to stay within this band, improving LLM alignment without modifying the base objective.
-</div>
-<div class="paper-tags"><span class="paper-tag">Preference Optimization</span><span class="paper-tag">LLM Alignment</span><span class="paper-tag">DRE</span></div>
-</div>
 
 </div>
 
@@ -375,124 +275,105 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <div id="section-applications">
 
-<h2><span class="section-number">C</span> Applications &amp; Collaborations</h2>
+<h2><span class="section-number">B</span> Applications</h2>
 
-<p class="section-question">How do these methodological ideas behave in concrete domains and in joint work?</p>
+<span class='anchor' id='llm-post-training'></span>
+<span class='anchor' id='chen2026towards'></span>
 
-<p>Application-oriented and collaborative work, where probabilistic and generative methods meet real data — time-series forecasting, IoT and fintech settings, and low-level vision.</p>
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
+-->
+
+<span class="publication-venue">ICML 2026</span> [**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://arxiv.org/pdf/2604.18239)<br>
+**`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang<br>
+[Paper](https://arxiv.org/pdf/2604.18239) · [Code](https://github.com/IceyWuu/DisentangledPreferenceOptimization) · <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
 
 <span class='anchor' id='li2025evolvinformer'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">IEEE T-IM 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/evolvinformer.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Integrating Ordinary Differential Equations with Sparse Attention for Power Load Forecasting**](https://doi.org/10.1109/TIM.2025.3581667), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="return copyBib('li2025evolvinformer', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">IEEE T-IM 2025</span> [**Integrating Ordinary Differential Equations with Sparse Attention for Power Load Forecasting**](https://doi.org/10.1109/TIM.2025.3581667)<br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br>
+[Paper](https://doi.org/10.1109/TIM.2025.3581667) · <a href="#" onclick="return copyBib('li2025evolvinformer', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://doi.org/10.1109/TIM.2025.3581667)
-
-- Proposes EvolvInformer, which integrates neural ODE solvers with sparse attention for long-sequence power load forecasting.
-- Reduces forecasting error by 29.7% (MSE) while maintaining logarithmic memory complexity.
-</div>
-<div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Neural ODE</span></div>
 </div>
 
 
 <span class='anchor' id='li2025generative'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">TIM 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/wavediff.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Generative Self-Supervised Time-Series Forecasting Leveraging Wavelet Diffusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="return copyBib('li2025generative', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">IEEE T-IM 2025</span> [**Generative Self-Supervised Time-Series Forecasting Leveraging Wavelet Diffusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480)<br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br>
+[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480) · [News&#127881;](https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4) · <a href="#" onclick="return copyBib('li2025generative', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Trans on Instrumentation and Measurement (T-IM) 2025** \| [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11197480) \| [**News&#127881;**](https://mp.weixin.qq.com/s/ITAwphWcT7076ttHctvcaw?scene=1&click_id=4)
-
-- Proposes TimeWaveDiff, a lightweight self-supervised framework that combines wavelet decomposition with diffusion modeling for time series.
-- Captures multi-scale periodic patterns and achieves superior long-term forecasting accuracy with significantly lower computational cost.
-</div>
-<div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Diffusion</span><span class="paper-tag">Self-Supervised</span></div>
 </div>
 
 
 <span class='anchor' id='li2025diffinformer'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">ESWA 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/diffinformer.jpg" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Diffinformer: Diffusion Informer model for long sequence time-series forecasting**](https://doi.org/10.1016/j.eswa.2025.129944), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng* <a href="#" onclick="return copyBib('li2025diffinformer', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">ESWA 2025</span> [**Diffinformer: Diffusion Informer model for long sequence time-series forecasting**](https://doi.org/10.1016/j.eswa.2025.129944)<br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Zhiheng Zhou, Delu Zeng*<br>
+[Paper](https://doi.org/10.1016/j.eswa.2025.129944) · <a href="#" onclick="return copyBib('li2025diffinformer', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Expert Systems with Applications (ESWA) 2025** \| [**Paper**](https://doi.org/10.1016/j.eswa.2025.129944)
-
-- Proposes Diffinformer, which combines conditional diffusion models with Informer's efficient sparse attention for long-sequence time series forecasting.
-- Achieves consistent improvements over existing methods across five large-scale real-world datasets.
-</div>
-<div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Diffusion</span></div>
 </div>
 
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neural Computing 2024</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/deepara.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**DeepAR-Attention probabilistic prediction for stock price series**](https://doi.org/10.1007/s00521-024-09916-3), Jiacheng Li, **`Wei Chen`**, Zhiheng Zhou, Junmei Yang, Delu Zeng* <a href="#" onclick="return copyBib('li2024deepar', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">Neural Computing and Applications 2024</span> [**DeepAR-Attention probabilistic prediction for stock price series**](https://doi.org/10.1007/s00521-024-09916-3)<br>
+Jiacheng Li, **`Wei Chen`**, Zhiheng Zhou, Junmei Yang, Delu Zeng*<br>
+[Paper](https://doi.org/10.1007/s00521-024-09916-3) · <a href="#" onclick="return copyBib('li2024deepar', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Neural Computing and Applications 2024** \| [**Paper**](https://doi.org/10.1007/s00521-024-09916-3)
-
-- Proposes DeepAR-Attention, combining DeepAR with attention mechanisms for probabilistic stock price forecasting.
-- Captures complex temporal dependencies and provides uncertainty-aware predictions for financial time series.
-</div>
-<div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Probabilistic Forecasting</span></div>
 </div>
 
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">IEEE IoTJ 2024</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/ODE_LSTM.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**Neural ordinary differential equation networks for fintech applications using IoT**](https://doi.org/10.1109/JIOT.2024.3376748), Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Delu Zeng*, Zhiheng Zhou <a href="#" onclick="return copyBib('li2024neural', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">IEEE IoTJ 2024</span> [**Neural ordinary differential equation networks for fintech applications using IoT**](https://doi.org/10.1109/JIOT.2024.3376748)<br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Junmei Yang, Delu Zeng*, Zhiheng Zhou<br>
+[Paper](https://doi.org/10.1109/JIOT.2024.3376748) · <a href="#" onclick="return copyBib('li2024neural', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**IEEE Internet of Things Journal (IoTJ) 2024** \| [**Paper**](https://doi.org/10.1109/JIOT.2024.3376748) 
-
-- Develops neural ODE network approaches that model continuous-time dynamics for fintech applications in IoT.
-- Captures irregularly sampled financial data more naturally than discrete-time models.
-</div>
-<div class="paper-tags"><span class="paper-tag">Time Series</span><span class="paper-tag">Neural ODE</span></div>
 </div>
 
 <span class='anchor' id='lin2025reciprocalla'></span>
 
-<div class="paper-box">
-<div class="paper-box-image" style="position: relative;">
-<div class="paper-badge" style="position:absolute;top:0;left:0;padding:2px 8px;font-size:12px;font-weight:600;color:white;background:#00369f;z-index:100;border-radius:0 0 4px 0;">Neurocomputing 2025</div>
+<div class="publication-entry" markdown="1">
+
+<!--
 <img src="images/reciprocalla.png" alt="sym" style="width:100%;">
-</div>
-<div class="paper-box-text" markdown="1">
+-->
 
-[**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438), Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+<span class="publication-venue">Neurocomputing 2025</span> [**ReciprocalLA-LLIE: Low-light image enhancement with luminance-aware reciprocal diffusion process**](https://doi.org/10.1016/j.neucom.2025.131438)<br>
+Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen<br>
+[Paper](https://doi.org/10.1016/j.neucom.2025.131438) · <a href="#" onclick="return copyBib('lin2025reciprocalla', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
-**Neurocomputing 2025** \| [**Paper**](https://doi.org/10.1016/j.neucom.2025.131438)
-
-- Proposes a reciprocal diffusion process within DDPM that iteratively enhances low-light images.
-- Introduces a Luminance Adjustment Block for robust global brightness control, recovering details in dark regions.
-</div>
-<div class="paper-tags"><span class="paper-tag">Diffusion</span><span class="paper-tag">Low-Light Imaging</span></div>
 </div>
 
 
@@ -501,10 +382,10 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='honors'></span>
 # <span class="section-number">03</span> Honors and Awards
 <div class="quiet-note">
-  <div class="entry-title">Highlights</div>
-  <div class="entry-meta">More awards are being updated.</div>
   <ul>
-    <li><b>2021.10</b> — None</li>
+    <li><b>2020</b> — National Encouragement Scholarship</li>
+    <li><b>2019</b> — Outstanding Student Leader (University-level); Third-Class University Scholarship</li>
+    <li><b>2018</b> — Merit Student (College-level); Third-Class University Scholarship</li>
   </ul>
 </div>
 
@@ -556,6 +437,13 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 # <span class="section-number">06</span> Internships
 <div class="entry-list">
 <div class="profile-entry">
+  <span class="entry-title">vivo</span>
+  <div>
+    <div class="entry-title">BlueImage Lab</div>
+    <div class="entry-meta">2026.06</div>
+  </div>
+</div>
+<div class="profile-entry">
   <img src="images/AIP.png" alt="RIKEN AIP">
   <div>
     <div class="entry-title">RIKEN AIP — Tensor Learning Team</div>
@@ -571,6 +459,18 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 Selected open-source projects I maintain or contribute to. Live badges below reflect the current state on GitHub.
 
 <div class="opensource-grid">
+
+  <div class="opensource-card">
+    <div class="opensource-card__header">
+      <h3><a href="https://github.com/Hoemr/OpenDRE" target="_blank" rel="noopener">OpenDRE</a></h3>
+      <span class="opensource-card__role">Author</span>
+    </div>
+    <div class="opensource-card__badges">
+      <a href="https://github.com/Hoemr/OpenDRE/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
+      <a href="https://github.com/Hoemr/OpenDRE/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
+    </div>
+    <p class="opensource-card__desc">A unified framework for density-ratio estimation, combining score-based, neural, and kernel methods for information estimation, change-point detection, and out-of-distribution detection.</p>
+  </div>
 
   <div class="opensource-card">
     <div class="opensource-card__header">
@@ -660,15 +560,15 @@ function copyBib(key, event) {
 
 // Topic filter: anchor-to-topic mapping (for News section links)
 var anchorToTopic = {
-  'xu2026implicit': 'generative',
-  'li2025evodiff': 'generative',
-  'chen2025entropy': 'generative',
-  'du2022flow': 'generative',
-  'chen2026a': 'discriminative',
-  'chen2026one': 'discriminative',
-  'chen2025dequantified': 'discriminative',
-  'chen2025diffusion': 'discriminative',
-  'chen2026towards': 'discriminative',
+  'xu2026implicit': 'distribution',
+  'li2025evodiff': 'distribution',
+  'chen2025entropy': 'distribution',
+  'du2022flow': 'distribution',
+  'chen2026a': 'distribution',
+  'chen2026one': 'distribution',
+  'chen2025dequantified': 'distribution',
+  'chen2025diffusion': 'distribution',
+  'chen2026towards': 'applications',
   'lin2025reciprocalla': 'applications',
   'li2025evolvinformer': 'applications',
   'li2025generative': 'applications',
@@ -678,14 +578,12 @@ var anchorToTopic = {
 };
 
 var topicSections = {
-  'generative': document.getElementById('section-generative'),
-  'discriminative': document.getElementById('section-discriminative'),
+  'distribution': document.getElementById('section-distribution'),
   'applications': document.getElementById('section-applications')
 };
 
 var topicAnchors = {
-  'generative': 'generative-learning',
-  'discriminative': 'discriminative-learning',
+  'distribution': 'distribution-shift-and-limited-overlap',
   'applications': 'applications-collaborations'
 };
 

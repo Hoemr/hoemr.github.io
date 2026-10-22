@@ -86,68 +86,27 @@ b {
     font-weight: 600;
 }
 
-.paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: .9rem 0 1.15rem;
-    padding: 1.15rem;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    background: $paper-surface;
-    box-shadow: 0 5px 16px rgba(39, 46, 40, .055);
+.publication-entry {
+    padding: .75rem 0;
+    border-bottom: 1px solid $paper-line;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 1;
-        img {
-            width: 100%;
-            max-width: 400px;
-            border: 1px solid #e2e2da;
-            box-shadow: 0 4px 12px rgba(38, 42, 38, .14);
-        }
+    p {
+        margin: 0;
+        font-size: .94em;
+        line-height: 1.55;
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 2;
+}
 
-        p:first-child {
-            margin-top: .9rem;
-        }
-
-        ul:last-child,
-        p:last-child {
-            margin-bottom: 0;
-        }
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-
-            p:first-child {
-                margin-top: 0;
-            }
-        }
-
-    }
-
-
+.publication-venue {
+    display: inline-block;
+    margin-right: .35em;
+    padding: 0 .35em;
+    border: 1px solid $paper-line;
+    border-radius: 3px;
+    color: $primary-color;
+    font-family: $sans-serif;
+    font-size: .78em;
+    font-weight: 600;
 }
 
 $scroll_offset : 2em;
@@ -491,36 +450,6 @@ p.research-statement__goal {
     color: $paper-ink-soft;
     font-size: .92em;
     line-height: 1.55;
-}
-
-p.section-question {
-    margin: .1rem 0 .85rem;
-    color: $paper-ink-soft;
-    font-family: $serif;
-    font-size: 1.02em;
-    font-style: italic;
-    line-height: 1.6;
-}
-
-.paper-tags {
-    order: 3;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: .35rem;
-    margin-top: .7rem;
-}
-
-.paper-tag {
-    padding: 1px 7px;
-    border: 1px solid $border-color;
-    border-radius: 3px;
-    background: $paper-surface-muted;
-    color: $paper-ink-muted;
-    font-family: $monospace;
-    font-size: .68rem;
-    letter-spacing: .02em;
-    white-space: nowrap;
 }
 
 .section-number {

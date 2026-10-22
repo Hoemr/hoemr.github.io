@@ -440,7 +440,7 @@ Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen<br>
   <span class="entry-title">vivo</span>
   <div>
     <div class="entry-title"><a href="https://libraboli.github.io/blueimage/" target="_blank" rel="noopener">BlueImage Lab</a></div>
-    <div class="entry-meta">2026.06</div>
+    <div class="entry-meta">2026.06 - 2026.07</div>
   </div>
 </div>
 <div class="profile-entry">

@@ -16,12 +16,12 @@ I am a Ph.D. candidate in Computational Mathematics at the School of Mathematics
 <div class="research-identity" aria-label="Research identity">
   <div class="research-identity__label">Research Focus</div>
   <div class="research-identity__chain">
-    <span class="step step--last">Machine Learning under Distribution Shift and Limited Overlap</span>
+    <span class="step step--last">Learning from Imperfect Data and Feedback</span>
   </div>
 </div>
 -->
 
-My research focuses on <strong>machine learning under distribution shift and limited overlap</strong>. I approach these problems through <strong>deep generative methods</strong>, with applications to information estimation, change-point detection, out-of-distribution detection, and explainable and reliable language-model learning, including preference optimization, on-policy self-distillation, and self-evolving LLM/Agents. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).
+My research focuses on <strong>learning from imperfect data and feedback</strong>, with an emphasis on distribution shift, selection bias, and unreliable feedback in self-evolving systems. I develop <strong>deep generative methods</strong> with applications to information estimation, change-point detection, out-of-distribution detection, and explainable and reliable language-model learning, including preference optimization, on-policy self-distillation, and self-evolving LLMs and agents. I have published papers at top AI conferences (ICLR, NeurIPS, ICML, CVPR) and journals (IEEE T-IM, PR, ESWA, IoTJ, Neurocomputing).
 
 <!--
 I also collaborate with researchers at:
@@ -113,7 +113,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
     <a href="#" class="filter-link topic-card" id="filter-distribution" onclick="showTopic('distribution'); return false;">
       <div class="topic-card-index">01</div>
       <div class="topic-card-body">
-        <div class="topic-card-title">Machine Learning Under Distribution Shift and Limited Overlap</div>
+        <div class="topic-card-title">Learning from Imperfect Data and Feedback</div>
         <div class="topic-card-meta">Deep generative methods · density-ratio estimation</div>
       </div>
       <div class="topic-card-count">8 papers</div>
@@ -136,6 +136,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <!-- Section anchors. The ids below the first one on each block are legacy anchors
      kept so that external links to the previous topic taxonomy keep resolving. -->
+<span class='anchor' id='learning-from-imperfect-data-and-feedback'></span>
 <span class='anchor' id='distribution-shift-and-limited-overlap'></span>
 <span class='anchor' id='generative-learning'></span>
 <span class='anchor' id='generating-additional-data'></span>
@@ -143,7 +144,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 
 <div id="section-distribution">
 
-<h2><span class="section-number">A</span> Machine Learning Under Distribution Shift and Limited Overlap</h2>
+<h2><span class="section-number">A</span> Learning from Imperfect Data and Feedback</h2>
 
 <span class='anchor' id='xu2026implicit'></span>
 
@@ -574,7 +575,7 @@ var topicSections = {
 };
 
 var topicAnchors = {
-  'distribution': 'distribution-shift-and-limited-overlap',
+  'distribution': 'learning-from-imperfect-data-and-feedback',
   'applications': 'applications-collaborations'
 };
 

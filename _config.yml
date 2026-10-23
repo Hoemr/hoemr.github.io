@@ -9,7 +9,7 @@
 locale                   : "zh-CN"
 title                    : "Wei Chen (陈炜)"
 title_separator          : "-"
-description              : "Machine Learning under Distribution Shift and Limited Overlap."
+description              : "Learning from Imperfect Data and Feedback. Deep generative methods for statistical inference and self-evolving agents."
 repository               : "hoemr/hoemr.github.io"
 google_scholar_stats_use_cdn : true
 visitor_counter_endpoint : "https://hoemr-visitor-counter.wei-chen-home.workers.dev/visit"

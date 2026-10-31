@@ -79,7 +79,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <span class='anchor' id='publications'></span>
 # <span class="section-number">02</span> Publications
 
-My research focuses on **Machine Learning under Weak and Relative Supervision**, addressing the fundamental challenge of optimizing models when perfect ground-truth labels are absent. This spans inferring latent objectives from imperfect data/preferences, and optimizing dynamic policies through environmental interactions.
+My research focuses on **Machine Learning under Weak and Relative Supervision**, addressing the fundamental challenge of optimizing models when perfect ground-truth data or evaluation signals are absent.
 
 <div class="academic-panel scholar-panel">
   <div class="panel-heading">
@@ -115,17 +115,17 @@ My research focuses on **Machine Learning under Weak and Relative Supervision**,
     <a href="#" class="filter-link topic-card" id="filter-imperfect" onclick="showTopic('imperfect'); return false;">
       <div class="topic-card-index">01</div>
       <div class="topic-card-body">
-        <div class="topic-card-title">Learning from Imperfect Data and Preferences</div>
+        <div class="topic-card-title">Learning from Imperfect Data</div>
       </div>
-      <div class="topic-card-count">17 papers</div>
+      <div class="topic-card-count">14 papers</div>
     </a>
     <div class="topic-sep" role="presentation"></div>
-    <a href="#" class="filter-link topic-card" id="filter-interactive" onclick="showTopic('interactive'); return false;">
+    <a href="#" class="filter-link topic-card" id="filter-feedback" onclick="showTopic('feedback'); return false;">
       <div class="topic-card-index">02</div>
       <div class="topic-card-body">
-        <div class="topic-card-title">Learning from Interactive Environments and Feedback</div>
+        <div class="topic-card-title">Learning from Imperfect Feedback</div>
       </div>
-      <div class="topic-card-count">1 paper</div>
+      <div class="topic-card-count">4 papers</div>
     </a>
   </div>
   <div class="topic-hint">
@@ -136,37 +136,17 @@ My research focuses on **Machine Learning under Weak and Relative Supervision**,
 
 <!-- Section anchors. The ids after the first one on each block are legacy anchors
      kept so that external links to the previous topic taxonomies keep resolving. -->
+<span class='anchor' id='learning-from-imperfect-data'></span>
 <span class='anchor' id='learning-from-imperfect-data-and-preferences'></span>
 <span class='anchor' id='learning-from-imperfect-data-and-feedback'></span>
 <span class='anchor' id='distribution-shift-and-limited-overlap'></span>
 <span class='anchor' id='generative-learning'></span>
 <span class='anchor' id='generating-additional-data'></span>
 <span class='anchor' id='deep-generative-modeling'></span>
-<span class='anchor' id='llm-post-training'></span>
 
 <div id="section-imperfect">
 
-<h2><span class="section-number">A</span> Learning from Imperfect Data and Preferences</h2>
-
-<span class='anchor' id='chen2026rubricopt'></span>
-
-<div class="publication-entry" markdown="1">
-
-<span class="publication-venue">Preprint 2026</span> [**RubricOpt: Self-Revision of Semantic Rubrics for Preference Optimization**](https://arxiv.org/abs/2610.29491)<br>
-**`Wei Chen`**, Yubing Wu, Shigui Li, Delu Zeng, Jingfeng Liu, Junmei Yang, Zhiheng Zhou, Bo Li, Min Chen, Zhou Wang<br>
-[Paper](https://arxiv.org/abs/2610.29491) · <a href="#" onclick="return copyBib('chen2026rubricopt', event)" style="color: #666; font-size: 0.9em;">[Bib]</a> <span style="color: #999; font-size: 0.85em;">[Preference Learning]</span>
-
-</div>
-
-<span class='anchor' id='wu2026stochastic'></span>
-
-<div class="publication-entry" markdown="1">
-
-<span class="publication-venue">Preprint 2026</span> [**Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory**](https://arxiv.org/abs/2610.29538)<br>
-Yubing Wu, **`Wei Chen`**, Junmei Yang, Delu Zeng, Tiewen Pan<br>
-[Paper](https://arxiv.org/abs/2610.29538) · <a href="#" onclick="return copyBib('wu2026stochastic', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
+<h2><span class="section-number">A</span> Learning from Imperfect Data</h2>
 
 <span class='anchor' id='xu2026implicit'></span>
 
@@ -179,20 +159,6 @@ Yubing Wu, **`Wei Chen`**, Junmei Yang, Delu Zeng, Tiewen Pan<br>
 <span class="publication-venue">UAI 2026</span> [**Implicit Variational Rejection Sampling**](https://openreview.net/forum?id=fqSPFeDbOU)<br>
 Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao Ding, John Paisley, Qibin Zhao*<br>
 [Paper](https://openreview.net/forum?id=fqSPFeDbOU) · [arXiv](https://arxiv.org/abs/2606.14235) · <a href="#" onclick="return copyBib('xu2026implicit', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
-
-</div>
-
-<span class='anchor' id='chen2026towards'></span>
-
-<div class="publication-entry" markdown="1">
-
-<!--
-<img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
--->
-
-<span class="publication-venue">ICML 2026</span> [**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://arxiv.org/pdf/2604.18239)<br>
-**`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang<br>
-[Paper](https://arxiv.org/pdf/2604.18239) · [Code](https://github.com/IceyWuu/DisentangledPreferenceOptimization) · <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -211,7 +177,6 @@ Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao 
 </div>
 
 <span class='anchor' id='discriminative-learning'></span>
-<span class='anchor' id='learning-from-imperfect-data'></span>
 <span class='anchor' id='density-ratio-estimation'></span>
 
 <span class='anchor' id='chen2026a'></span>
@@ -381,14 +346,36 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 </div>
 
+<span class='anchor' id='learning-from-imperfect-feedback'></span>
 <span class='anchor' id='learning-from-interactive-environments-and-feedback'></span>
 <span class='anchor' id='applications-collaborations'></span>
 <span class='anchor' id='time-series-forecast'></span>
 <span class='anchor' id='learning-from-self-generated-data'></span>
+<span class='anchor' id='llm-post-training'></span>
 
-<div id="section-interactive">
+<div id="section-feedback">
 
-<h2><span class="section-number">B</span> Learning from Interactive Environments and Feedback</h2>
+<h2><span class="section-number">B</span> Learning from Imperfect Feedback</h2>
+
+<span class='anchor' id='chen2026rubricopt'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">Preprint 2026</span> [**RubricOpt: Self-Revision of Semantic Rubrics for Preference Optimization**](https://arxiv.org/abs/2610.29491)<br>
+**`Wei Chen`**, Yubing Wu, Shigui Li, Delu Zeng, Jingfeng Liu, Junmei Yang, Zhiheng Zhou, Bo Li, Min Chen, Zhou Wang<br>
+[Paper](https://arxiv.org/abs/2610.29491) · <a href="#" onclick="return copyBib('chen2026rubricopt', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<span class='anchor' id='wu2026stochastic'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">Preprint 2026</span> [**Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory**](https://arxiv.org/abs/2610.29538)<br>
+Yubing Wu, **`Wei Chen`**, Junmei Yang, Delu Zeng, Tiewen Pan<br>
+[Paper](https://arxiv.org/abs/2610.29538) · <a href="#" onclick="return copyBib('wu2026stochastic', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
 
 <span class='anchor' id='chen2026hindsight'></span>
 
@@ -396,7 +383,21 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 
 <span class="publication-venue">Preprint 2026</span> [**Hindsight-Privileged RLVR: Single-Rollout Token Credit Without Group Sampling**](https://arxiv.org/abs/2610.20497)<br>
 **`Wei Chen`**, Yubing Wu, Zhou Xu, Haoyue Zhang, Delu Zeng, Jiahao Wang, Junmei Yang, Tiewen Pan, Jingfeng Liu, Zhiheng Zhou, Bo Li, Min Chen<br>
-[Paper](https://arxiv.org/abs/2610.20497) · <a href="#" onclick="return copyBib('chen2026hindsight', event)" style="color: #666; font-size: 0.9em;">[Bib]</a> <span style="color: #999; font-size: 0.85em;">[RL Agents]</span>
+[Paper](https://arxiv.org/abs/2610.20497) · <a href="#" onclick="return copyBib('chen2026hindsight', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<span class='anchor' id='chen2026towards'></span>
+
+<div class="publication-entry" markdown="1">
+
+<!--
+<img src="images/po_db.png" alt="Disentangled Preference Optimization" style="width:100%;">
+-->
+
+<span class="publication-venue">ICML 2026</span> [**Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner**](https://arxiv.org/pdf/2604.18239)<br>
+**`Wei Chen`**, Yubing Wu, Junmei Yang, Delu Zeng*, Qibin Zhao, John Paisley, Min Chen, Zhou Wang<br>
+[Paper](https://arxiv.org/pdf/2604.18239) · [Code](https://github.com/IceyWuu/DisentangledPreferenceOptimization) · <a href="#" onclick="return copyBib('chen2026towards', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
 
 </div>
 
@@ -594,10 +595,10 @@ var anchorToTopic = {
   'chen2026one': 'imperfect',
   'chen2025dequantified': 'imperfect',
   'chen2025diffusion': 'imperfect',
-  'chen2026towards': 'imperfect',
-  'chen2026rubricopt': 'imperfect',
-  'wu2026stochastic': 'imperfect',
-  'chen2026hindsight': 'interactive',
+  'chen2026towards': 'feedback',
+  'chen2026rubricopt': 'feedback',
+  'wu2026stochastic': 'feedback',
+  'chen2026hindsight': 'feedback',
   'lin2025reciprocalla': 'imperfect',
   'li2025evolvinformer': 'imperfect',
   'li2025generative': 'imperfect',
@@ -608,12 +609,12 @@ var anchorToTopic = {
 
 var topicSections = {
   'imperfect': document.getElementById('section-imperfect'),
-  'interactive': document.getElementById('section-interactive')
+  'feedback': document.getElementById('section-feedback')
 };
 
 var topicAnchors = {
-  'imperfect': 'learning-from-imperfect-data-and-preferences',
-  'interactive': 'learning-from-interactive-environments-and-feedback'
+  'imperfect': 'learning-from-imperfect-data',
+  'feedback': 'learning-from-imperfect-feedback'
 };
 
 function showTopic(topicId) {

@@ -107,7 +107,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 <div class="academic-panel research-overview">
   <div class="panel-heading">
     <div class="panel-title">Publication Topics</div>
-    <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (15)</a>
+    <a href="#" class="filter-link panel-reset active" id="filter-all" onclick="showTopic('all'); return false;">All papers (18)</a>
   </div>
   <div class="topic-list">
     <a href="#" class="filter-link topic-card" id="filter-distribution" onclick="showTopic('distribution'); return false;">
@@ -125,7 +125,7 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
         <div class="topic-card-title">Applications</div>
         <div class="topic-card-meta">Language-model learning · time series · low-level vision</div>
       </div>
-      <div class="topic-card-count">7 papers</div>
+      <div class="topic-card-count">10 papers</div>
     </a>
   </div>
   <div class="topic-hint">
@@ -274,6 +274,36 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*<br>
 <h2><span class="section-number">B</span> Applications</h2>
 
 <span class='anchor' id='llm-post-training'></span>
+<span class='anchor' id='chen2026rubricopt'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">Preprint 2026</span> [**RubricOpt: Self-Revision of Semantic Rubrics for Preference Optimization**](https://arxiv.org/abs/2610.29491)<br>
+**`Wei Chen`**, Yubing Wu, Shigui Li, Delu Zeng, Jingfeng Liu, Junmei Yang, Zhiheng Zhou, Bo Li, Min Chen, Zhou Wang<br>
+[Paper](https://arxiv.org/abs/2610.29491) · <a href="#" onclick="return copyBib('chen2026rubricopt', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<span class='anchor' id='wu2026stochastic'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">Preprint 2026</span> [**Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory**](https://arxiv.org/abs/2610.29538)<br>
+Yubing Wu, **`Wei Chen`**, Junmei Yang, Delu Zeng, Tiewen Pan<br>
+[Paper](https://arxiv.org/abs/2610.29538) · <a href="#" onclick="return copyBib('wu2026stochastic', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
+<span class='anchor' id='chen2026hindsight'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">Preprint 2026</span> [**Hindsight-Privileged RLVR: Single-Rollout Token Credit Without Group Sampling**](https://arxiv.org/abs/2610.20497)<br>
+**`Wei Chen`**, Yubing Wu, Zhou Xu, Haoyue Zhang, Delu Zeng, Jiahao Wang, Junmei Yang, Tiewen Pan, Jingfeng Liu, Zhiheng Zhou, Bo Li, Min Chen<br>
+[Paper](https://arxiv.org/abs/2610.20497) · <a href="#" onclick="return copyBib('chen2026hindsight', event)" style="color: #666; font-size: 0.9em;">[Bib]</a>
+
+</div>
+
 <span class='anchor' id='chen2026towards'></span>
 
 <div class="publication-entry" markdown="1">
@@ -530,7 +560,10 @@ var bibData = {
   "li2024neural": "@article{li2024neural,\n  title={Neural ordinary differential equation networks for fintech applications using Internet of Things},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zeng, Delu and Zhou, Zhiheng},\n  journal={IEEE Internet of Things Journal},\n  year={2024},\n  publisher={IEEE}\n}",
   "li2025evolvinformer": "@article{li2025evolvinformer,\n  title={Integrating Ordinary Differential Equations with Sparse Attention for Power Load Forecasting},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n  journal={IEEE Transactions on Instrumentation and Measurement},\n  year={2025},\n  publisher={IEEE},\n  doi={10.1109/TIM.2025.3581667}\n}",
   "li2025generative": "@article{li2025generative,\n title={Generative Self-Supervised Time Series Forecasting Leveraging Wavelet Diffusion},\n author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n journal={IEEE Transactions on Instrumentation and Measurement},\n year={2025},\n publisher={IEEE},\n doi={10.1109/TIM.2025.3619658}\n}",
-  "li2025diffinformer": "@article{li2025diffinformer,\n  title={Diffinformer: Diffusion Informer model for long sequence time-series forecasting},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n  journal={Expert Systems with Applications},\n  year={2025},\n  publisher={Elsevier},\n  doi={10.1016/j.eswa.2025.129944}\n}"
+  "li2025diffinformer": "@article{li2025diffinformer,\n  title={Diffinformer: Diffusion Informer model for long sequence time-series forecasting},\n  author={Li, Jiacheng and Chen, Wei and Liu, Yican and Yang, Junmei and Zhou, Zhiheng and Zeng, Delu},\n  journal={Expert Systems with Applications},\n  year={2025},\n  publisher={Elsevier},\n  doi={10.1016/j.eswa.2025.129944}\n}",
+  "chen2026rubricopt": "@article{chen2026rubricopt,\n  title={RubricOpt: Self-Revision of Semantic Rubrics for Preference Optimization},\n  author={Chen, Wei and Wu, Yubing and Li, Shigui and Zeng, Delu and Liu, Jingfeng and Yang, Junmei and Zhou, Zhiheng and Li, Bo and Chen, Min and Wang, Zhou},\n  journal={arXiv preprint arXiv:2610.29491},\n  year={2026}\n}",
+  "wu2026stochastic": "@article{wu2026stochastic,\n  title={Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory},\n  author={Wu, Yubing and Chen, Wei and Yang, Junmei and Zeng, Delu and Pan, Tiewen},\n  journal={arXiv preprint arXiv:2610.29538},\n  year={2026}\n}",
+  "chen2026hindsight": "@article{chen2026hindsight,\n  title={Hindsight-Privileged RLVR: Single-Rollout Token Credit Without Group Sampling},\n  author={Chen, Wei and Wu, Yubing and Xu, Zhou and Zhang, Haoyue and Zeng, Delu and Wang, Jiahao and Yang, Junmei and Pan, Tiewen and Liu, Jingfeng and Zhou, Zhiheng and Li, Bo and Chen, Min},\n  journal={arXiv preprint arXiv:2610.20497},\n  year={2026}\n}"
 };
 
 function copyBib(key, event) {
@@ -561,6 +594,9 @@ var anchorToTopic = {
   'chen2025dequantified': 'distribution',
   'chen2025diffusion': 'distribution',
   'chen2026towards': 'applications',
+  'chen2026rubricopt': 'applications',
+  'wu2026stochastic': 'applications',
+  'chen2026hindsight': 'applications',
   'lin2025reciprocalla': 'applications',
   'li2025evolvinformer': 'applications',
   'li2025generative': 'applications',

@@ -63,7 +63,6 @@ Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.w
 # <span class="section-number">01</span> News
 <ul class="news-list">
 <li>2026.09: Our paper about <em>flow matching models</em> is accepted to <strong>NeurIPS  2026</strong>. </li>
-<li>2026.08: I have joined <a href="https://github.com/omdsh-dev/DSH-better-sidebar"><strong>DSH-better-sidebar</strong></a> as a contributor. <a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=flat-square&logo=github&logoColor=white&label=Stars&color=7d342d" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a> <a href="#open-source">[Details ↓]</a></li>
 <li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
 <li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>

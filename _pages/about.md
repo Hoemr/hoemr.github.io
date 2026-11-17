@@ -56,7 +56,7 @@ I also collaborate with researchers at:
 
 I also serve as a reviewer for JMLR, ICML, NeurIPS, ICLR, CVPR, ECCV, AAAI, UAI, ACM MM, IEEE T-MM, IEEE T-ETCI, IoTJ, ESWA, EAAI...
 
-Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> / <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
+Feel free to reach me at 📧 <a href="mailto:weichen.work&#64;gmail.com">weichen.work&#64;gmail.com</a> | <a href="mailto:weichen.work&#64;qq.com">weichen.work&#64;qq.com</a> | <a href="mailto:weichen001.work&#64;foxmail.com">weichen001.work&#64;foxmail.com</a>.
 
 
 <span class='anchor' id='news'></span>

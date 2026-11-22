@@ -74,7 +74,10 @@ def transform(raw: dict[str, Any]) -> dict[str, Any]:
     articles = raw.get("articles") or []
     table = cited_by.get("table") or []
 
-    citedby = _lookup_table(table, "citations")
+    # A missing total would corrupt the historical series if recorded as zero.
+    citedby = int(next(entry["citations"]["all"] for entry in table if "citations" in entry))
+    if citedby < 0:
+        raise ValueError("Google Scholar returned a negative citation total")
     h_index = _lookup_table(table, "h_index")
     i10_index = _lookup_table(table, "i10_index")
 
@@ -136,7 +139,19 @@ def main() -> int:
         log(f"SerpAPI returned error: {raw['error']}")
         return 1
 
-    data = transform(raw)
+    try:
+        data = transform(raw)
+    except (StopIteration, KeyError, ValueError, TypeError):
+        log("ERROR: SerpAPI returned incomplete author statistics.")
+        return 1
+    monthly = {}
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, encoding="utf-8") as f:
+            previous = json.load(f)
+        monthly = previous.get("monthly_citations", {})
+        monthly[previous["updated"][:7]] = previous["citedby"]
+    monthly[data["updated"][:7]] = data["citedby"]
+    data["monthly_citations"] = monthly
     log(
         f"parsed: name={data['name']!r}, citedby={data['citedby']}, "
         f"h={data['hindex']}, i10={data['i10index']}, "

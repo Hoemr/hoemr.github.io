@@ -1,6 +1,57 @@
 <script>
+    function drawCitationHistory(chart, months, history) {
+        var dates = months.map(month => new Date(month + '-01T00:00:00Z'));
+        var monthNumber = date => date.getUTCFullYear() * 12 + date.getUTCMonth();
+        var offsets = dates.map(date => monthNumber(date) - monthNumber(dates[0]));
+        var span = offsets[offsets.length - 1];
+        var monthLabel = new Intl.DateTimeFormat('en', { month: 'short', timeZone: 'UTC' });
+        var peak = Math.max(1, ...Object.values(history));
+        var unit = Math.pow(10, Math.floor(Math.log10(peak)));
+        var step = Math.max(1, Math.ceil(peak / (4 * unit / 2)) * unit / 2);
+        var ceiling = Math.ceil(peak / step) * step;
+        var baseline = 158;
+        chart.style.minWidth = (54 + 35 * span) + 'px';
+        chart.setAttribute('aria-label', 'Total citations by month. ' +
+            months.map(month => month + ', ' + history[month]).join('. '));
+
+        function add(tag, attributes, label) {
+            var node = document.createElementNS(chart.namespaceURI, tag);
+            Object.entries(attributes).forEach(([name, value]) => node.setAttribute(name, value));
+            if (label !== undefined) node.textContent = label;
+            chart.appendChild(node);
+        }
+
+        function render() {
+            chart.replaceChildren();
+            var left = 34;
+            var right = chart.clientWidth - 20;
+            var y = value => baseline - 133 * value / ceiling;
+            for (var tick = 0; tick <= ceiling; tick += step) {
+                add('line', { x1: left, x2: right, y1: y(tick), y2: y(tick) });
+                add('text', { x: left - 6, y: y(tick) + 4, 'text-anchor': 'end' }, tick);
+            }
+            var positions = offsets.map(offset => span ? left + offset * (right - left) / span : left);
+            var points = months.map((month, i) => positions[i] + ',' + y(history[month]));
+            add('polyline', { points: points.join(' ') });
+            months.forEach(function (month, i) {
+                var x = positions[i];
+                var count = history[month];
+                add('circle', { cx: x, cy: y(count), r: 3.5 });
+                add('text', { x: x, y: y(count) - 9, 'text-anchor': 'middle', class: 'citation-value' }, count);
+                add('text', { x: x, y: 177, 'text-anchor': 'middle' }, monthLabel.format(dates[i]));
+                if (i === 0 || dates[i].getUTCFullYear() !== dates[i - 1].getUTCFullYear()) {
+                    add('text', { x: x, y: 193, 'text-anchor': 'middle' }, dates[i].getUTCFullYear());
+                }
+            });
+        }
+
+        new ResizeObserver(render).observe(chart);
+    }
+
     $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
+        {% if jekyll.environment == 'development' %}
+        var gsDataBaseUrl = '{{ "/google_scholar_crawler/results/" | relative_url }}';
+        {% elsif site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@main/google_scholar_crawler/results/'
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/google_scholar_crawler/results/'
@@ -9,32 +60,15 @@
         $.getJSON(gsDataUrl, function (data) {
             var totalCitation = data['citedby'];
 
-            // Legacy inline total-citations placeholder (optional).
-            var totalCitEle = document.getElementById('total_cit');
-            if (totalCitEle) {
-                totalCitEle.innerHTML = totalCitation;
-            }
-
-            // Top-of-page citation badge (shields.io).
-            var badge = document.getElementById('gs-badge');
-            if (badge) {
-                badge.src = 'https://img.shields.io/badge/citations-' + totalCitation + '-blue?logo=googlescholar&logoColor=green&labelColor=f6f6f6&style=flat';
-            }
-
-            // Scholar Stats card: citations / h-index / i10-index / updated.
-            var citEle = document.getElementById('gs-citations');
-            if (citEle) citEle.innerHTML = totalCitation;
-
-            var hEle = document.getElementById('gs-hindex');
-            if (hEle && data['hindex'] != null) hEle.innerHTML = data['hindex'];
-
-            var i10Ele = document.getElementById('gs-i10index');
-            if (i10Ele && data['i10index'] != null) i10Ele.innerHTML = data['i10index'];
-
-            var upEle = document.getElementById('gs-updated');
-            if (upEle && data['updated']) {
-                // `updated` looks like "2026-04-21 08:00:00.123456"; keep the date part.
-                upEle.innerHTML = String(data['updated']).substring(0, 10);
+            var chart = document.getElementById('gs-history');
+            if (chart) {
+                var history = data.monthly_citations || {};
+                var months = Object.keys(history).sort();
+                if (months.length) drawCitationHistory(chart, months, history);
+                $('#gs-status').text(months.length
+                    ? totalCitation + ' citations as of ' + data.updated.slice(0, 10)
+                        + ' · h-index ' + data.hindex + ' · i10-index ' + data.i10index
+                    : 'Monthly citation history is unavailable.');
             }
 
             // Per-paper citation counts (requires `data` attr == Scholar pub id).
@@ -45,6 +79,8 @@
                     element.innerHTML = '| Citations: ' + data['publications'][paperId]['num_citations'];
                 }
             });
+        }).fail(function () {
+            $('#gs-status').text('Citation history could not be loaded.');
         });
     })
 </script>

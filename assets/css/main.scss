@@ -71,12 +71,6 @@
             font-weight: 400;
         }
     }
-
-    /* filter cards are navigation, not prose: never underlined */
-    .filter-link,
-    .filter-link:hover {
-        text-decoration: none;
-    }
 }
 
 /* emphasis stays at semibold — the serif face is loaded at 400/600/700,
@@ -87,7 +81,7 @@ b {
 }
 
 .publication-entry {
-    padding: .75rem 0;
+    padding: .55rem 0;
     border-bottom: 1px solid $paper-line;
 
     p {
@@ -95,6 +89,12 @@ b {
         font-size: .94em;
         line-height: 1.55;
     }
+}
+
+.publication-links {
+    margin-left: .25em;
+    font: .8em $sans-serif;
+    white-space: normal;
 }
 
 .publication-venue {
@@ -107,6 +107,42 @@ b {
     font-family: $sans-serif;
     font-size: .78em;
     font-weight: 600;
+}
+
+.publication-date {
+    margin-right: .4em;
+    color: $paper-ink-muted;
+    font: .78em $sans-serif;
+    white-space: nowrap;
+}
+
+.citation-history {
+    display: block;
+    margin: 1rem 0;
+    font-family: $sans-serif;
+
+    figcaption { margin: 0 0 .75rem; }
+
+    .citation-plot { overflow-x: auto; }
+
+    svg {
+        display: block;
+        width: 100%;
+        height: 200px;
+        color: $primary-color;
+    }
+
+    text { fill: $paper-ink-muted; font: 12px $sans-serif; }
+    line { stroke: $paper-line; }
+    polyline { fill: none; stroke: currentColor; stroke-width: 2; }
+    circle { fill: currentColor; }
+    .citation-value { fill: $text-color; font-weight: 600; }
+
+    #gs-status {
+        margin: .7rem 0 0;
+        color: $paper-ink-muted;
+        font-size: .82em;
+    }
 }
 
 $scroll_offset : 2em;
@@ -128,300 +164,6 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
-}
-
-/* a manicule — the pointing hand scribes used to mark a passage — nudges the
-   reader towards the cards without turning the panel into a call to action */
-.topic-hint {
-    display: flex;
-    gap: .4rem;
-    align-items: baseline;
-    margin: -.3rem 0 .75rem;
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .82rem;
-}
-
-.topic-hint__hand {
-    color: $primary-color;
-    font-family: "Segoe UI Symbol", "Apple Symbols", "Noto Sans Symbols 2", $sans-serif;
-    font-size: 1rem;
-    line-height: 1;
-    animation: topic-hint-nudge 2.8s ease-in-out infinite;
-}
-
-@keyframes topic-hint-nudge {
-    0%, 68%, 100% { transform: translateX(0); }
-    76%           { transform: translateX(4px); }
-    84%           { transform: translateX(0); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .topic-hint__hand {
-        animation: none;
-    }
-}
-
-/* one full-width row per research line: number | title + topics | paper count */
-.topic-list {
-    display: grid;
-    gap: 8px;
-}
-
-.filter-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.topic-card {
-    display: grid;
-    grid-template-columns: 2.1rem minmax(0, 1fr) auto;
-    gap: .15rem .9rem;
-    align-items: baseline;
-    padding: 12px 14px;
-    border-radius: 4px;
-    border: 1px solid $border-color;
-    background: $paper-surface;
-    transition: border-color 0.15s ease, background 0.15s ease;
-    cursor: pointer;
-
-    &:hover {
-        border-color: #aebbb5;
-        background: $paper-surface-muted;
-    }
-
-    &.active {
-        border-color: #9ab0aa;
-        background: #f1f5f2;
-        box-shadow: inset 3px 0 0 $primary-color;
-
-        .topic-card-title {
-            font-weight: 700;
-        }
-    }
-}
-
-.topic-card-index {
-    color: $primary-color;
-    font-family: $monospace;
-    font-size: .68rem;
-    letter-spacing: .1em;
-}
-
-.topic-card-title {
-    font-family: $serif;
-    font-weight: 600;
-    font-size: 1.02em;
-    line-height: 1.3;
-
-    /* the arrow slides in on hover, so the card reads as clickable */
-    &::after {
-        content: "→";
-        display: inline-block;
-        margin-left: .35rem;
-        color: $primary-color;
-        font-family: $sans-serif;
-        font-weight: 400;
-        opacity: 0;
-        transform: translateX(-3px);
-        transition: opacity 0.18s ease, transform 0.18s ease;
-    }
-}
-
-.topic-card:hover .topic-card-title::after {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.topic-card-meta {
-    margin-top: .22rem;
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .8rem;
-    line-height: 1.45;
-}
-
-.topic-card-count {
-    justify-self: end;
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .78rem;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-
-    &--emerging {
-        color: $primary-color;
-        font-style: italic;
-    }
-}
-
-/* the long-term goal is a statement, not a filter, so it must not look
-   clickable — no hover, no pointer, no slide-in arrow */
-.topic-card--goal {
-    cursor: default;
-    border-style: dashed;
-
-    &:hover {
-        border-color: $border-color;
-        background: $paper-surface;
-    }
-
-    .topic-card-title::after {
-        content: none;
-    }
-}
-
-.panel-reset {
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .8rem;
-    white-space: nowrap;
-
-    &:hover,
-    &.active {
-        color: $primary-color;
-    }
-}
-
-.topic-hidden {
-    display: none !important;
-}
-
-/* the page's identity line: the three verbs carry the whole research story,
-   so they are the largest type above the fold and nothing competes with them */
-.research-identity {
-    margin: 0 0 1.6rem;
-    padding: .8rem 0 .85rem;
-    border-top: 1px solid $paper-line;
-    border-bottom: 1px solid $paper-line;
-}
-
-.research-identity__label {
-    margin-bottom: .45rem;
-    color: $paper-ink-muted;
-    font-family: $monospace;
-    font-size: .66rem;
-    letter-spacing: .14em;
-    text-transform: uppercase;
-}
-
-.research-identity__chain {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: .4rem;
-    margin: 0;
-    color: $text-color;
-    font-family: $serif;
-    font-size: 1.34rem;
-    font-weight: 600;
-    line-height: 1.35;
-
-    .step {
-        display: inline-flex;
-        align-items: baseline;
-        gap: .4rem;
-        font-size: inherit;
-
-        &:not(.step--last)::after {
-            content: "→";
-            color: #a9aca4;
-            font-family: $sans-serif;
-            font-weight: 400;
-        }
-    }
-
-    .step--last {
-        color: $primary-color;
-    }
-}
-
-.research-identity__gloss {
-    margin: .55rem 0 0;
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .88rem;
-    line-height: 1.55;
-}
-
-/* the research statement sits under the identity line: one question, then a
-   single short paragraph — the old version split the same story across three
-   theme rows plus a methods line, which read as a wall of text */
-.research-statement {
-    margin: 0 0 1.6rem;
-    padding: 1.15rem 1.25rem 1.2rem;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    background: $paper-surface;
-    box-shadow: 0 4px 14px rgba(39, 46, 40, .04);
-}
-
-.research-statement__label {
-    margin-bottom: .5rem;
-    color: $paper-ink-muted;
-    font-family: $monospace;
-    font-size: .66rem;
-    letter-spacing: .14em;
-    text-transform: uppercase;
-}
-
-p.research-statement__question {
-    margin: 0 0 1rem;
-    padding-bottom: .95rem;
-    border-bottom: 1px solid $paper-line;
-    color: $text-color;
-    font-family: $serif;
-    font-size: 1.16em;
-    line-height: 1.5;
-}
-
-p.research-statement__gloss {
-    margin: 0;
-    color: $paper-ink-soft;
-    line-height: 1.72;
-}
-
-/* the two sides are siblings, so they share a left rule and sit one level
-   below the framing line rather than reading as two more paragraphs of prose */
-.research-sides {
-    margin: .85rem 0 0;
-    padding-left: 1rem;
-    border-left: 2px solid $paper-line;
-
-    p {
-        margin: 0;
-        color: $paper-ink-soft;
-        line-height: 1.72;
-    }
-
-    p + p {
-        margin-top: .6rem;
-    }
-}
-
-/* the payoff line: set off from the two sides so the goal lands as its own
-   tier of the argument instead of trailing off the end of a paragraph */
-p.research-statement__goal {
-    margin: 1rem 0 0;
-    padding-top: .9rem;
-    border-top: 1px dotted $paper-line;
-    color: $text-color;
-    line-height: 1.72;
-}
-
-/* the arrow that turns the two foundations into a sequence rather than a list */
-.research-map__link {
-    padding: .1rem 0;
-    color: $primary-color;
-    font-size: 1rem;
-    line-height: 1;
-    text-align: center;
-}
-
-/* rules off the supporting category from the research story above it */
-.topic-sep {
-    margin: .35rem 0 .1rem;
-    border-top: 1px dotted $paper-line;
 }
 
 /* collaborators, one institution per line */
@@ -493,71 +235,7 @@ p.research-statement__goal {
     }
 }
 
-.academic-panel {
-    margin: .75rem 0 1.2rem;
-    padding: 1rem 1.1rem;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    background: $paper-surface;
-    box-shadow: 0 4px 14px rgba(39, 46, 40, .04);
-}
-
-.panel-heading {
-    display: flex;
-    gap: .75rem;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: .9rem;
-}
-
-.panel-title,
-.entry-title {
-    font-weight: 600;
-}
-
-/* metadata and UI labels stay in the sans face, never the serif body
-   (.entry-meta keeps its own monospace treatment for dates) */
-.panel-updated,
-.metric-label {
-    color: $paper-ink-muted;
-    font-family: $sans-serif;
-    font-size: .82rem;
-}
-
-.metric-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.metric {
-    padding: .25rem 1rem;
-    border-left: 1px solid $border-color;
-
-    &:first-child {
-        border-left: 0;
-        padding-left: 0;
-    }
-}
-
-.metric-value {
-    color: $primary-color;
-    font-family: $serif;
-    font-size: 1.35rem;
-    font-variant-numeric: tabular-nums;
-    font-weight: 600;
-}
-
-.metric-link {
-    color: inherit;
-    text-decoration: none !important;
-}
-
-/* the overview heading now carries a reset link, so spacing comes from
-   .panel-heading alone — a margin here would break the baseline alignment */
-.research-overview .panel-heading {
-    flex-wrap: wrap;
-    row-gap: .2rem;
-}
+.entry-title { font-weight: 600; }
 
 .quiet-note,
 .single-entry {
@@ -594,6 +272,7 @@ p.research-statement__goal {
     }
 
     img {
+        justify-self: center;
         width: 72px;
         max-height: 60px;
         object-fit: contain;
@@ -773,34 +452,6 @@ p.research-statement__goal {
         margin-top: 2rem;
     }
 
-    /* the identity line becomes a vertical sequence so it never wraps mid-arrow */
-    .research-identity__chain {
-        display: block;
-
-        .step {
-            display: block;
-
-            &:not(.step--last)::after {
-                content: "↓";
-                display: block;
-                margin: .1rem 0 .15rem;
-                font-size: .9em;
-                line-height: 1;
-            }
-        }
-    }
-
-    /* stacked cards: number and body on one row, count beneath the body */
-    .topic-card {
-        grid-template-columns: 2.1rem minmax(0, 1fr);
-    }
-
-    .topic-card-count {
-        grid-column: 2;
-        justify-self: start;
-        margin-top: .3rem;
-    }
-
     /* label above value instead of beside it */
     .collab-row {
         grid-template-columns: 1fr;
@@ -809,25 +460,6 @@ p.research-statement__goal {
 
     .collab-row {
         padding: .55rem 0;
-    }
-
-    .metric-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        row-gap: 1rem;
-    }
-
-    .metric:nth-child(3) {
-        padding-left: 0;
-        border-left: 0;
-    }
-
-    .metric {
-        padding-right: .55rem;
-        padding-left: .55rem;
-
-        &:first-child {
-            padding-left: .55rem;
-        }
     }
 
     .profile-entry {

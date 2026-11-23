@@ -367,7 +367,7 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*
 <div class="profile-entry">
   <img src="images/vivo.svg" alt="vivo">
   <div>
-    <div class="entry-title"><a href="https://libraboli.github.io/blueimage/" target="_blank" rel="noopener">BlueImage Lab</a></div>
+    <div class="entry-title"><a href="https://blueimage.vivo.com/#/research" target="_blank" rel="noopener">BlueImage Lab</a> · <a href="https://github.com/vivoCameraResearch" target="_blank" rel="noopener">GitHub</a></div>
     <div class="entry-meta">2026.06</div>
   </div>
 </div>

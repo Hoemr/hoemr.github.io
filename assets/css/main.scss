@@ -363,88 +363,36 @@ h1:before, .anchor:before {
     display: none;
 }
 
-.opensource-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: .9rem;
-    margin: .75rem 0 1.4rem;
+.open-source-projects {
+    padding: 0;
+    list-style: none;
 
-    @include breakpoint($medium) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-.opensource-card {
-    position: relative;
-    padding: 1rem 1.15rem 1.1rem;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    background: $paper-surface;
-    box-shadow: 0 4px 14px rgba(39, 46, 40, .04);
-    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
-
-    &:hover {
-        transform: translateY(-1px);
-        border-color: #aebbb5;
-        box-shadow: 0 6px 18px rgba(39, 46, 40, .07);
-    }
-}
-
-.opensource-card__header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .55rem;
-    align-items: center;
-    margin-bottom: .55rem;
-
-    h3 {
+    li {
+        padding: .5rem 0;
         margin: 0;
-        font-size: 1.08rem;
-        border-bottom: 0;
-
-        a {
-            color: $primary-color;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+        border-bottom: 1px solid $paper-line;
+        color: $paper-ink-soft;
+        font-size: .93rem;
+        line-height: 1.5;
     }
-}
 
-.opensource-card__role {
-    display: inline-block;
-    padding: 1px 8px;
-    border-radius: 999px;
-    font-family: $monospace;
-    font-size: .68rem;
-    letter-spacing: .04em;
-    color: #fff;
-    background: $primary-color;
-
-    &.role-contributor {
-        background: #7d342d;
+    .project-heading {
+        display: inline-flex;
+        align-items: center;
+        gap: .35rem;
+        max-width: 100%;
+        margin-right: .3rem;
+        vertical-align: middle;
     }
-}
 
-.opensource-card__badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .4rem;
-    margin: .25rem 0 .55rem;
-
-    img {
-        height: 20px;
-        display: block;
+    .project-name {
+        min-width: 0;
+        overflow-wrap: anywhere;
+        font-weight: 600;
     }
-}
 
-.opensource-card__desc {
-    margin: .15rem 0 0;
-    color: $paper-ink-soft;
-    font-size: .93rem;
-    line-height: 1.45;
+    .project-name ~ a { flex: none; }
+    img { display: block; height: 17px; }
 }
 
 @media (max-width: $small) {

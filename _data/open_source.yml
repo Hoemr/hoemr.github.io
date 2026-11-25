@@ -1,0 +1,47 @@
+- name: "OpenDRE"
+  repo: Hoemr/OpenDRE
+  description: "OpenDRE estimates density ratios for mutual information estimation, distribution shift analysis, change point detection, and out-of-distribution detection."
+
+- name: "ml-paper-writing"
+  repo: Hoemr/ml-paper-writing
+  description: "This writing skill helps researchers structure machine learning papers, check claims against evidence, and verify citations."
+
+- name: "DSH-better-sidebar"
+  repo: omdsh-dev/DSH-better-sidebar
+  description: "This extensible sidebar brings a file editor, terminal, chat, and Git tools into DeepSeek Harness."
+
+- name: "paper-to-beamer"
+  repo: Hoemr/paper-to-beamer
+  description: "This tool turns a research paper in PDF or Markdown into a LaTeX Beamer slide deck."
+
+- name: "awesome-dsh-plugin"
+  repo: awesome-dsh-plugin/awesome-dsh-plugin
+  description: "A curated directory helps users discover plugins for DeepSeek Harness."
+
+- name: "Neon Vision Editor"
+  repo: h3pdesign/Neon-Vision-Editor
+  description: "This native Swift app edits code and Markdown across macOS, iPadOS, iOS, and visionOS."
+
+- name: "awesome-deepseek-harness-plugins"
+  repo: imsai-sh/awesome-deepseek-harness-plugins
+  description: "This marketplace lets users search and rank DeepSeek Harness plugins and find their installation commands."
+
+- name: "BLEUnlock"
+  repo: Skyearn/BLEUnlock
+  description: "This utility locks or unlocks a Mac based on the proximity of a paired Bluetooth Low Energy device."
+
+- name: "ice-2-macos"
+  repo: teddychan/ice-2-macos
+  description: "This macOS menu bar manager lets users organize, hide, and reveal menu bar items."
+
+- name: "SciRE-Solver"
+  repo: ShiguiLi/SciRE-Solver
+  description: "This solver accelerates diffusion sampling by estimating score derivatives with recursive differences."
+
+- name: "EVODiff"
+  repo: ShiguiLi/EVODiff
+  description: "This sampler optimizes variance during diffusion inference to improve image generation efficiency and fidelity."
+
+- name: "TeXora"
+  repo: khalidt/TeXora
+  description: "This presenter displays Beamer and PDF slides to an audience while showing speaker notes in a separate window."

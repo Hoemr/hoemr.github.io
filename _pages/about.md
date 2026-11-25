@@ -429,69 +429,19 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*
 <span class='anchor' id='open-source'></span>
 # <span class="section-number">07</span> Open Source
 
-<div class="opensource-grid">
-
-  <div class="opensource-card">
-    <div class="opensource-card__header">
-      <h3><a href="https://github.com/Hoemr/OpenDRE" target="_blank" rel="noopener">OpenDRE</a></h3>
-    </div>
-    <div class="opensource-card__badges">
-      <a href="https://github.com/Hoemr/OpenDRE/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
-      <a href="https://github.com/Hoemr/OpenDRE/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
-    </div>
-    <p class="opensource-card__desc">OpenDRE estimates density ratios with score-based, neural, and kernel methods.</p>
-  </div>
-
-  <div class="opensource-card">
-    <div class="opensource-card__header">
-      <h3><a href="https://github.com/Hoemr/ml-paper-writing" target="_blank" rel="noopener">ml-paper-writing</a></h3>
-    </div>
-    <div class="opensource-card__badges">
-      <a href="https://github.com/Hoemr/ml-paper-writing/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/ml-paper-writing?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
-      <a href="https://github.com/Hoemr/ml-paper-writing/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/ml-paper-writing?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
-    </div>
-    <p class="opensource-card__desc">This writing skill helps researchers structure machine learning papers, check claims against evidence, and verify citations.</p>
-  </div>
-
-  <div class="opensource-card">
-    <div class="opensource-card__header">
-      <h3><a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">DSH-better-sidebar</a></h3>
-    </div>
-    <div class="opensource-card__badges">
-      <a href="https://github.com/omdsh-dev/DSH-better-sidebar/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
-      <a href="https://github.com/omdsh-dev/DSH-better-sidebar/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
-      <img src="https://img.shields.io/github/license/omdsh-dev/DSH-better-sidebar?style=for-the-badge" alt="License">
-    </div>
-    <p class="opensource-card__desc">This extensible sidebar brings a file editor, terminal, chat, and Git tools into DeepSeek Harness.</p>
-  </div>
-
-  <div class="opensource-card">
-    <div class="opensource-card__header">
-      <h3><a href="https://github.com/Hoemr/paper-to-beamer" target="_blank" rel="noopener">paper-to-beamer</a></h3>
-    </div>
-    <div class="opensource-card__badges">
-      <a href="https://github.com/Hoemr/paper-to-beamer/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
-      <a href="https://github.com/Hoemr/paper-to-beamer/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
-      <img src="https://img.shields.io/github/license/Hoemr/paper-to-beamer?style=for-the-badge" alt="License">
-    </div>
-    <p class="opensource-card__desc">This tool turns a research paper in PDF or Markdown into a LaTeX Beamer slide deck.</p>
-  </div>
-
-</div>
-
-### Other projects
-{: #other-projects-and-contributions}
-
-GitHub stars as of November 26, 2026.
-
-- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (25,636 ★) · A curated directory helps users discover plugins for DeepSeek Harness.
-- [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) (469 ★) · This native Swift app edits code and Markdown across macOS, iPadOS, iOS, and visionOS.
-- [awesome-deepseek-harness-plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins) (412 ★) · This marketplace lets users search and rank DeepSeek Harness plugins and find their installation commands.
-- [BLEUnlock](https://github.com/Skyearn/BLEUnlock) (214 ★) · This utility locks or unlocks a Mac based on the proximity of a paired Bluetooth Low Energy device.
-- [ice-2-macos](https://github.com/teddychan/ice-2-macos) (87 ★) · This macOS menu bar manager lets users organize, hide, and reveal menu bar items.
-- [SciRE-Solver](https://github.com/ShiguiLi/SciRE-Solver) (51 ★) · This solver accelerates diffusion sampling by estimating score derivatives with recursive differences.
-- [EVODiff](https://github.com/ShiguiLi/EVODiff) (32 ★) · This sampler optimizes variance during diffusion inference to improve image generation efficiency and fidelity.
-- [TeXora](https://github.com/khalidt/TeXora) (24 ★) · This presenter displays Beamer and PDF slides to an audience while showing speaker notes in a separate window.
+<span id="other-projects-and-contributions"></span>
+<ul class="open-source-projects">
+{% for project in site.data.open_source %}
+  <li>
+    <span class="project-heading">
+      <a class="project-name" href="https://github.com/{{ project.repo }}">{{ project.name | escape }}</a>
+      <a href="https://github.com/{{ project.repo }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.repo }}?style=flat&amp;label=Stars" alt="{{ project.name | escape }} stars"></a>
+      <a href="https://github.com/{{ project.repo }}/forks"><img src="https://img.shields.io/github/forks/{{ project.repo }}?style=flat&amp;label=Forks" alt="{{ project.name | escape }} forks"></a>
+    </span>
+    {{ project.description | escape }}
+  </li>
+{% endfor %}
+</ul>
 
 <span class='anchor' id='visitors'></span>
 # <span class="section-number">08</span> Visitors

@@ -53,7 +53,7 @@ Feel free to reach me at <a href="mailto:weichen.work&#64;gmail.com">weichen.wor
 <span class='anchor' id='news'></span>
 # <span class="section-number">01</span> News
 <ul class="news-list">
-<li>2026.09: Our paper about <em>flow matching models</em> is accepted to <strong>NeurIPS  2026</strong>. </li>
+<li>2026.09: Our paper about <em>flow matching models</em> is accepted to <strong>NeurIPS 2026</strong>. <a href="#li2026sadrift">[Paper ↓]</a></li>
 <li>2026.07: Our paper about <em>implicit variational rejection sampling</em> is accepted to <strong>UAI 2026</strong>. <a href="#xu2026implicit">[Paper ↓]</a></li>
 <li>2026.05: Our paper about <em>disentangled preference optimization</em> is accepted to <strong>ICML 2026</strong>. <a href="#chen2026towards">[Paper ↓]</a></li>
 <li>2026.01: Our paper about <em>minimum path variance principle for DRE</em> is accepted to <strong>ICLR 2026</strong>. <a href="#chen2026a">[Paper ↓]</a></li>
@@ -112,6 +112,15 @@ Yubing Wu, **`Wei Chen`**, Junmei Yang, Delu Zeng, Tiewen Pan
 
 </div>
 
+<span class='anchor' id='li2026sadrift'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">NeurIPS 2026</span> <time class="publication-date" datetime="2026-09">Sep 2026</time> [**Inference-Time Self-Aligned Drift for Few-Step Flow Matching**](https://neurips.cc/virtual/2026/poster/155309) <small class="publication-links" markdown="span">[Paper](https://neurips.cc/virtual/2026/poster/155309) · <a href="#" onclick="return copyBib('li2026sadrift', event)">[Bib]</a></small><br>
+Shigui Li, Jian Xu, **`Wei Chen`**, Junmei Yang, Fei Wang, Daiguo Zhou, Delu Zeng
+
+</div>
+
 <span class='anchor' id='xu2026implicit'></span>
 
 <div class="publication-entry" markdown="1">
@@ -164,6 +173,15 @@ Jian Xu, Shigui Li, **`Wei Chen`**, Jiacheng Li, Zhiqi Lin, Delu Zeng*, Xinghao 
 
 </div>
 
+<span class='anchor' id='lin2026brain'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">IEEE EMC² 2026</span> <time class="publication-date" datetime="2026-01">Jan 2026</time> [**Real-Time Statistical Inference and Explainable Generative Modeling for Brain Signals in Mobile and Edge AI Systems**](https://doi.org/10.1109/EMC68537.2026.11441669) <small class="publication-links" markdown="span">[Paper](https://doi.org/10.1109/EMC68537.2026.11441669) · <a href="#" onclick="return copyBib('lin2026brain', event)">[Bib]</a></small><br>
+Zhiqi Lin, **`Wei Chen`**, Delu Zeng, Min Chen
+
+</div>
+
 <span class='anchor' id='li2025generative'></span>
 
 <div class="publication-entry" markdown="1">
@@ -203,6 +221,24 @@ Zhiqi Lin, **`Wei Chen`**, Jian Xu, Delu Zeng*, Min Chen
 
 </div>
 
+<span class='anchor' id='li2025wavelet'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">IEEE SMC 2025</span> <time class="publication-date" datetime="2025-10">Oct 2025</time> [**A Wavelet-Enhanced Sparse Framework for Time Series Forecasting**](https://doi.org/10.1109/SMC58881.2025.11343726) <small class="publication-links" markdown="span">[Paper](https://doi.org/10.1109/SMC58881.2025.11343726) · <a href="#" onclick="return copyBib('li2025wavelet', event)">[Bib]</a></small><br>
+Jiacheng Li, **`Wei Chen`**, Yican Liu, Delu Zeng
+
+</div>
+
+<span class='anchor' id='li2025handeye'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">IEEE SMC 2025</span> <time class="publication-date" datetime="2025-10">Oct 2025</time> [**Hand-Eye Calibration with Kernel Density and Decay Noise: An E-TD5 Reinforcement Learning Approach**](https://doi.org/10.1109/SMC58881.2025.11342888) <small class="publication-links" markdown="span">[Paper](https://doi.org/10.1109/SMC58881.2025.11342888) · <a href="#" onclick="return copyBib('li2025handeye', event)">[Bib]</a></small><br>
+Jiacheng Li, Yican Liu, **`Wei Chen`**, Delu Zeng
+
+</div>
+
 <span class='anchor' id='li2025evodiff'></span>
 
 <div class="publication-entry" markdown="1">
@@ -239,6 +275,15 @@ Shigui Li, **`Wei Chen`**, Delu Zeng*
 
 <span class="publication-venue">Preprint 2025</span> <time class="publication-date" datetime="2025-09">Sep 2025</time> [**Diffusion Secant Alignment for Score-Based Density Ratio Estimation**](https://arxiv.org/abs/2509.04852) <small class="publication-links" markdown="span">[Paper](https://arxiv.org/abs/2509.04852) · [Code](https://github.com/Hoemr/OpenDRE) · <a href="#" onclick="return copyBib('chen2025diffusion', event)">[Bib]</a></small><br>
 **`Wei Chen`**, Shigui Li, Jiacheng Li, Jian Xu, Zhiqi Lin, Junmei Yang, Delu Zeng*, John Paisley, Qibin Zhao
+
+</div>
+
+<span class='anchor' id='wang2025masan'></span>
+
+<div class="publication-entry" markdown="1">
+
+<span class="publication-venue">IEEE ICMA 2025</span> <time class="publication-date" datetime="2025-08">Aug 2025</time> [**MASAN: Multi-Attention Based Sliced Adversarial Network for Improved B-Cell Acute Lymphoblastic Leukemia Classification**](https://doi.org/10.1109/ICMA65362.2025.11120678) <small class="publication-links" markdown="span">[Paper](https://doi.org/10.1109/ICMA65362.2025.11120678) · <a href="#" onclick="return copyBib('wang2025masan', event)">[Bib]</a></small><br>
+Hao Wang, **`Wei Chen`**, Wei Zhou, Bingding Huang, Jiawan Zhang, Peixuan Li
 
 </div>
 
@@ -475,6 +520,11 @@ Selected open-source projects I maintain or contribute to. Live badges below ref
 
 <script>
 var bibData = {
+  "li2026sadrift": "@inproceedings{li2026sadrift,\n  title={{Inference-Time Self-Aligned Drift for Few-Step Flow Matching}},\n  author={Shigui Li and Jian Xu and Wei Chen and Junmei Yang and Fei Wang and Daiguo Zhou and Delu Zeng},\n  booktitle={Advances in Neural Information Processing Systems},\n  year={2026},\n  url={https://neurips.cc/virtual/2026/poster/155309}\n}",
+  "lin2026brain": "@inproceedings{lin2026brain,\n  title={{Real-Time Statistical Inference and Explainable Generative Modeling for Brain Signals in Mobile and Edge AI Systems}},\n  author={Zhiqi Lin and Wei Chen and Delu Zeng and Min Chen},\n  booktitle={2026 International Conference on Embedded Systems, Mobile Communication and Computing (EMC²)},\n  year={2026},\n  pages={151--154},\n  doi={10.1109/EMC68537.2026.11441669},\n  url={https://doi.org/10.1109/EMC68537.2026.11441669}\n}",
+  "li2025wavelet": "@inproceedings{li2025wavelet,\n  title={{A Wavelet-Enhanced Sparse Framework for Time Series Forecasting}},\n  author={Jiacheng Li and Wei Chen and Yican Liu and Delu Zeng},\n  booktitle={2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},\n  year={2025},\n  pages={4417--4422},\n  doi={10.1109/SMC58881.2025.11343726},\n  url={https://doi.org/10.1109/SMC58881.2025.11343726}\n}",
+  "li2025handeye": "@inproceedings{li2025handeye,\n  title={{Hand-Eye Calibration with Kernel Density and Decay Noise: An E-TD5 Reinforcement Learning Approach}},\n  author={Jiacheng Li and Yican Liu and Wei Chen and Delu Zeng},\n  booktitle={2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},\n  year={2025},\n  pages={4195--4201},\n  doi={10.1109/SMC58881.2025.11342888},\n  url={https://doi.org/10.1109/SMC58881.2025.11342888}\n}",
+  "wang2025masan": "@inproceedings{wang2025masan,\n  title={{MASAN: Multi-Attention Based Sliced Adversarial Network for Improved B-Cell Acute Lymphoblastic Leukemia Classification}},\n  author={Hao Wang and Wei Chen and Wei Zhou and Bingding Huang and Jiawan Zhang and Peixuan Li},\n  booktitle={2025 IEEE International Conference on Mechatronics and Automation (ICMA)},\n  year={2025},\n  pages={1024--1029},\n  doi={10.1109/ICMA65362.2025.11120678},\n  url={https://doi.org/10.1109/ICMA65362.2025.11120678}\n}",
   "xu2026implicit": "@inproceedings{xu2026implicit,\n  title={Implicit Variational Rejection Sampling},\n  author={Xu, Jian and Li, Shigui and Chen, Wei and Li, Jiacheng and Lin, Zhiqi and Zeng, Delu and Ding, Xinghao and Paisley, John and Zhao, Qibin},\n  booktitle={Conference on Uncertainty in Artificial Intelligence},\n  year={2026},\n  url={https://openreview.net/forum?id=fqSPFeDbOU}\n}",
   "li2025evodiff": "@inproceedings{li2025evodiff,\n  title={EVODiff: Entropy-aware Variance Optimized Diffusion Inference},\n  author={Shigui Li and Wei Chen and Delu Zeng},\n  booktitle={The Annual Conference on Neural Information Processing Systems},\n  year={2025},\n  url={https://openreview.net/forum?id=rKASv92Myl}\n}",
   "chen2025entropy": "@article{chen2025entropy,\n  title={Entropy-informed weighting channel normalizing flow for deep generative models},\n  author={Chen, Wei and Du, Shian and Li, Shigui and Zeng, Delu and Paisley, John},\n  journal={Pattern Recognition},\n  pages={112442},\n  year={2025},\n  publisher={Elsevier}\n}",

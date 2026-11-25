@@ -429,75 +429,69 @@ Shian Du#, Yihong Luo#, **`Wei Chen`**#, Jian Xu, Delu Zeng*
 <span class='anchor' id='open-source'></span>
 # <span class="section-number">07</span> Open Source
 
-Selected open-source projects I maintain or contribute to. Live badges below reflect the current state on GitHub.
-
 <div class="opensource-grid">
 
   <div class="opensource-card">
     <div class="opensource-card__header">
       <h3><a href="https://github.com/Hoemr/OpenDRE" target="_blank" rel="noopener">OpenDRE</a></h3>
-      <span class="opensource-card__role">Author</span>
     </div>
     <div class="opensource-card__badges">
       <a href="https://github.com/Hoemr/OpenDRE/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
       <a href="https://github.com/Hoemr/OpenDRE/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/OpenDRE?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
     </div>
-    <p class="opensource-card__desc">A unified framework for density-ratio estimation, combining score-based, neural, and kernel methods for information estimation, change-point detection, and out-of-distribution detection.</p>
+    <p class="opensource-card__desc">OpenDRE estimates density ratios with score-based, neural, and kernel methods.</p>
   </div>
 
   <div class="opensource-card">
     <div class="opensource-card__header">
       <h3><a href="https://github.com/Hoemr/ml-paper-writing" target="_blank" rel="noopener">ml-paper-writing</a></h3>
-      <span class="opensource-card__role">Maintainer</span>
     </div>
     <div class="opensource-card__badges">
       <a href="https://github.com/Hoemr/ml-paper-writing/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/ml-paper-writing?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
       <a href="https://github.com/Hoemr/ml-paper-writing/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/ml-paper-writing?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
     </div>
-    <p class="opensource-card__desc">An agent skill for drafting and revising machine learning papers. It helps authors organize an argument, check claims against evidence, and verify citations.</p>
+    <p class="opensource-card__desc">This writing skill helps researchers structure machine learning papers, check claims against evidence, and verify citations.</p>
   </div>
 
   <div class="opensource-card">
     <div class="opensource-card__header">
       <h3><a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">DSH-better-sidebar</a></h3>
-      <span class="opensource-card__role role-contributor">Contributor</span>
     </div>
     <div class="opensource-card__badges">
       <a href="https://github.com/omdsh-dev/DSH-better-sidebar/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
       <a href="https://github.com/omdsh-dev/DSH-better-sidebar/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/omdsh-dev/DSH-better-sidebar?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
       <img src="https://img.shields.io/github/license/omdsh-dev/DSH-better-sidebar?style=for-the-badge" alt="License">
     </div>
-    <p class="opensource-card__desc">An enhanced sidebar for Overleaf with file-tree, outline and productivity tweaks for the Data Science Hub (DSH) workflow. I contribute as a maintainer-side collaborator.</p>
+    <p class="opensource-card__desc">This extensible sidebar brings a file editor, terminal, chat, and Git tools into DeepSeek Harness.</p>
   </div>
 
   <div class="opensource-card">
     <div class="opensource-card__header">
       <h3><a href="https://github.com/Hoemr/paper-to-beamer" target="_blank" rel="noopener">paper-to-beamer</a></h3>
-      <span class="opensource-card__role">Author</span>
     </div>
     <div class="opensource-card__badges">
       <a href="https://github.com/Hoemr/paper-to-beamer/stargazers" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Stars" alt="GitHub stars"></a>
       <a href="https://github.com/Hoemr/paper-to-beamer/network/members" target="_blank" rel="noopener"><img src="https://img.shields.io/github/forks/Hoemr/paper-to-beamer?style=for-the-badge&logo=github&logoColor=white&label=Forks" alt="GitHub forks"></a>
       <img src="https://img.shields.io/github/license/Hoemr/paper-to-beamer?style=for-the-badge" alt="License">
     </div>
-    <p class="opensource-card__desc">A lightweight pipeline that turns an academic paper (PDF / markdown source) into a clean Beamer slide deck — extracts structure, generates section/subsection frames, and produces ready-to-compile LaTeX for journal-club or group-meeting talks.</p>
+    <p class="opensource-card__desc">This tool turns a research paper in PDF or Markdown into a LaTeX Beamer slide deck.</p>
   </div>
 
 </div>
 
-### Other projects and contributions
+### Other projects
+{: #other-projects-and-contributions}
 
 GitHub stars as of November 26, 2026.
 
-- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (25,636 ★) · Contributed the [CC Switch plugin listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8487).
-- [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) (469 ★) · Added [offline rendering of math in Markdown previews](https://github.com/h3pdesign/Neon-Vision-Editor/commit/7b9f36e5563c1d28ed0578d9137da67b2b04c4ef).
-- [awesome-deepseek-harness-plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins) (412 ★) · Added the [Quick Look](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/215) and [Better Overleaf](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/216) plugins to the directory.
-- [BLEUnlock](https://github.com/Skyearn/BLEUnlock) (214 ★) · Improved Bluetooth proximity detection and [made locking on signal loss configurable](https://github.com/Skyearn/BLEUnlock/pull/20).
-- [ice-2-macos](https://github.com/teddychan/ice-2-macos) (87 ★) · Proposed a [fix for duplicate clicks on the Notification Center clock](https://github.com/teddychan/ice-2-macos/pull/197).
-- [Scholar Citation Monitor](https://github.com/DreamH1gh/Scholar-Citation-Monitor) (78 ★) · Proposed [citation tracking through the Semantic Scholar API](https://github.com/DreamH1gh/Scholar-Citation-Monitor/pull/4).
-- [SciRE-Solver](https://github.com/ShiguiLi/SciRE-Solver) (51 ★) · Co-authored the [paper on accelerating diffusion sampling with recursive differences](https://arxiv.org/abs/2308.07896).
-- [EVODiff](https://github.com/ShiguiLi/EVODiff) (32 ★) · Co-authored the [NeurIPS paper on optimizing variance during diffusion sampling](https://arxiv.org/abs/2509.26096).
-- [TeXora](https://github.com/khalidt/TeXora) (24 ★) · Fixed [dual-display presentation and fullscreen behavior on macOS](https://github.com/khalidt/TeXora/pull/13).
+- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (25,636 ★) · A curated directory helps users discover plugins for DeepSeek Harness.
+- [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) (469 ★) · This native Swift app edits code and Markdown across macOS, iPadOS, iOS, and visionOS.
+- [awesome-deepseek-harness-plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins) (412 ★) · This marketplace lets users search and rank DeepSeek Harness plugins and find their installation commands.
+- [BLEUnlock](https://github.com/Skyearn/BLEUnlock) (214 ★) · This utility locks or unlocks a Mac based on the proximity of a paired Bluetooth Low Energy device.
+- [ice-2-macos](https://github.com/teddychan/ice-2-macos) (87 ★) · This macOS menu bar manager lets users organize, hide, and reveal menu bar items.
+- [SciRE-Solver](https://github.com/ShiguiLi/SciRE-Solver) (51 ★) · This solver accelerates diffusion sampling by estimating score derivatives with recursive differences.
+- [EVODiff](https://github.com/ShiguiLi/EVODiff) (32 ★) · This sampler optimizes variance during diffusion inference to improve image generation efficiency and fidelity.
+- [TeXora](https://github.com/khalidt/TeXora) (24 ★) · This presenter displays Beamer and PDF slides to an audience while showing speaker notes in a separate window.
 
 <span class='anchor' id='visitors'></span>
 # <span class="section-number">08</span> Visitors

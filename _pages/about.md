@@ -485,6 +485,20 @@ Selected open-source projects I maintain or contribute to. Live badges below ref
 
 </div>
 
+### Other projects and contributions
+
+GitHub stars as of November 26, 2026.
+
+- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (25,636 ★) · Contributed the [CC Switch plugin listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8487).
+- [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) (469 ★) · Added [offline rendering of math in Markdown previews](https://github.com/h3pdesign/Neon-Vision-Editor/commit/7b9f36e5563c1d28ed0578d9137da67b2b04c4ef).
+- [awesome-deepseek-harness-plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins) (412 ★) · Added the [Quick Look](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/215) and [Better Overleaf](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/216) plugins to the directory.
+- [BLEUnlock](https://github.com/Skyearn/BLEUnlock) (214 ★) · Improved Bluetooth proximity detection and [made locking on signal loss configurable](https://github.com/Skyearn/BLEUnlock/pull/20).
+- [ice-2-macos](https://github.com/teddychan/ice-2-macos) (87 ★) · Proposed a [fix for duplicate clicks on the Notification Center clock](https://github.com/teddychan/ice-2-macos/pull/197).
+- [Scholar Citation Monitor](https://github.com/DreamH1gh/Scholar-Citation-Monitor) (78 ★) · Proposed [citation tracking through the Semantic Scholar API](https://github.com/DreamH1gh/Scholar-Citation-Monitor/pull/4).
+- [SciRE-Solver](https://github.com/ShiguiLi/SciRE-Solver) (51 ★) · Co-authored the [paper on accelerating diffusion sampling with recursive differences](https://arxiv.org/abs/2308.07896).
+- [EVODiff](https://github.com/ShiguiLi/EVODiff) (32 ★) · Co-authored the [NeurIPS paper on optimizing variance during diffusion sampling](https://arxiv.org/abs/2509.26096).
+- [TeXora](https://github.com/khalidt/TeXora) (24 ★) · Fixed [dual-display presentation and fullscreen behavior on macOS](https://github.com/khalidt/TeXora/pull/13).
+
 <span class='anchor' id='visitors'></span>
 # <span class="section-number">08</span> Visitors
 <div class="visitor-counter" data-visitor-counter data-endpoint="{{ site.visitor_counter_endpoint }}">
